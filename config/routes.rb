@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
+  resources :users do
+    resources :moves, only: [ :index, :show ]
+  end
+
   resources :providers, only: [ :index ]
   resources :addresses, only: [ :index, :show ]
   
