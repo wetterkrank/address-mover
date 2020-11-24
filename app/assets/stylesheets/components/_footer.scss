@@ -2,29 +2,29 @@ html {
     position: relative;
     min-height: 100%;
   }
-  
+
   body {
     margin-bottom: 180px; /* Margin bottom by footer height */
   }
-  
+
   .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     line-height: 30px; /* Vertically center the text there */
     background:black;
-    margin-top: 50px;
+    // margin-top: 50px;
   }
-  
-  .footer a {
+   a {
     color: white;
   }
-  
+
   .footer li {
     color: white;
   }
-  
+
   .list-inline-item {
     font-size: 20px;
   }
-  
+
+
