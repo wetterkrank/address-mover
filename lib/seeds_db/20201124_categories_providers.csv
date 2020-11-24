@@ -1,0 +1,1628 @@
+﻿category,name,provider_email,description
+Banking & Insurance,AXA,AXA@test.com,www.axa.de
+Banking & Insurance,ING,ING@test.com,www.ing.de
+Banking & Insurance,DKB,DKB@test.com,www.dkb.de
+Banking & Insurance,ADAC,ADAC@test.com,www.adac.de
+Banking & Insurance,Allianz,Allianz@test.com,www.allianz.de
+Banking & Insurance,Commerzbank,Commerzbank@test.com,www.commerzbank.de
+Banking & Insurance,ERGO Direkt AG,ERGODirektAG@test.com,www.ergo.de
+Banking & Insurance,Hypovereinsbank,Hypovereinsbank@test.com,www.hypovereinsbank.de
+Banking & Insurance,Berliner Sparkasse,BerlinerSparkasse@test.com,www.berliner-sparkasse.de
+Banking & Insurance,HUK-COBURG Versicherungsgruppe,HUK-COBURGVersicherungsgruppe@test.com,www.huk.de
+Charity,Tdh,Tdh@test.com,www.tdh.de
+Charity,Plan,Plan@test.com,www.plan.de
+Charity,Unicef,Unicef@test.com,www.unicef.de
+Charity,Missio,Missio@test.com,www.missio.de
+Charity,Caritas,Caritas@test.com,www.caritas.de
+Charity,Misereor,Misereor@test.com,www.misereor.de
+Charity,Renovabis,Renovabis@test.com,www.renovabis.de
+Charity,Child Fund,ChildFund@test.com,www.childfund.de
+Charity,Worldvision,Worldvision@test.com,www.worldvision.de
+Charity,Sternsinger,Sternsinger@test.com,www.sternsinger.de
+Charity,Die Joanniter,DieJoanniter@test.com,www.johanniter.de
+Charity,Kindernothilfe,Kindernothilfe@test.com,www.kindernothilfe.de
+Charity,Welthungerhilfe,Welthungerhilfe@test.com,www.welthungerhilfe.de
+Charity,Terre des homes,Terredeshomes@test.com,www.adveniat.de
+Charity,SOS Kinderdörfer,SOSKinderdörfer@test.com,www.sos-kinderdoerfer.de
+Charity,Schwestern Maria,SchwesternMaria@test.com,www.schwesternmaria.de
+Charity,Brot für die Welt,BrotfürdieWelt@test.com,www.brot-fuer-die-welt.de
+Charity,Ärzt ohne Grenzen,ÄrztohneGrenzen@test.com,www.aerzte-ohne-grenzen.de
+Charity,Carreras Stiftung,CarrerasStiftung@test.com,www.carreras-stiftung.de
+Charity,Seenotretter,Seenotretter@test.com,www.seenotretter.de
+Charity,Deutsches Rotes Kreuz,DeutschesRotesKreuz@test.com,www.drk.de
+Charity,Amnesty International,AmnestyInternational@test.com,www.amnesty.de
+Charity,Menschen für Menschen,MenschenfürMenschen@test.com,www.menschenfuermenschen.de
+Charity,Christoffel Blindenmission,ChristoffelBlindenmission@test.com,www.cbm.de
+Communication,o2,o2@test.com,https://www.lewagon.com/berlin
+Communication,1&1,1&1@test.com,https://www.lewagon.com/berlin
+Communication,DSI,DSI@test.com,https://www.lewagon.com/berlin
+Communication,EWE,EWE@test.com,https://www.lewagon.com/berlin
+Communication,htp,htp@test.com,https://www.lewagon.com/berlin
+Communication,JKR,JKR@test.com,https://www.lewagon.com/berlin
+Communication,QSC,QSC@test.com,https://www.lewagon.com/berlin
+Communication,swb,swb@test.com,https://www.lewagon.com/berlin
+Communication,TMR,TMR@test.com,https://www.lewagon.com/berlin
+Communication,TNG,TNG@test.com,https://www.lewagon.com/berlin
+Communication,bn:t,bn:t@test.com,https://www.lewagon.com/berlin
+Communication,eazy,eazy@test.com,https://www.lewagon.com/berlin
+Communication,imos,imos@test.com,https://www.lewagon.com/berlin
+Communication,LNET,LNET@test.com,https://www.lewagon.com/berlin
+Communication,LYTE,LYTE@test.com,https://www.lewagon.com/berlin
+Communication,mieX,mieX@test.com,https://www.lewagon.com/berlin
+Communication,MKTH,MKTH@test.com,https://www.lewagon.com/berlin
+Communication,MMKS,MMKS@test.com,https://www.lewagon.com/berlin
+Communication,PYUR,PYUR@test.com,https://www.lewagon.com/berlin
+Communication,TKRZ,TKRZ@test.com,https://www.lewagon.com/berlin
+Communication,ZEAG,ZEAG@test.com,https://www.lewagon.com/berlin
+Communication,BITel,BITel@test.com,https://www.lewagon.com/berlin
+Communication,e.NET,e.NET@test.com,https://www.lewagon.com/berlin
+Communication,epcan,epcan@test.com,https://www.lewagon.com/berlin
+Communication,GöTel,GöTel@test.com,https://www.lewagon.com/berlin
+Communication,K-net,K-net@test.com,https://www.lewagon.com/berlin
+Communication,M-net,M-net@test.com,https://www.lewagon.com/berlin
+Communication,MDDSL,MDDSL@test.com,https://www.lewagon.com/berlin
+Communication,nexiu,nexiu@test.com,https://www.lewagon.com/berlin
+Communication,R-KOM,R-KOM@test.com,https://www.lewagon.com/berlin
+Communication,Tele2,Tele2@test.com,https://www.lewagon.com/berlin
+Communication,W°DSL,W°DSL@test.com,https://www.lewagon.com/berlin
+Communication,wiDSL,wiDSL@test.com,https://www.lewagon.com/berlin
+Communication,YplaY,YplaY@test.com,https://www.lewagon.com/berlin
+Communication,BCHNet,BCHNet@test.com,https://www.lewagon.com/berlin
+Communication,BORnet,BORnet@test.com,https://www.lewagon.com/berlin
+Communication,CBXNET,CBXNET@test.com,https://www.lewagon.com/berlin
+Communication,DegNet,DegNet@test.com,https://www.lewagon.com/berlin
+Communication,empera,empera@test.com,https://www.lewagon.com/berlin
+Communication,FABnet,FABnet@test.com,https://www.lewagon.com/berlin
+Communication,GWHtel,GWHtel@test.com,https://www.lewagon.com/berlin
+Communication,inexio,inexio@test.com,https://www.lewagon.com/berlin
+Communication,KNH-TV,KNH-TV@test.com,https://www.lewagon.com/berlin
+Communication,LWLcom,LWLcom@test.com,https://www.lewagon.com/berlin
+Communication,mm-dsl,mm-dsl@test.com,https://www.lewagon.com/berlin
+Communication,MUENET,MUENET@test.com,https://www.lewagon.com/berlin
+Communication,neu.sw,neu.sw@test.com,https://www.lewagon.com/berlin
+Communication,NEW AG,NEWAG@test.com,https://www.lewagon.com/berlin
+Communication,RuhNet,RuhNet@test.com,https://www.lewagon.com/berlin
+Communication,skyDSL,skyDSL@test.com,https://www.lewagon.com/berlin
+Communication,symbox,symbox@test.com,https://www.lewagon.com/berlin
+Communication,SYNVIA,SYNVIA@test.com,https://www.lewagon.com/berlin
+Communication,tal.de,tal.de@test.com,https://www.lewagon.com/berlin
+Communication,Teleos,Teleos@test.com,https://www.lewagon.com/berlin
+Communication,teliko,teliko@test.com,https://www.lewagon.com/berlin
+Communication,teutel,teutel@test.com,https://www.lewagon.com/berlin
+Communication,WITCOM,WITCOM@test.com,https://www.lewagon.com/berlin
+Communication,WOBCOM,WOBCOM@test.com,https://www.lewagon.com/berlin
+Communication,AP-WDSL,AP-WDSL@test.com,https://www.lewagon.com/berlin
+Communication,AvioDSL,AvioDSL@test.com,https://www.lewagon.com/berlin
+Communication,DNS:NET,DNS:NET@test.com,https://www.lewagon.com/berlin
+Communication,DOKOM21,DOKOM21@test.com,https://www.lewagon.com/berlin
+Communication,EckiTel,EckiTel@test.com,https://www.lewagon.com/berlin
+Communication,Eusanet,Eusanet@test.com,https://www.lewagon.com/berlin
+Communication,Filiago,Filiago@test.com,https://www.lewagon.com/berlin
+Communication,FreiDSL,FreiDSL@test.com,https://www.lewagon.com/berlin
+Communication,Freikom,Freikom@test.com,https://www.lewagon.com/berlin
+Communication,HomeNet,HomeNet@test.com,https://www.lewagon.com/berlin
+Communication,HORBnet,HORBnet@test.com,https://www.lewagon.com/berlin
+Communication,Hotzone,Hotzone@test.com,https://www.lewagon.com/berlin
+Communication,JWS-NET,JWS-NET@test.com,https://www.lewagon.com/berlin
+Communication,KielNET,KielNET@test.com,https://www.lewagon.com/berlin
+Communication,komflat,komflat@test.com,https://www.lewagon.com/berlin
+Communication,LH-DSL²,LH-DSL²@test.com,https://www.lewagon.com/berlin
+Communication,MURGTEL,MURGTEL@test.com,https://www.lewagon.com/berlin
+Communication,netzint,netzint@test.com,https://www.lewagon.com/berlin
+Communication,nswnetz,nswnetz@test.com,https://www.lewagon.com/berlin
+Communication,osnatel,osnatel@test.com,https://www.lewagon.com/berlin
+Communication,PerlNet,PerlNet@test.com,https://www.lewagon.com/berlin
+Communication,Rhönnet,Rhönnet@test.com,https://www.lewagon.com/berlin
+Communication,RheiNet,RheiNet@test.com,https://www.lewagon.com/berlin
+Communication,sdt.net,sdt.net@test.com,https://www.lewagon.com/berlin
+Communication,sewinet,sewinet@test.com,https://www.lewagon.com/berlin
+Communication,StarDSL,StarDSL@test.com,https://www.lewagon.com/berlin
+Communication,Telekom,Telekom@test.com,https://www.lewagon.com/berlin
+Communication,VSE NET,VSENET@test.com,https://www.lewagon.com/berlin
+Communication,WEMACOM,WEMACOM@test.com,https://www.lewagon.com/berlin
+Communication,WendLAN,WendLAN@test.com,https://www.lewagon.com/berlin
+Communication,wifiSAX,wifiSAX@test.com,https://www.lewagon.com/berlin
+Communication,wirsNET,wirsNET@test.com,https://www.lewagon.com/berlin
+Communication,WiSoTEL,WiSoTEL@test.com,https://www.lewagon.com/berlin
+Communication,AltoNetz,AltoNetz@test.com,https://www.lewagon.com/berlin
+Communication,BEWspeed,BEWspeed@test.com,https://www.lewagon.com/berlin
+Communication,chonocom,chonocom@test.com,https://www.lewagon.com/berlin
+Communication,congstar,congstar@test.com,https://www.lewagon.com/berlin
+Communication,Cyberfun,Cyberfun@test.com,https://www.lewagon.com/berlin
+Communication,DSLmobil,DSLmobil@test.com,https://www.lewagon.com/berlin
+Communication,DSLonAir,DSLonAir@test.com,https://www.lewagon.com/berlin
+Communication,e.discom,e.discom@test.com,https://www.lewagon.com/berlin
+Communication,easybell,easybell@test.com,https://www.lewagon.com/berlin
+Communication,EiderKom,EiderKom@test.com,https://www.lewagon.com/berlin
+Communication,encoLine,encoLine@test.com,https://www.lewagon.com/berlin
+Communication,fiberONE,fiberONE@test.com,https://www.lewagon.com/berlin
+Communication,GGEW net,GGEWnet@test.com,https://www.lewagon.com/berlin
+Communication,Giffinet,Giffinet@test.com,https://www.lewagon.com/berlin
+Communication,GmündCOM,GmündCOM@test.com,https://www.lewagon.com/berlin
+Communication,MiSaxNet,MiSaxNet@test.com,https://www.lewagon.com/berlin
+Communication,NETHINKS,NETHINKS@test.com,https://www.lewagon.com/berlin
+Communication,Orbitcom,Orbitcom@test.com,https://www.lewagon.com/berlin
+Communication,Quix DSL,QuixDSL@test.com,https://www.lewagon.com/berlin
+Communication,SpeedOne,SpeedOne@test.com,https://www.lewagon.com/berlin
+Communication,Sternkom,Sternkom@test.com,https://www.lewagon.com/berlin
+Communication,SWN-NetT,SWN-NetT@test.com,https://www.lewagon.com/berlin
+Communication,TeleData,TeleData@test.com,https://www.lewagon.com/berlin
+Communication,Telemark,Telemark@test.com,https://www.lewagon.com/berlin
+Communication,telsakom,telsakom@test.com,https://www.lewagon.com/berlin
+Communication,Transkom,Transkom@test.com,https://www.lewagon.com/berlin
+Communication,TraveKom,TraveKom@test.com,https://www.lewagon.com/berlin
+Communication,VEGA-net,VEGA-net@test.com,https://www.lewagon.com/berlin
+Communication,Versatel,Versatel@test.com,https://www.lewagon.com/berlin
+Communication,Vodafone,Vodafone@test.com,https://www.lewagon.com/berlin
+Communication,werrakom,werrakom@test.com,https://www.lewagon.com/berlin
+Communication,AllgäuDSL,AllgäuDSL@test.com,https://www.lewagon.com/berlin
+Communication,Amplus AG,AmplusAG@test.com,https://www.lewagon.com/berlin
+Communication,BADEN.NET,BADEN.NET@test.com,https://www.lewagon.com/berlin
+Communication,Eifel DSL,EifelDSL@test.com,https://www.lewagon.com/berlin
+Communication,envia TEL,enviaTEL@test.com,https://www.lewagon.com/berlin
+Communication,FairSPEED,FairSPEED@test.com,https://www.lewagon.com/berlin
+Communication,Fiete.Net,Fiete.Net@test.com,https://www.lewagon.com/berlin
+Communication,HessenKom,HessenKom@test.com,https://www.lewagon.com/berlin
+Communication,intersaar,intersaar@test.com,https://www.lewagon.com/berlin
+Communication,ip-fabric,ip-fabric@test.com,https://www.lewagon.com/berlin
+Communication,ITfM GmbH,ITfMGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Jobst-DSL,Jobst-DSL@test.com,https://www.lewagon.com/berlin
+Communication,LANstream,LANstream@test.com,https://www.lewagon.com/berlin
+Communication,LFeld.net,LFeld.net@test.com,https://www.lewagon.com/berlin
+Communication,MEK-cable,MEK-cable@test.com,https://www.lewagon.com/berlin
+Communication,NeckarCom,NeckarCom@test.com,https://www.lewagon.com/berlin
+Communication,nexiu süd,nexiusüd@test.com,https://www.lewagon.com/berlin
+Communication,OstTelCom,OstTelCom@test.com,https://www.lewagon.com/berlin
+Communication,planet 33,planet33@test.com,https://www.lewagon.com/berlin
+Communication,primacall,primacall@test.com,https://www.lewagon.com/berlin
+Communication,SAT-Kabel,SAT-Kabel@test.com,https://www.lewagon.com/berlin
+Communication,smart-DSL,smart-DSL@test.com,https://www.lewagon.com/berlin
+Communication,Snellstar,Snellstar@test.com,https://www.lewagon.com/berlin
+Communication,SP:Homann,SP:Homann@test.com,https://www.lewagon.com/berlin
+Communication,tel.quick,tel.quick@test.com,https://www.lewagon.com/berlin
+Communication,telkodata,telkodata@test.com,https://www.lewagon.com/berlin
+Communication,web+phone,web+phone@test.com,https://www.lewagon.com/berlin
+Communication,willy.tel,willy.tel@test.com,https://www.lewagon.com/berlin
+Communication,Airdata AG,AirdataAG@test.com,https://www.lewagon.com/berlin
+Communication,Brehna.net,Brehna.net@test.com,https://www.lewagon.com/berlin
+Communication,COMplusnet,COMplusnet@test.com,https://www.lewagon.com/berlin
+Communication,dasNetz AG,dasNetzAG@test.com,https://www.lewagon.com/berlin
+Communication,GELSEN-NET,GELSEN-NET@test.com,https://www.lewagon.com/berlin
+Communication,KabelWeida,KabelWeida@test.com,https://www.lewagon.com/berlin
+Communication,komro GmbH,komroGmbH@test.com,https://www.lewagon.com/berlin
+Communication,LEW TelNet,LEWTelNet@test.com,https://www.lewagon.com/berlin
+Communication,mv Dresden,mvDresden@test.com,https://www.lewagon.com/berlin
+Communication,Novostream,Novostream@test.com,https://www.lewagon.com/berlin
+Communication,pinnau.com,pinnau.com@test.com,https://www.lewagon.com/berlin
+Communication,primeroCOM,primeroCOM@test.com,https://www.lewagon.com/berlin
+Communication,RIKOM GmbH,RIKOMGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Schlau.com,Schlau.com@test.com,https://www.lewagon.com/berlin
+Communication,SeeConnect,SeeConnect@test.com,https://www.lewagon.com/berlin
+Communication,SF Digital,SFDigital@test.com,https://www.lewagon.com/berlin
+Communication,st-oneline,st-oneline@test.com,https://www.lewagon.com/berlin
+Communication,SWT trilan,SWTtrilan@test.com,https://www.lewagon.com/berlin
+Communication,Unitymedia,Unitymedia@test.com,https://www.lewagon.com/berlin
+Communication,WFCITY.net,WFCITY.net@test.com,https://www.lewagon.com/berlin
+Communication,WUNconnect,WUNconnect@test.com,https://www.lewagon.com/berlin
+Communication,ACO Connect,ACOConnect@test.com,https://www.lewagon.com/berlin
+Communication,DJ-Computer,DJ-Computer@test.com,https://www.lewagon.com/berlin
+Communication,echtschnell,echtschnell@test.com,https://www.lewagon.com/berlin
+Communication,EZV Energie,EZVEnergie@test.com,https://www.lewagon.com/berlin
+Communication,filstalnetz,filstalnetz@test.com,https://www.lewagon.com/berlin
+Communication,getinternet,getinternet@test.com,https://www.lewagon.com/berlin
+Communication,Herzo Media,HerzoMedia@test.com,https://www.lewagon.com/berlin
+Communication,HFO Telecom,HFOTelecom@test.com,https://www.lewagon.com/berlin
+Communication,interscholz,interscholz@test.com,https://www.lewagon.com/berlin
+Communication,KakiConnect,KakiConnect@test.com,https://www.lewagon.com/berlin
+Communication,KN�?V-NetT,KN�?V-NetT@test.com,https://www.lewagon.com/berlin
+Communication,KurpfalzTEL,KurpfalzTEL@test.com,https://www.lewagon.com/berlin
+Communication,Man CityNet,ManCityNet@test.com,https://www.lewagon.com/berlin
+Communication,MSK InfoSys,MSKInfoSys@test.com,https://www.lewagon.com/berlin
+Communication,Nerd Patrol,NerdPatrol@test.com,https://www.lewagon.com/berlin
+Communication,newone GmbH,newoneGmbH@test.com,https://www.lewagon.com/berlin
+Communication,nordischnet,nordischnet@test.com,https://www.lewagon.com/berlin
+Communication,operator AG,operatorAG@test.com,https://www.lewagon.com/berlin
+Communication,Outland-net,Outland-net@test.com,https://www.lewagon.com/berlin
+Communication,RMS-systems,RMS-systems@test.com,https://www.lewagon.com/berlin
+Communication,RSM Connect,RSMConnect@test.com,https://www.lewagon.com/berlin
+Communication,SWU TeleNet,SWUTeleNet@test.com,https://www.lewagon.com/berlin
+Communication,WIBAXX GmbH,WIBAXXGmbH@test.com,https://www.lewagon.com/berlin
+Communication,wilhelm.tel,wilhelm.tel@test.com,https://www.lewagon.com/berlin
+Communication,ASAMnet e.V.,ASAMnete.V.@test.com,https://www.lewagon.com/berlin
+Communication,cablesurf.de,cablesurf.de@test.com,https://www.lewagon.com/berlin
+Communication,CEMI Service,CEMIService@test.com,https://www.lewagon.com/berlin
+Communication,Datel Dessau,DatelDessau@test.com,https://www.lewagon.com/berlin
+Communication,Drahtlos-DSL,Drahtlos-DSL@test.com,https://www.lewagon.com/berlin
+Communication,EWG MediaNET,EWGMediaNET@test.com,https://www.lewagon.com/berlin
+Communication,Heuer & Sack,Heuer&Sack@test.com,https://www.lewagon.com/berlin
+Communication,HochrheinNET,HochrheinNET@test.com,https://www.lewagon.com/berlin
+Communication,HSE MediaNet,HSEMediaNet@test.com,https://www.lewagon.com/berlin
+Communication,I-NetPartner,I-NetPartner@test.com,https://www.lewagon.com/berlin
+Communication,ITVT Carrier,ITVTCarrier@test.com,https://www.lewagon.com/berlin
+Communication,KOMNEXX GmbH,KOMNEXXGmbH@test.com,https://www.lewagon.com/berlin
+Communication,net services,netservices@test.com,https://www.lewagon.com/berlin
+Communication,NetCommunity,NetCommunity@test.com,https://www.lewagon.com/berlin
+Communication,PfalzConnect,PfalzConnect@test.com,https://www.lewagon.com/berlin
+Communication,süc // dacor,süc//dacor@test.com,https://www.lewagon.com/berlin
+Communication,Stiegeler IT,StiegelerIT@test.com,https://www.lewagon.com/berlin
+Communication,ANT Granowski,ANTGranowski@test.com,https://www.lewagon.com/berlin
+Communication,BBV Thüringen,BBVThüringen@test.com,https://www.lewagon.com/berlin
+Communication,EFN eifel-net,EFNeifel-net@test.com,https://www.lewagon.com/berlin
+Communication,GlobalConnect,GlobalConnect@test.com,https://www.lewagon.com/berlin
+Communication,GP-Elektronik,GP-Elektronik@test.com,https://www.lewagon.com/berlin
+Communication,HL Komm / an!,HLKomm/an!@test.com,https://www.lewagon.com/berlin
+Communication,hugo internet,hugointernet@test.com,https://www.lewagon.com/berlin
+Communication,In(n) Energie,In(n)Energie@test.com,https://www.lewagon.com/berlin
+Communication,Kabel Baumann,KabelBaumann@test.com,https://www.lewagon.com/berlin
+Communication,Kabelmax GmbH,KabelmaxGmbH@test.com,https://www.lewagon.com/berlin
+Communication,KEVAG Telekom,KEVAGTelekom@test.com,https://www.lewagon.com/berlin
+Communication,Landnetz e.V.,Landnetze.V.@test.com,https://www.lewagon.com/berlin
+Communication,Loft-Net e.K.,Loft-Nete.K.@test.com,https://www.lewagon.com/berlin
+Communication,Netcom Kassel,NetcomKassel@test.com,https://www.lewagon.com/berlin
+Communication,regionetz.net,regionetz.net@test.com,https://www.lewagon.com/berlin
+Communication,RWE Highspeed,RWEHighspeed@test.com,https://www.lewagon.com/berlin
+Communication,Schneider DSL,SchneiderDSL@test.com,https://www.lewagon.com/berlin
+Communication,Wireless GmbH,WirelessGmbH@test.com,https://www.lewagon.com/berlin
+Communication,COS-on-Air OHG,COS-on-AirOHG@test.com,https://www.lewagon.com/berlin
+Communication,EmslandTel.Net,EmslandTel.Net@test.com,https://www.lewagon.com/berlin
+Communication,Global Village,GlobalVillage@test.com,https://www.lewagon.com/berlin
+Communication,IBH IT-Service,IBHIT-Service@test.com,https://www.lewagon.com/berlin
+Communication,IT World Oehme,ITWorldOehme@test.com,https://www.lewagon.com/berlin
+Communication,NetAachen GmbH,NetAachenGmbH@test.com,https://www.lewagon.com/berlin
+Communication,NetCom BW GmbH,NetComBWGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Networx-Online,Networx-Online@test.com,https://www.lewagon.com/berlin
+Communication,Oelsnitz.media,Oelsnitz.media@test.com,https://www.lewagon.com/berlin
+Communication,Tegro Kabelbau,TegroKabelbau@test.com,https://www.lewagon.com/berlin
+Communication,Titan Networks,TitanNetworks@test.com,https://www.lewagon.com/berlin
+Communication,Unser Ortsnetz,UnserOrtsnetz@test.com,https://www.lewagon.com/berlin
+Communication,Vodafone Kabel,VodafoneKabel@test.com,https://www.lewagon.com/berlin
+Communication,wittenberg-net,wittenberg-net@test.com,https://www.lewagon.com/berlin
+Communication,Arche NetVision,ArcheNetVision@test.com,https://www.lewagon.com/berlin
+Communication,atn Partie GmbH,atnPartieGmbH@test.com,https://www.lewagon.com/berlin
+Communication,AVACOMM Systems,AVACOMMSystems@test.com,https://www.lewagon.com/berlin
+Communication,BBV Deutschland,BBVDeutschland@test.com,https://www.lewagon.com/berlin
+Communication,BBV Münsterland,BBVMünsterland@test.com,https://www.lewagon.com/berlin
+Communication,Brandl Services,BrandlServices@test.com,https://www.lewagon.com/berlin
+Communication,EMOTEC NETWORKS,EMOTECNETWORKS@test.com,https://www.lewagon.com/berlin
+Communication,EspenauNet e.V.,EspenauNete.V.@test.com,https://www.lewagon.com/berlin
+Communication,Genias Internet,GeniasInternet@test.com,https://www.lewagon.com/berlin
+Communication,gustav internet,gustavinternet@test.com,https://www.lewagon.com/berlin
+Communication,Ilm-Provider UG,Ilm-ProviderUG@test.com,https://www.lewagon.com/berlin
+Communication,Marienberg GmbH,MarienbergGmbH@test.com,https://www.lewagon.com/berlin
+Communication,MEGA Multimedia,MEGAMultimedia@test.com,https://www.lewagon.com/berlin
+Communication,NetCologne GmbH,NetCologneGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Northern Access,NorthernAccess@test.com,https://www.lewagon.com/berlin
+Communication,pop-interactive,pop-interactive@test.com,https://www.lewagon.com/berlin
+Communication,RelAix Networks,RelAixNetworks@test.com,https://www.lewagon.com/berlin
+Communication,techni Internet,techniInternet@test.com,https://www.lewagon.com/berlin
+Communication,Telepark-Passau,Telepark-Passau@test.com,https://www.lewagon.com/berlin
+Communication,TKN Deutschland,TKNDeutschland@test.com,https://www.lewagon.com/berlin
+Communication,zollernalb-data,zollernalb-data@test.com,https://www.lewagon.com/berlin
+Communication,BBV Ostwestfalen,BBVOstwestfalen@test.com,https://www.lewagon.com/berlin
+Communication,BBV Rhein-Neckar,BBVRhein-Neckar@test.com,https://www.lewagon.com/berlin
+Communication,Bremen Briteline,BremenBriteline@test.com,https://www.lewagon.com/berlin
+Communication,Buchholz Digital,BuchholzDigital@test.com,https://www.lewagon.com/berlin
+Communication,CNS Network GmbH,CNSNetworkGmbH@test.com,https://www.lewagon.com/berlin
+Communication,CompuNet Systems,CompuNetSystems@test.com,https://www.lewagon.com/berlin
+Communication,Funk und Technik,FunkundTechnik@test.com,https://www.lewagon.com/berlin
+Communication,Glasfaser Bochum,GlasfaserBochum@test.com,https://www.lewagon.com/berlin
+Communication,Internet-Cottbus,Internet-Cottbus@test.com,https://www.lewagon.com/berlin
+Communication,KomMITT Ratingen,KomMITTRatingen@test.com,https://www.lewagon.com/berlin
+Communication,Medicom Dreieich,MedicomDreieich@test.com,https://www.lewagon.com/berlin
+Communication,Petri Elektronik,PetriElektronik@test.com,https://www.lewagon.com/berlin
+Communication,RST-Datentechnik,RST-Datentechnik@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Rhede,StadtwerkeRhede@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Stein,StadtwerkeStein@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Wedel,StadtwerkeWedel@test.com,https://www.lewagon.com/berlin
+Communication,Telekabel Bremen,TelekabelBremen@test.com,https://www.lewagon.com/berlin
+Communication,Thüringer Netkom,ThüringerNetkom@test.com,https://www.lewagon.com/berlin
+Communication,WDSL-Oberlausitz,WDSL-Oberlausitz@test.com,https://www.lewagon.com/berlin
+Communication,WISPOL Ja-Bu-Net,WISPOLJa-Bu-Net@test.com,https://www.lewagon.com/berlin
+Communication,WLAN-Faistenhaar,WLAN-Faistenhaar@test.com,https://www.lewagon.com/berlin
+Communication,ANTEC Servicepool,ANTECServicepool@test.com,https://www.lewagon.com/berlin
+Communication,Bisping & Bisping,Bisping&Bisping@test.com,https://www.lewagon.com/berlin
+Communication,EDV Team Oberland,EDVTeamOberland@test.com,https://www.lewagon.com/berlin
+Communication,Elbracht-Computer,Elbracht-Computer@test.com,https://www.lewagon.com/berlin
+Communication,FNOH-DSL Südheide,FNOH-DSLSüdheide@test.com,https://www.lewagon.com/berlin
+Communication,Kabel-TV Aue e.V.,Kabel-TVAuee.V.@test.com,https://www.lewagon.com/berlin
+Communication,Stadtnetz Bamberg,StadtnetzBamberg@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Lübeck,StadtwerkeLübeck@test.com,https://www.lewagon.com/berlin
+Communication,Deutsche Glasfaser,DeutscheGlasfaser@test.com,https://www.lewagon.com/berlin
+Communication,innogy TelNet GmbH,innogyTelNetGmbH@test.com,https://www.lewagon.com/berlin
+Communication,INTERNETWELLE HARZ,INTERNETWELLEHARZ@test.com,https://www.lewagon.com/berlin
+Communication,Lichtwelle Erkrath,LichtwelleErkrath@test.com,https://www.lewagon.com/berlin
+Communication,nordCom – EWE TEL,nordCom–EWETEL@test.com,https://www.lewagon.com/berlin
+Communication,Schnell-im-netz.de,Schnell-im-netz.de@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Ansbach,StadtwerkeAnsbach@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Einbeck,StadtwerkeEinbeck@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Itzehoe,StadtwerkeItzehoe@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Marburg,StadtwerkeMarburg@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Münster,StadtwerkeMünster@test.com,https://www.lewagon.com/berlin
+Communication,BürgerBreitbandNetz,BürgerBreitbandNetz@test.com,https://www.lewagon.com/berlin
+Communication,Dachau Citycom GmbH,DachauCitycomGmbH@test.com,https://www.lewagon.com/berlin
+Communication,FAG Bad Steben e.V.,FAGBadStebene.V.@test.com,https://www.lewagon.com/berlin
+Communication,Heidjers Stadtwerke,HeidjersStadtwerke@test.com,https://www.lewagon.com/berlin
+Communication,IT-Systeme Schuller,IT-SystemeSchuller@test.com,https://www.lewagon.com/berlin
+Communication,km3 teledienst GmbH,km3teledienstGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Schwerte,StadtwerkeSchwerte@test.com,https://www.lewagon.com/berlin
+Communication,TELTA Citynetz GmbH,TELTACitynetzGmbH@test.com,https://www.lewagon.com/berlin
+Communication,weissblau-breitband,weissblau-breitband@test.com,https://www.lewagon.com/berlin
+Communication,Wilmschen Webdesign,WilmschenWebdesign@test.com,https://www.lewagon.com/berlin
+Communication,WMB – Kabelservice,WMB–Kabelservice@test.com,https://www.lewagon.com/berlin
+Communication,AT Aggertechnik GmbH,ATAggertechnikGmbH@test.com,https://www.lewagon.com/berlin
+Communication,City-TV Kabelservice,City-TVKabelservice@test.com,https://www.lewagon.com/berlin
+Communication,d+p breitbandconcept,d+pbreitbandconcept@test.com,https://www.lewagon.com/berlin
+Communication,InSysCo Datensysteme,InSysCoDatensysteme@test.com,https://www.lewagon.com/berlin
+Communication,NGN FIBER NETWORK KG,NGNFIBERNETWORKKG@test.com,https://www.lewagon.com/berlin
+Communication,RegioNet Schweinfurt,RegioNetSchweinfurt@test.com,https://www.lewagon.com/berlin
+Communication,Schönenberg-Computer,Schönenberg-Computer@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Flensburg,StadtwerkeFlensburg@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Merseburg,StadtwerkeMerseburg@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Steinfurt,StadtwerkeSteinfurt@test.com,https://www.lewagon.com/berlin
+Communication,SWE Stadtwerke Eutin,SWEStadtwerkeEutin@test.com,https://www.lewagon.com/berlin
+Communication,Telekabel Riesa GmbH,TelekabelRiesaGmbH@test.com,https://www.lewagon.com/berlin
+Communication,AEP Plückhahn Service,AEPPlückhahnService@test.com,https://www.lewagon.com/berlin
+Communication,GlasCom Salzlandkreis,GlasComSalzlandkreis@test.com,https://www.lewagon.com/berlin
+Communication,GWS Stadtwerke Hameln,GWSStadtwerkeHameln@test.com,https://www.lewagon.com/berlin
+Communication,Mobile Breitbandnetze,MobileBreitbandnetze@test.com,https://www.lewagon.com/berlin
+Communication,NES-Elektro & Service,NES-Elektro&Service@test.com,https://www.lewagon.com/berlin
+Communication,Nordfriesen Glasfaser,NordfriesenGlasfaser@test.com,https://www.lewagon.com/berlin
+Communication,S + K Servicekabel AG,S+KServicekabelAG@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Ahrensburg,StadtwerkeAhrensburg@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Hammelburg,StadtwerkeHammelburg@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Radolfzell,StadtwerkeRadolfzell@test.com,https://www.lewagon.com/berlin
+Communication,CS-Telecom Deutschland,CS-TelecomDeutschland@test.com,https://www.lewagon.com/berlin
+Communication,Grafschafter Breitband,GrafschafterBreitband@test.com,https://www.lewagon.com/berlin
+Communication,Kabel DSL-Ludwigsstadt,KabelDSL-Ludwigsstadt@test.com,https://www.lewagon.com/berlin
+Communication,KSnet Breitbanddienste,KSnetBreitbanddienste@test.com,https://www.lewagon.com/berlin
+Communication,LF.net Netzwerksysteme,LF.netNetzwerksysteme@test.com,https://www.lewagon.com/berlin
+Communication,Schleswiger Stadtwerke,SchleswigerStadtwerke@test.com,https://www.lewagon.com/berlin
+Communication,SKYTRON Communications,SKYTRONCommunications@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Bad Nauheim,StadtwerkeBadNauheim@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Neustrelitz,StadtwerkeNeustrelitz@test.com,https://www.lewagon.com/berlin
+Communication,DBN – Das bessere Netz,DBN–DasbessereNetz@test.com,https://www.lewagon.com/berlin
+Communication,eins energie in sachsen,einsenergieinsachsen@test.com,https://www.lewagon.com/berlin
+Communication,JSK MediaNet / Girrbach,JSKMediaNet/Girrbach@test.com,https://www.lewagon.com/berlin
+Communication,Kabel + Satellit Bergen,Kabel+SatellitBergen@test.com,https://www.lewagon.com/berlin
+Communication,Kabelcom Andreas Stolle,KabelcomAndreasStolle@test.com,https://www.lewagon.com/berlin
+Communication,Landwerke M-V Breitband,LandwerkeM-VBreitband@test.com,https://www.lewagon.com/berlin
+Communication,MDCC Magdeburg-City-Com,MDCCMagdeburg-City-Com@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerk Tauberfranken,StadtwerkTauberfranken@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Freudenstadt,StadtwerkeFreudenstadt@test.com,https://www.lewagon.com/berlin
+Communication,terralink networks GmbH,terralinknetworksGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Breitbandservice Gantert,BreitbandserviceGantert@test.com,https://www.lewagon.com/berlin
+Communication,Disquom Funktechnik GmbH,DisquomFunktechnikGmbH@test.com,https://www.lewagon.com/berlin
+Communication,ENSO Energie Sachsen Ost,ENSOEnergieSachsenOst@test.com,https://www.lewagon.com/berlin
+Communication,Milde Software Solutions,MildeSoftwareSolutions@test.com,https://www.lewagon.com/berlin
+Communication,Muth Citynetz Halle GmbH,MuthCitynetzHalleGmbH@test.com,https://www.lewagon.com/berlin
+Communication,TeamCom Goch UG & Co. KG,TeamComGochUG&Co.KG@test.com,https://www.lewagon.com/berlin
+Communication,Telekommunikation Lindau,TelekommunikationLindau@test.com,https://www.lewagon.com/berlin
+Communication,komDSL – LUK-Helmbrechts,komDSL–LUK-Helmbrechts@test.com,https://www.lewagon.com/berlin
+Communication,TV-Netzgesellschaft Guben,TV-NetzgesellschaftGuben@test.com,https://www.lewagon.com/berlin
+Communication,ATL Antennentechnik Lubmin,ATLAntennentechnikLubmin@test.com,https://www.lewagon.com/berlin
+Communication,EWR / Stadtwerke Remscheid,EWR/StadtwerkeRemscheid@test.com,https://www.lewagon.com/berlin
+Communication,FPS – InformationsSysteme,FPS–InformationsSysteme@test.com,https://www.lewagon.com/berlin
+Communication,Gemeindewerke Hohenwestedt,GemeindewerkeHohenwestedt@test.com,https://www.lewagon.com/berlin
+Communication,HeLi NET Telekommunikation,HeLiNETTelekommunikation@test.com,https://www.lewagon.com/berlin
+Communication,Kabel-TV-Binz GmbH & Co.KG,Kabel-TV-BinzGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Communication,KSP Kabel Service Prenzlau,KSPKabelServicePrenzlau@test.com,https://www.lewagon.com/berlin
+Communication,Martens Deutsche Telekabel,MartensDeutscheTelekabel@test.com,https://www.lewagon.com/berlin
+Communication,RFT kabel Brandenburg GmbH,RFTkabelBrandenburgGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke – Strom Plauen,Stadtwerke–StromPlauen@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Bad Reichenhall,StadtwerkeBadReichenhall@test.com,https://www.lewagon.com/berlin
+Communication,T-M-Net.de Marco Bungalski,T-M-Net.deMarcoBungalski@test.com,https://www.lewagon.com/berlin
+Communication,true global communications,trueglobalcommunications@test.com,https://www.lewagon.com/berlin
+Communication,Breitband Innovationen Nord,BreitbandInnovationenNord@test.com,https://www.lewagon.com/berlin
+Communication,CramNET.de – DSL aufs LAND,CramNET.de–DSLaufsLAND@test.com,https://www.lewagon.com/berlin
+Communication,GGA Oberes Sprottental e.V.,GGAOberesSprottentale.V.@test.com,https://www.lewagon.com/berlin
+Communication,Kabel BW (jetzt Unitymedia),KabelBW(jetztUnitymedia)@test.com,https://www.lewagon.com/berlin
+Communication,Regionalantenne Cunnersdorf,RegionalantenneCunnersdorf@test.com,https://www.lewagon.com/berlin
+Communication,RSB – Rhein-Sieg-Breitband,RSB–Rhein-Sieg-Breitband@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Rüsselsheim GmbH,StadtwerkeRüsselsheimGmbH@test.com,https://www.lewagon.com/berlin
+Communication,swl – Stadtwerke Lengerich,swl–StadtwerkeLengerich@test.com,https://www.lewagon.com/berlin
+Communication,Vereinigte Stadtwerke Media,VereinigteStadtwerkeMedia@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Annaberg-Buchholz,StadtwerkeAnnaberg-Buchholz@test.com,https://www.lewagon.com/berlin
+Communication,egtf / EG Tacherting-Feichten,egtf/EGTacherting-Feichten@test.com,https://www.lewagon.com/berlin
+Communication,IG Gemeinschaftsantenne e. V.,IGGemeinschaftsantennee.V.@test.com,https://www.lewagon.com/berlin
+Communication,WDTK Wikom Deutsche Telekabel,WDTKWikomDeutscheTelekabel@test.com,https://www.lewagon.com/berlin
+Communication,Antenntengemeinschaft Ursprung,AntenntengemeinschaftUrsprung@test.com,https://www.lewagon.com/berlin
+Communication,city.kom / Stadtwerke Schwerin,city.kom/StadtwerkeSchwerin@test.com,https://www.lewagon.com/berlin
+Communication,COM-IN Telekommunikations GmbH,COM-INTelekommunikationsGmbH@test.com,https://www.lewagon.com/berlin
+Communication,Doergi.Net – Steffen Allstädt,Doergi.Net–SteffenAllstädt@test.com,https://www.lewagon.com/berlin
+Communication,Funknetz HG, Wolff A. Ehrhardt,FunknetzHG,WolffA.Ehrhardt@test.com,https://www.lewagon.com/berlin
+Communication,LüneCom Kommunikationslösungen,LüneComKommunikationslösungen@test.com,https://www.lewagon.com/berlin
+Communication,MB&T Datenverarbeitungssysteme,MB&TDatenverarbeitungssysteme@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Ramstein-Miesenbach,StadtwerkeRamstein-Miesenbach@test.com,https://www.lewagon.com/berlin
+Communication,Antennengemeinschaft Flöha e.V.,AntennengemeinschaftFlöhae.V.@test.com,https://www.lewagon.com/berlin
+Communication,FELKATEC Software GmbH & Co. KG,FELKATECSoftwareGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Communication,Vereinigte Stadtwerke Ratzeburg,VereinigteStadtwerkeRatzeburg@test.com,https://www.lewagon.com/berlin
+Communication,Antennengemeinschaften ERZNET AG,AntennengemeinschaftenERZNETAG@test.com,https://www.lewagon.com/berlin
+Communication,IG „Gemeinschaftsantenne“ e.V.,IG„Gemeinschaftsantenne“e.V.@test.com,https://www.lewagon.com/berlin
+Communication,KKS Kabel-Kommunikations-Service,KKSKabel-Kommunikations-Service@test.com,https://www.lewagon.com/berlin
+Communication,Gemeinschaftsantenne Schmalkalden,GemeinschaftsantenneSchmalkalden@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Schwedt – SDT Telecom,StadtwerkeSchwedt–SDTTelecom@test.com,https://www.lewagon.com/berlin
+Communication,Stadtwerke Trostberg GmbH & Co. KG,StadtwerkeTrostbergGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Communication,Telenec Telekommunikation Neustadt,TelenecTelekommunikationNeustadt@test.com,https://www.lewagon.com/berlin
+Communication,komDSL – Gemeindewerke Wendelstein,komDSL–GemeindewerkeWendelstein@test.com,https://www.lewagon.com/berlin
+Communication,SOCO Network Solutions / DN-CONNECT,SOCONetworkSolutions/DN-CONNECT@test.com,https://www.lewagon.com/berlin
+Communication,L&N Kabel- und Kommunikationssysteme,L&NKabel-undKommunikationssysteme@test.com,https://www.lewagon.com/berlin
+Communication,mkk connect / Photonium NetSolutions,mkkconnect/PhotoniumNetSolutions@test.com,https://www.lewagon.com/berlin
+Communication,komDSL – Stadtwerke Bad Nauheim GmbH,komDSL–StadtwerkeBadNauheimGmbH@test.com,https://www.lewagon.com/berlin
+Communication,GA-Struth-Helmershof/ Schnellbach e.V.,GA-Struth-Helmershof/Schnellbache.V.@test.com,https://www.lewagon.com/berlin
+Communication,Antennengemeinschaft Langewiesen (ATGL),AntennengemeinschaftLangewiesen(ATGL)@test.com,https://www.lewagon.com/berlin
+Energy,JES AG,JESAG@test.com,https://www.lewagon.com/berlin
+Energy,OIE AG,OIEAG@test.com,https://www.lewagon.com/berlin
+Energy,ENTEGA Plus GmbH,ENTEGAPlusGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EVH GmbH,EVHGmbH@test.com,https://www.lewagon.com/berlin
+Energy,GASAG AG,GASAGAG@test.com,https://www.lewagon.com/berlin
+Energy,NGW GmbH,NGWGmbH@test.com,https://www.lewagon.com/berlin
+Energy,WEMAG AG,WEMAGAG@test.com,https://www.lewagon.com/berlin
+Energy,enQu GmbH,enQuGmbH@test.com,https://www.lewagon.com/berlin
+Energy,HEWA GmbH,HEWAGmbH@test.com,https://www.lewagon.com/berlin
+Energy,medl GmbH,medlGmbH@test.com,https://www.lewagon.com/berlin
+Energy,WIND LINE,WINDLINE@test.com,https://www.lewagon.com/berlin
+Energy,Mainova AG,MainovaAG@test.com,https://www.lewagon.com/berlin
+Energy,enercity AG,enercityAG@test.com,https://www.lewagon.com/berlin
+Energy,ENSTROGA AG,ENSTROGAAG@test.com,https://www.lewagon.com/berlin
+Energy,eprimo GmbH,eprimoGmbH@test.com,https://www.lewagon.com/berlin
+Energy,E.VITA GmbH,E.VITAGmbH@test.com,https://www.lewagon.com/berlin
+Energy,GAS IN GmbH,GASINGmbH@test.com,https://www.lewagon.com/berlin
+Energy,grünES GmbH,grünESGmbH@test.com,https://www.lewagon.com/berlin
+Energy,proefa GmbH,proefaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,energis GmbH,energisGmbH@test.com,https://www.lewagon.com/berlin
+Energy,goldgas GmbH,goldgasGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Lechwerke AG,LechwerkeAG@test.com,https://www.lewagon.com/berlin
+Energy,STROGON GmbH,STROGONGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromio GmbH,StromioGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EWR AG,EWRAG@test.com,https://www.lewagon.com/berlin
+Energy,4hundred GmbH,4hundredGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Bad Honnef AG,BadHonnefAG@test.com,https://www.lewagon.com/berlin
+Energy,eneREGIO GmbH,eneREGIOGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EVU Späth e.K,EVUSpäthe.K@test.com,https://www.lewagon.com/berlin
+Energy,LichtBlick SE,LichtBlickSE@test.com,https://www.lewagon.com/berlin
+Energy,Pfalzwerke AG,PfalzwerkeAG@test.com,https://www.lewagon.com/berlin
+Energy,Q1 Energie AG,Q1EnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Wunderwerk AG,WunderwerkAG@test.com,https://www.lewagon.com/berlin
+Energy,Bürgerwerke eG,BürgerwerkeeG@test.com,https://www.lewagon.com/berlin
+Energy,EW Geiger GmbH,EWGeigerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EW Schmid GmbH,EWSchmidGmbH@test.com,https://www.lewagon.com/berlin
+Energy,MVV Energie AG,MVVEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,ÜZW Energie AG,ÜZWEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,CB Energie GmbH,CBEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Cramer Mühle KG,CramerMühleKG@test.com,https://www.lewagon.com/berlin
+Energy,energieGUT GmbH,energieGUTGmbH@test.com,https://www.lewagon.com/berlin
+Energy,FischerStrom KG,FischerStromKG@test.com,https://www.lewagon.com/berlin
+Energy,grün.power GmbH,grün.powerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,illwerke vkw AG,illwerkevkwAG@test.com,https://www.lewagon.com/berlin
+Energy,Polarstern GmbH,PolarsternGmbH@test.com,https://www.lewagon.com/berlin
+Energy,RheinEnergie AG,RheinEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Roth,StadtwerkeRoth@test.com,https://www.lewagon.com/berlin
+Energy,vivi-power GmbH,vivi-powerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Windströöm GmbH,WindströömGmbH@test.com,https://www.lewagon.com/berlin
+Energy,ZEAG Energie AG,ZEAGEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Dreischtrom GmbH,DreischtromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EAM Energie GmbH,EAMEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energiedienst AG,EnergiedienstAG@test.com,https://www.lewagon.com/berlin
+Energy,Feuchter Gemeindewerke GmbH,FeuchterGemeindewerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,FairEnergie GmbH,FairEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Filderstadtwerke,Filderstadtwerke@test.com,https://www.lewagon.com/berlin
+Energy,Herzo Werke GmbH,HerzoWerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,infra fürth gmbh,infrafürthgmbh@test.com,https://www.lewagon.com/berlin
+Energy,KommEnergie GmbH,KommEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,LogoEnergie GmbH,LogoEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hemau,StadtwerkeHemau@test.com,https://www.lewagon.com/berlin
+Energy,Stern Strom GmbH,SternStromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,susiEnergie GmbH,susiEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWE Energie GmbH,SWEEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWK Energie GmbH,SWKEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWS Energie GmbH,SWSEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWU Energie GmbH,SWUEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,WattsEnergy GmbH,WattsEnergyGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Werra-Strom GmbH,Werra-StromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Yello Strom GmbH,YelloStromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,AggerEnergie GmbH,AggerEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Ahrtal-Werke GmbH,Ahrtal-WerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Emil Energie GmbH,EmilEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energie Calw GmbH,EnergieCalwGmbH@test.com,https://www.lewagon.com/berlin
+Energy,energiehoch3 GmbH,energiehoch3GmbH@test.com,https://www.lewagon.com/berlin
+Energy,E-Werk Gerolsheim,E-WerkGerolsheim@test.com,https://www.lewagon.com/berlin
+Energy,EWE VERTRIEB GmbH,EWEVERTRIEBGmbH@test.com,https://www.lewagon.com/berlin
+Energy,ExtraEnergie GmbH,ExtraEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Lam,GemeindewerkeLam@test.com,https://www.lewagon.com/berlin
+Energy,Ohra Energie GmbH,OhraEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dachau,StadtwerkeDachau@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Haiger,StadtwerkeHaiger@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mengen,StadtwerkeMengen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Norden,StadtwerkeNorden@test.com,https://www.lewagon.com/berlin
+Energy,SVO Vertrieb GmbH,SVOVertriebGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWV Regional GmbH,SWVRegionalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Werraenergie GmbH,WerraenergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Albstadtwerke GmbH,AlbstadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Audax Energie GmbH,AudaxEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EVU Langenpreising,EVULangenpreising@test.com,https://www.lewagon.com/berlin
+Energy,E WIE EINFACH GmbH,EWIEEINFACHGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerk Hördt,GemeindewerkHördt@test.com,https://www.lewagon.com/berlin
+Energy,In(n) Energie GmbH,In(n)EnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,innogy Direkt GmbH,innogyDirektGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Maintal-Werke-GmbH,Maintal-Werke-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,PassatEnergie GmbH,PassatEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Silphienergie GmbH,SilphienergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Haslach,StadtwerkeHaslach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kiel AG,StadtwerkeKielAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Malchow,StadtwerkeMalchow@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ochtrup,StadtwerkeOchtrup@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schlitz,StadtwerkeSchlitz@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wilster,StadtwerkeWilster@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zwiesel,StadtwerkeZwiesel@test.com,https://www.lewagon.com/berlin
+Energy,SWW Wunsiedel GmbH,SWWWunsiedelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,TauberEnergie Kuhn,TauberEnergieKuhn@test.com,https://www.lewagon.com/berlin
+Energy,Thüga Energie GmbH,ThügaEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EnergieRevolte GmbH,EnergieRevolteGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Erdgas Südwest GmbH,ErdgasSüdwestGmbH@test.com,https://www.lewagon.com/berlin
+Energy,ESWE Versorgungs AG,ESWEVersorgungsAG@test.com,https://www.lewagon.com/berlin
+Energy,friesenenergie GmbH,friesenenergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Hardt,GemeindewerkeHardt@test.com,https://www.lewagon.com/berlin
+Energy,GVG Rhein-Erft GmbH,GVGRhein-ErftGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Hanwha Q CELLS GmbH,HanwhaQCELLSGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Köthen Energie GmbH,KöthenEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,lekker Energie GmbH,lekkerEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Lition Energie GmbH,LitionEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Achim AG,StadtwerkeAchimAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Balingen,StadtwerkeBalingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eberbach,StadtwerkeEberbach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Elmshorn,StadtwerkeElmshorn@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Essen AG,StadtwerkeEssenAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gaggenau,StadtwerkeGaggenau@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Herne AG,StadtwerkeHerneAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hollfeld,StadtwerkeHollfeld@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kulmbach,StadtwerkeKulmbach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Landshut,StadtwerkeLandshut@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerk Verl GmbH,StadtwerkVerlGmbH@test.com,https://www.lewagon.com/berlin
+Energy,badenova AG & Co. KG,badenovaAG&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Erdgas Schwaben GmbH,ErdgasSchwabenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EW Eichsfeldgas GmbH,EWEichsfeldgasGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Waging,GemeindewerkeWaging@test.com,https://www.lewagon.com/berlin
+Energy,Greenpeace Energy eG,GreenpeaceEnergyeG@test.com,https://www.lewagon.com/berlin
+Energy,HAMBURG ENERGIE GmbH,HAMBURGENERGIEGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Kraftwerke Haag GmbH,KraftwerkeHaagGmbH@test.com,https://www.lewagon.com/berlin
+Energy,MAINGAU Energie GmbH,MAINGAUEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Neander Energie GmbH,NeanderEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Nord Stadtwerke GmbH,NordStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Annweiler,StadtwerkeAnnweiler@test.com,https://www.lewagon.com/berlin
+Energy,RhönEnergie Fulda GmbH,RhönEnergieFuldaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bühl GmbH,StadtwerkeBühlGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Burg GmbH,StadtwerkeBurgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Cham GmbH,StadtwerkeChamGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Diez GmbH,StadtwerkeDiezGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gießen AG,StadtwerkeGießenAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Goch GmbH,StadtwerkeGochGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Haan GmbH,StadtwerkeHaanGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hamm GmbH,StadtwerkeHammGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hechingen,StadtwerkeHechingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kirn GmbH,StadtwerkeKirnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lage GmbH,StadtwerkeLageGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Löffingen,StadtwerkeLöffingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lübz GmbH,StadtwerkeLübzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Metzingen,StadtwerkeMetzingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mössingen,StadtwerkeMössingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Plattling,StadtwerkePlattling@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rees GmbH,StadtwerkeReesGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Uffenheim,StadtwerkeUffenheim@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Unna GmbH,StadtwerkeUnnaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weinstadt,StadtwerkeWeinstadt@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Werl GmbH,StadtwerkeWerlGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Windsbach,StadtwerkeWindsbach@test.com,https://www.lewagon.com/berlin
+Energy,Strom Germering GmbH,StromGermeringGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWM Versorgungs GmbH,SWMVersorgungsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Wendelsteinbahn GmbH,WendelsteinbahnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Albwerk GmbH & Co. KG,AlbwerkGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Benergie-Service GmbH,Benergie-ServiceGmbH@test.com,https://www.lewagon.com/berlin
+Energy,BeSte Stadtwerke GmbH,BeSteStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Brillant Energie GmbH,BrillantEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energie SaarLorLux AG,EnergieSaarLorLuxAG@test.com,https://www.lewagon.com/berlin
+Energy,e-regio GmbH & Co. KG,e-regioGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Malente,GemeindewerkeMalente@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Thüngen,GemeindewerkeThüngen@test.com,https://www.lewagon.com/berlin
+Energy,Green City Power GmbH,GreenCityPowerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Halberstadtwerke GmbH,HalberstadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,NaturStromHandel GmbH,NaturStromHandelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Nienburg Energie GmbH,NienburgEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Regionah Energie GmbH,RegionahEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Saergas GmbH & Co. KG,SaergasGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Aalen GmbH,StadtwerkeAalenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ahlen GmbH,StadtwerkeAhlenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Altensteig,StadtwerkeAltensteig@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Rodach,StadtwerkeBadRodach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Barth GmbH,StadtwerkeBarthGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bebra GmbH,StadtwerkeBebraGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bogen GmbH,StadtwerkeBogenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Brühl GmbH,StadtwerkeBrühlGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Celle GmbH,StadtwerkeCelleGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dettelbach,StadtwerkeDettelbach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Düren GmbH,StadtwerkeDürenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Emden GmbH,StadtwerkeEmdenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eutin GmbH,StadtwerkeEutinGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Forst GmbH,StadtwerkeForstGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gengenbach,StadtwerkeGengenbach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Görlitz AG,StadtwerkeGörlitzAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gotha GmbH,StadtwerkeGothaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hanau GmbH,StadtwerkeHanauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Heide GmbH,StadtwerkeHeideGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Heilsbronn,StadtwerkeHeilsbronn@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hemer GmbH,StadtwerkeHemerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Herrenberg,StadtwerkeHerrenberg@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hockenheim,StadtwerkeHockenheim@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Husum GmbH,StadtwerkeHusumGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kleve GmbH,StadtwerkeKleveGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kusel GmbH,StadtwerkeKuselGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Laage GmbH,StadtwerkeLaageGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Langenzenn,StadtwerkeLangenzenn@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Laufenburg,StadtwerkeLaufenburg@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lemgo GmbH,StadtwerkeLemgoGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Löbau GmbH,StadtwerkeLöbauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Loitz GmbH,StadtwerkeLoitzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lünen GmbH,StadtwerkeLünenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neuffen AG,StadtwerkeNeuffenAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pappenheim,StadtwerkePappenheim@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Peine GmbH,StadtwerkePeineGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rhede GmbH,StadtwerkeRhedeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Riesa GmbH,StadtwerkeRiesaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rostock AG,StadtwerkeRostockAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Scheinfeld,StadtwerkeScheinfeld@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Soest GmbH,StadtwerkeSoestGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Stade GmbH,StadtwerkeStadeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Thale GmbH,StadtwerkeThaleGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Uslar GmbH,StadtwerkeUslarGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Vilsbiburg,StadtwerkeVilsbiburg@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wachenheim,StadtwerkeWachenheim@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waren GmbH,StadtwerkeWarenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wedel GmbH,StadtwerkeWedelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wesel GmbH,StadtwerkeWeselGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zeitz GmbH,StadtwerkeZeitzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zeven GmbH,StadtwerkeZevenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Ziegler GmbH & Co. KG,ZieglerGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ahaus GmbH,StadtwerkeAhausGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EBERwerk GmbH & Co. KG,EBERwerkGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energie Südbayern GmbH,EnergieSüdbayernGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energiewerk Meckenheim,EnergiewerkMeckenheim@test.com,https://www.lewagon.com/berlin
+Energy,energy4u GmbH & Co. KG,energy4uGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Erlanger Stadtwerke AG,ErlangerStadtwerkeAG@test.com,https://www.lewagon.com/berlin
+Energy,e.wa riss GmbH & Co KG,e.warissGmbH&CoKG@test.com,https://www.lewagon.com/berlin
+Energy,FT Energiepartner GmbH,FTEnergiepartnerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Herxheim,GemeindewerkeHerxheim@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Sinzheim,GemeindewerkeSinzheim@test.com,https://www.lewagon.com/berlin
+Energy,GEW Wilhelmshaven GmbH,GEWWilhelmshavenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Barmstedt,StadtwerkeBarmstedt@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Aibling,StadtwerkeBadAibling@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Baden-Baden,StadtwerkeBaden-Baden@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Saulgau,StadtwerkeBadSaulgau@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bernau GmbH,StadtwerkeBernauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bochum GmbH,StadtwerkeBochumGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dinkelsbühl,StadtwerkeDinkelsbühl@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Döbeln GmbH,StadtwerkeDöbelnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Duisburg AG,StadtwerkeDuisburgAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dülmen GmbH,StadtwerkeDülmenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Elbtal GmbH,StadtwerkeElbtalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Greven GmbH,StadtwerkeGrevenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Grimma GmbH,StadtwerkeGrimmaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gronau GmbH,StadtwerkeGronauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hilden GmbH,StadtwerkeHildenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Jülich GmbH,StadtwerkeJülichGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kaarst GmbH,StadtwerkeKaarstGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kempen GmbH,StadtwerkeKempenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Langen GmbH,StadtwerkeLangenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lehrte GmbH,StadtwerkeLehrteGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lichtenfels,StadtwerkeLichtenfels@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lingen GmbH,StadtwerkeLingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lübeck GmbH,StadtwerkeLübeckGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Menden GmbH,StadtwerkeMendenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Merzig GmbH,StadtwerkeMerzigGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Niesky GmbH,StadtwerkeNieskyGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Norderstedt,StadtwerkeNorderstedt@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Nortorf AöR,StadtwerkeNortorfAöR@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Passau GmbH,StadtwerkePassauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Sigmaringen,StadtwerkeSigmaringen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Speyer GmbH,StadtwerkeSpeyerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Torgau GmbH,StadtwerkeTorgauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Uelzen GmbH,StadtwerkeUelzenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Velten GmbH,StadtwerkeVeltenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Verden GmbH,StadtwerkeVerdenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Vlotho GmbH,StadtwerkeVlothoGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Voerde GmbH,StadtwerkeVoerdeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wadern GmbH,StadtwerkeWadernGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waldkirchen,StadtwerkeWaldkirchen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waldmünchen,StadtwerkeWaldmünchen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Werdau GmbH,StadtwerkeWerdauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wismar GmbH,StadtwerkeWismarGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wissen GmbH,StadtwerkeWissenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Witten GmbH,StadtwerkeWittenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Würzburg AG,StadtwerkeWürzburgAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zittau GmbH,StadtwerkeZittauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerk Haßfurt GmbH,StadtwerkHaßfurtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,TOTAL Energie Gas GmbH,TOTALEnergieGasGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Überlandwerk Rhön GmbH,ÜberlandwerkRhönGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Vestische Energie GmbH,VestischeEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Wadersloh Energie GmbH,WaderslohEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dorfen GmbH,StadtwerkeDorfenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Burgenland Energie GmbH,BurgenlandEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EBLD Schweiz Strom GmbH,EBLDSchweizStromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energie Rhein-Sieg GmbH,EnergieRhein-SiegGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energie Vorpommern GmbH,EnergieVorpommernGmbH@test.com,https://www.lewagon.com/berlin
+Energy,e-werk Sachsenwald GmbH,e-werkSachsenwaldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Ebersdorf,GemeindewerkeEbersdorf@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Gangkofen,GemeindewerkeGangkofen@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Nüdlingen,GemeindewerkeNüdlingen@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Pleinfeld,GemeindewerkePleinfeld@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Stammbach,GemeindewerkeStammbach@test.com,https://www.lewagon.com/berlin
+Energy,ROTHMOSER GMBH & CO. KG,ROTHMOSERGMBH&CO.KG@test.com,https://www.lewagon.com/berlin
+Energy,schwarzwald energy GmbH,schwarzwaldenergyGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Altdorf GmbH,StadtwerkeAltdorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ansbach GmbH,StadtwerkeAnsbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bexbach GmbH,StadtwerkeBexbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bretten GmbH,StadtwerkeBrettenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Burgbernheim,StadtwerkeBurgbernheim@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Cottbus GmbH,StadtwerkeCottbusGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Detmold GmbH,StadtwerkeDetmoldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Einbeck GmbH,StadtwerkeEinbeckGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Erkrath GmbH,StadtwerkeErkrathGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Feuchtwangen,StadtwerkeFeuchtwangen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Garbsen GmbH,StadtwerkeGarbsenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Geldern GmbH,StadtwerkeGeldernGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gescher GmbH,StadtwerkeGescherGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gifhorn GmbH,StadtwerkeGifhornGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Göttingen AG,StadtwerkeGöttingenAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Güstrow GmbH,StadtwerkeGüstrowGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hagenow GmbH,StadtwerkeHagenowGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Herborn GmbH,StadtwerkeHerbornGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Herford GmbH,StadtwerkeHerfordGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Homburg GmbH,StadtwerkeHomburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hünfeld GmbH,StadtwerkeHünfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ilmenau GmbH,StadtwerkeIlmenauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Itzehoe GmbH,StadtwerkeItzehoeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Landsberg KU,StadtwerkeLandsbergKU@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Leipzig GmbH,StadtwerkeLeipzigGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Marburg GmbH,StadtwerkeMarburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Meerane GmbH,StadtwerkeMeeraneGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mosbach GmbH,StadtwerkeMosbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Münster GmbH,StadtwerkeMünsterGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neuwied GmbH,StadtwerkeNeuwiedGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Olching GmbH,StadtwerkeOlchingGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Osnabrück AG,StadtwerkeOsnabrückAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Parchim GmbH,StadtwerkeParchimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pfarrkirchen,StadtwerkePfarrkirchen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pulheim GmbH,StadtwerkePulheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rastatt GmbH,StadtwerkeRastattGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rinteln GmbH,StadtwerkeRintelnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwedt GmbH,StadtwerkeSchwedtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Springe GmbH,StadtwerkeSpringeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Stendal GmbH,StadtwerkeStendalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Teterow GmbH,StadtwerkeTeterowGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Velbert GmbH,StadtwerkeVelbertGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Willich GmbH,StadtwerkeWillichGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zeil am Main,StadtwerkeZeilamMain@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerk Külsheim GmbH,StadtwerkKülsheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SUEnergie GmbH & Co. KG,SUEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Tibber Deutschland GmbH,TibberDeutschlandGmbH@test.com,https://www.lewagon.com/berlin
+Energy,WSW Energie & Wasser AG,WSWEnergie&WasserAG@test.com,https://www.lewagon.com/berlin
+Energy,Abens-Donau Energie GmbH,Abens-DonauEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Allgäuer Kraftwerke GmbH,AllgäuerKraftwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Berliner Stadtwerke GmbH,BerlinerStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,C. Ensinger GmbH & Co.KG,C.EnsingerGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,EGT Energievertrieb GmbH,EGTEnergievertriebGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Schmid,EnergieversorgungSchmid@test.com,https://www.lewagon.com/berlin
+Energy,FREITALER STROM+GAS GMBH,FREITALERSTROM+GASGMBH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Cadolzburg,GemeindewerkeCadolzburg@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Dudenhofen,GemeindewerkeDudenhofen@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Halstenbek,GemeindewerkeHalstenbek@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Weidenthal,GemeindewerkeWeidenthal@test.com,https://www.lewagon.com/berlin
+Energy,Grünwelt Wärmestrom GmbH,GrünweltWärmestromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Hertener Stadtwerke GmbH,HertenerStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,LE Energy Solutions GmbH,LEEnergySolutionsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Meißener Stadtwerke GmbH,MeißenerStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Mindener Stadtwerke GmbH,MindenerStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Shell Energy Retail GmbH,ShellEnergyRetailGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Arnstadt GmbH,StadtwerkeArnstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Tölz GmbH,StadtwerkeBadTölzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Windsheim,StadtwerkeBadWindsheim@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bergheim GmbH,StadtwerkeBergheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bernburg GmbH,StadtwerkeBernburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bliestal GmbH,StadtwerkeBliestalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Böhmetal GmbH,StadtwerkeBöhmetalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bramsche GmbH,StadtwerkeBramscheGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bruchsal GmbH,StadtwerkeBruchsalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Burgdorf GmbH,StadtwerkeBurgdorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Coesfeld GmbH,StadtwerkeCoesfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dreieich GmbH,StadtwerkeDreieichGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Düsseldorf AG,StadtwerkeDüsseldorfAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Emmerich GmbH,StadtwerkeEmmerichGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eschwege GmbH,StadtwerkeEschwegeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Fellbach GmbH,StadtwerkeFellbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Heidenheim AG,StadtwerkeHeidenheimAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Heiligenhafen,StadtwerkeHeiligenhafen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Iserlohn GmbH,StadtwerkeIserlohnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Konstanz GmbH,StadtwerkeKonstanzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Leutershausen,StadtwerkeLeutershausen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lübbecke GmbH,StadtwerkeLübbeckeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Nettetal GmbH,StadtwerkeNettetalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Nordfriesland,StadtwerkeNordfriesland@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pasewalk GmbH,StadtwerkePasewalkGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Prenzlau GmbH,StadtwerkePrenzlauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ratingen GmbH,StadtwerkeRatingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Saalfeld GmbH,StadtwerkeSaalfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schifferstadt,StadtwerkeSchifferstadt@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwerte GmbH,StadtwerkeSchwerteGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Solingen GmbH,StadtwerkeSolingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Staßfurt GmbH,StadtwerkeStaßfurtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Stockach GmbH,StadtwerkeStockachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Tirschenreuth,StadtwerkeTirschenreuth@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Torgelow GmbH,StadtwerkeTorgelowGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Tornesch GmbH,StadtwerkeTorneschGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Treuchtlingen,StadtwerkeTreuchtlingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Tübingen GmbH,StadtwerkeTübingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Uetersen GmbH,StadtwerkeUetersenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Versmold GmbH,StadtwerkeVersmoldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Walldürn GmbH,StadtwerkeWalldürnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weilburg GmbH,StadtwerkeWeilburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weilheim i.OB,StadtwerkeWeilheimi.OB@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weinheim GmbH,StadtwerkeWeinheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wertheim GmbH,StadtwerkeWertheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zirndorf GmbH,StadtwerkeZirndorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SÜC Energie und H2O GmbH,SÜCEnergieundH2OGmbH@test.com,https://www.lewagon.com/berlin
+Energy,swb Vertrieb Bremen GmbH,swbVertriebBremenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Überlandwerk Eppler GmbH,ÜberlandwerkEpplerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Weißachtal-Kraftwerke eG,Weißachtal-KraftwerkeeG@test.com,https://www.lewagon.com/berlin
+Energy,WestfalenWIND Strom GmbH,WestfalenWINDStromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,17er Oberlandenergie GmbH,17erOberlandenergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,BürgerEnergie Solingen eG,BürgerEnergieSolingeneG@test.com,https://www.lewagon.com/berlin
+Energy,die energievorsorger GmbH,dieenergievorsorgerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Erdgas Mittelsachsen GmbH,ErdgasMittelsachsenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Fuxx-Die Sparenergie GmbH,Fuxx-DieSparenergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Baiersbronn,GemeindewerkeBaiersbronn@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Hermaringen,GemeindewerkeHermaringen@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Kirkel GmbH,GemeindewerkeKirkelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Krickenbach,GemeindewerkeKrickenbach@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Partenstein,GemeindewerkePartenstein@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Rheinzabern,GemeindewerkeRheinzabern@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Rückersdorf,GemeindewerkeRückersdorf@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Steißlingen,GemeindewerkeSteißlingen@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Stelzenberg,GemeindewerkeStelzenberg@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Wendelstein,GemeindewerkeWendelstein@test.com,https://www.lewagon.com/berlin
+Energy,Havelstrom Zehdenick GmbH,HavelstromZehdenickGmbH@test.com,https://www.lewagon.com/berlin
+Energy,HochsauerlandEnergie GmbH,HochsauerlandEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Leu Energie GmbH & Co. KG,LeuEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,LSW Energie GmbH & Co. KG,LSWEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Mark-E Aktiengesellschaft,Mark-EAktiengesellschaft@test.com,https://www.lewagon.com/berlin
+Energy,NatürlichEnergie EMH GmbH,NatürlichEnergieEMHGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Remstalwerk GmbH & Co. KG,RemstalwerkGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,RheinEnergie Express GmbH,RheinEnergieExpressGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SEW Stromversorgungs-GmbH,SEWStromversorgungs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Wörishofen,StadtwerkeBadWörishofen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bielefeld GmbH,StadtwerkeBielefeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Buxtehude GmbH,StadtwerkeBuxtehudeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Delitzsch GmbH,StadtwerkeDelitzschGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dinslaken GmbH,StadtwerkeDinslakenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eilenburg GmbH,StadtwerkeEilenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Emsdetten GmbH,StadtwerkeEmsdettenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ettlingen GmbH,StadtwerkeEttlingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Flensburg GmbH,StadtwerkeFlensburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Engen GmbH,StadtwerkeEngenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Grünstadt GmbH,StadtwerkeGrünstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gütersloh GmbH,StadtwerkeGüterslohGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hattingen GmbH,StadtwerkeHattingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Havelberg GmbH,StadtwerkeHavelbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hettstedt GmbH,StadtwerkeHettstedtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Horb am Neckar,StadtwerkeHorbamNeckar@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Karlsruhe GmbH,StadtwerkeKarlsruheGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lengerich GmbH,StadtwerkeLengerichGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lippstadt GmbH,StadtwerkeLippstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Meerbusch GmbH,StadtwerkeMeerbuschGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Meiningen GmbH,StadtwerkeMeiningenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Merseburg GmbH,StadtwerkeMerseburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mühlacker GmbH,StadtwerkeMühlackerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neuenhaus GmbH,StadtwerkeNeuenhausGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neuruppin GmbH,StadtwerkeNeuruppinGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Norderney GmbH,StadtwerkeNorderneyGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Oberkirch GmbH,StadtwerkeOberkirchGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Olbernhau GmbH,StadtwerkeOlbernhauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Paderborn GmbH,StadtwerkePaderbornGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pinneberg GmbH,StadtwerkePinnebergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pritzwalk GmbH,StadtwerkePritzwalkGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Quickborn GmbH,StadtwerkeQuickbornGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rendsburg GmbH,StadtwerkeRendsburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Saarlouis GmbH,StadtwerkeSaarlouisGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwabach GmbH,StadtwerkeSchwabachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Stadtroda GmbH,StadtwerkeStadtrodaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Steinfurt GmbH,StadtwerkeSteinfurtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Troisdorf GmbH,StadtwerkeTroisdorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Viernheim GmbH,StadtwerkeViernheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Vilshofen GmbH,StadtwerkeVilshofenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waldkirch GmbH,StadtwerkeWaldkirchGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Winnenden GmbH,StadtwerkeWinnendenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wolfhagen GmbH,StadtwerkeWolfhagenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Inzell eG,StromversorgungInzelleG@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Sulz GmbH,StromversorgungSulzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWR Energie GmbH & Co. KG,SWREnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,TEAG Thüringer Energie AG,TEAGThüringerEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Forchheim GmbH,StadtwerkeForchheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Allgäuer Überlandwerk GmbH,AllgäuerÜberlandwerkGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Ammer-Loisach Energie GmbH,Ammer-LoisachEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Eichenmüller GmbH & Co. KG,EichenmüllerGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Emscher Lippe Energie GmbH,EmscherLippeEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Erhard Bürk-Kauffmann GmbH,ErhardBürk-KauffmannGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Brüggen GmbH,GemeindewerkeBrüggenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Frammersbach,GemeindewerkeFrammersbach@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Haßloch GmbH,GemeindewerkeHaßlochGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Krauchenwies,GemeindewerkeKrauchenwies@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Schutterwald,GemeindewerkeSchutterwald@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Umkirch GmbH,GemeindewerkeUmkirchGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Wilhermsdorf,GemeindewerkeWilhermsdorf@test.com,https://www.lewagon.com/berlin
+Energy,GWS Stadtwerke Hameln GmbH,GWSStadtwerkeHamelnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Harz Energie GmbH & Co. KG,HarzEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,HEW HofEnergie+Wasser GmbH,HEWHofEnergie+WasserGmbH@test.com,https://www.lewagon.com/berlin
+Energy,KlickEnergie GmbH & Co. KG,KlickEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,N-ERGIE Aktiengesellschaft,N-ERGIEAktiengesellschaft@test.com,https://www.lewagon.com/berlin
+Energy,Städtische Werke AG Kassel,StädtischeWerkeAGKassel@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ahrensburg GmbH,StadtwerkeAhrensburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Belzig GmbH,StadtwerkeBadBelzigGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Sachsa GmbH,StadtwerkeBadSachsaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Vilbel GmbH,StadtwerkeBadVilbelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Crailsheim GmbH,StadtwerkeCrailsheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Deggendorf GmbH,StadtwerkeDeggendorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Deidesheim GmbH,StadtwerkeDeidesheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dingolfing GmbH,StadtwerkeDingolfingGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Geesthacht GmbH,StadtwerkeGeesthachtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gelnhausen GmbH,StadtwerkeGelnhausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Glückstadt GmbH,StadtwerkeGlückstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Hammelburg GmbH,StadtwerkeHammelburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Holzminden GmbH,StadtwerkeHolzmindenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Langenfeld GmbH,StadtwerkeLangenfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lauterbach GmbH,StadtwerkeLauterbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mühlhausen GmbH,StadtwerkeMühlhausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Radolfzell GmbH,StadtwerkeRadolfzellGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schkeuditz GmbH,StadtwerkeSchkeuditzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schneeberg GmbH,StadtwerkeSchneebergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schönebeck GmbH,StadtwerkeSchönebeckGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schorndorf GmbH,StadtwerkeSchorndorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Strausberg GmbH,StadtwerkeStrausbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Tuttlingen GmbH,StadtwerkeTuttlingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waiblingen GmbH,StadtwerkeWaiblingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weiden i.d.OPf.,StadtwerkeWeideni.d.OPf.@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weißenburg GmbH,StadtwerkeWeißenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weißenfels GmbH,StadtwerkeWeißenfelsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weißwasser GmbH,StadtwerkeWeißwasserGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Greding eG,StromversorgungGredingeG@test.com,https://www.lewagon.com/berlin
+Energy,Süwag Vertrieb AG & Co. KG,SüwagVertriebAG&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,team energie GmbH & Co. KG,teamenergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Teckwerke Bürgerenergie eG,TeckwerkeBürgerenergieeG@test.com,https://www.lewagon.com/berlin
+Energy,Überlandwerk Krumbach GmbH,ÜberlandwerkKrumbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Überlandwerk Leinetal GmbH,ÜberlandwerkLeinetalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Vereinigte Stadtwerke GmbH,VereinigteStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Bad Lauterberg Energie GmbH,BadLauterbergEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,BIGGE ENERGIE GmbH & Co. KG,BIGGEENERGIEGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Aach GmbH,ElektrizitätswerkAachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Haimmerer,ElektrizitätswerkHaimmerer@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Gera GmbH,EnergieversorgungGeraGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Sylt GmbH,EnergieversorgungSyltGmbH@test.com,https://www.lewagon.com/berlin
+Energy,ENSO Energie Sachsen Ost AG,ENSOEnergieSachsenOstAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ludwigsburg-Kornwestheim GmbH,StadtwerkeLudwigsburg-KornwestheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Budenheim AöR,GemeindewerkeBudenheimAöR@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Georgensgmünd,GemeindewerkeGeorgensgmünd@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Grefrath GmbH,GemeindewerkeGrefrathGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Kiefersfelden,GemeindewerkeKiefersfelden@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Peißenberg KU,GemeindewerkePeißenbergKU@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Ruppichteroth,GemeindewerkeRuppichteroth@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindl. Werke Hengersberg,Gemeindl.WerkeHengersberg@test.com,https://www.lewagon.com/berlin
+Energy,Hoyer Strom und Erdgas GmbH,HoyerStromundErdgasGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Kreiswerke Main-Kinzig GmbH,KreiswerkeMain-KinzigGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Lidl-Strom von E.ON Energie,Lidl-StromvonE.ONEnergie@test.com,https://www.lewagon.com/berlin
+Energy,Regionale EnergieWerke GmbH,RegionaleEnergieWerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Schleswiger Stadtwerke GmbH,SchleswigerStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Städtische Werke Borna GmbH,StädtischeWerkeBornaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Nauheim GmbH,StadtwerkeBadNauheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Blankenburg GmbH,StadtwerkeBlankenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Brunsbüttel GmbH,StadtwerkeBrunsbüttelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Delmenhorst GmbH,StadtwerkeDelmenhorstGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eckernförde GmbH,StadtwerkeEckernfördeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Emmendingen GmbH,StadtwerkeEmmendingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Frankenthal GmbH,StadtwerkeFrankenthalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Fröndenberg GmbH,StadtwerkeFröndenbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Germersheim GmbH,StadtwerkeGermersheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Harsewinkel GmbH,StadtwerkeHarsewinkelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Landau a.d. Isar,StadtwerkeLandaua.d.Isar@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lüdenscheid GmbH,StadtwerkeLüdenscheidGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neustrelitz GmbH,StadtwerkeNeustrelitzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke OELSNITZ/V. GmbH,StadtwerkeOELSNITZ/V.GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Oranienburg GmbH,StadtwerkeOranienburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pfullendorf GmbH,StadtwerkePfullendorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Quedlinburg GmbH,StadtwerkeQuedlinburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schweinfurt GmbH,StadtwerkeSchweinfurtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Senftenberg GmbH,StadtwerkeSenftenbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke St. Ingbert GmbH,StadtwerkeSt.IngbertGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wernigerode GmbH,StadtwerkeWernigerodeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wittenberge GmbH,StadtwerkeWittenbergeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wolmirstedt GmbH,StadtwerkeWolmirstedtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Zweibrücken GmbH,StadtwerkeZweibrückenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Seebruck eG,StromversorgungSeebruckeG@test.com,https://www.lewagon.com/berlin
+Energy,Abita Energie Otterberg GmbH,AbitaEnergieOtterbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Hauenstein,ElektrizitätswerkHauenstein@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Greiz GmbH,EnergieversorgungGreizGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Guben GmbH,EnergieversorgungGubenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Pirna GmbH,EnergieversorgungPirnaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Rodau GmbH,EnergieversorgungRodauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energiewerke Isernhagen GmbH,EnergiewerkeIsernhagenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energiewerke Zeulenroda GmbH,EnergiewerkeZeulenrodaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EWV Baesweiler GmbH & Co. KG,EWVBaesweilerGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Ammerbuch GmbH,GemeindewerkeAmmerbuchGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Neuendettelsau,GemeindewerkeNeuendettelsau@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Nümbrecht GmbH,GemeindewerkeNümbrechtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Grünstromwerk Vertriebs GmbH,GrünstromwerkVertriebsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Nahwerk Energie GmbH & Co.KG,NahwerkEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,rhenag Rheinische Energie AG,rhenagRheinischeEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Aschersleben GmbH,StadtwerkeAscherslebenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Dürkheim GmbH,StadtwerkeBadDürkheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Harzburg GmbH,StadtwerkeBadHarzburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Hersfeld GmbH,StadtwerkeBadHersfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Elm-Lappwald GmbH,StadtwerkeElm-LappwaldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke EVB Huntetal GmbH,StadtwerkeEVBHuntetalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Finsterwalde GmbH,StadtwerkeFinsterwaldeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Grevesmühlen GmbH,StadtwerkeGrevesmühlenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Gunzenhausen GmbH,StadtwerkeGunzenhausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Haldensleben GmbH,StadtwerkeHaldenslebenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ludwigsfelde GmbH,StadtwerkeLudwigsfeldeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neu-Isenburg GmbH,StadtwerkeNeu-IsenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Radevormwald GmbH,StadtwerkeRadevormwaldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Sangerhausen GmbH,StadtwerkeSangerhausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Sindelfingen GmbH,StadtwerkeSindelfingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waldkraiburg GmbH,StadtwerkeWaldkraiburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wasserburg a. Inn,StadtwerkeWasserburga.Inn@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wolfenbüttel GmbH,StadtwerkeWolfenbüttelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerk Tauberfranken GmbH,StadtwerkTauberfrankenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SVS-Versorgungsbetriebe GmbH,SVS-VersorgungsbetriebeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWN Stadtwerke Neustadt GmbH,SWNStadtwerkeNeustadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWN Stadtwerke Northeim GmbH,SWNStadtwerkeNortheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Technische Werke Osning GmbH,TechnischeWerkeOsningGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Vattenfall Europe Sales GmbH,VattenfallEuropeSalesGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Bayernwerk Regio Energie GmbH,BayernwerkRegioEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Dessauer Stromversorgung GmbH,DessauerStromversorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Einhorn Energie GmbH & Co. KG,EinhornEnergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Max Peißker,ElektrizitätswerkMaxPeißker@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitäts-Werk Ottersberg,Elektrizitäts-WerkOttersberg@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Apolda GmbH,EnergieversorgungApoldaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Sehnde GmbH,EnergieversorgungSehndeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,E.ON Energie Deutschland GmbH,E.ONEnergieDeutschlandGmbH@test.com,https://www.lewagon.com/berlin
+Energy,E-Werke Haniel Haimhausen OHG,E-WerkeHanielHaimhausenOHG@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Bayerisch Gmain,GemeindewerkeBayerischGmain@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Heikendorf GmbH,GemeindewerkeHeikendorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Heusweiler GmbH,GemeindewerkeHeusweilerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Markt Lichtenau,GemeindewerkeMarktLichtenau@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Münchweiler AöR,GemeindewerkeMünchweilerAöR@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Steinhagen GmbH,GemeindewerkeSteinhagenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Getreidemühle Zwiefalten e.G.,GetreidemühleZwiefaltene.G.@test.com,https://www.lewagon.com/berlin
+Energy,Heinrich Klöcker GmbH & Co.KG,HeinrichKlöckerGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Propan Rheingas GmbH & Co. KG,PropanRheingasGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Bramstedt GmbH,StadtwerkeBadBramstedtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Brückenau GmbH,StadtwerkeBadBrückenauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Friedrichshall,StadtwerkeBadFriedrichshall@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Herrenalb GmbH,StadtwerkeBadHerrenalbGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Kissingen GmbH,StadtwerkeBadKissingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Reichenhall KU,StadtwerkeBadReichenhallKU@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Säckingen GmbH,StadtwerkeBadSäckingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Salzuflen GmbH,StadtwerkeBadSalzuflenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Barsinghausen GmbH,StadtwerkeBarsinghausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke GmbH Bad Kreuznach,StadtwerkeGmbHBadKreuznach@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kaltenkirchen GmbH,StadtwerkeKaltenkirchenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kamp-Lintfort GmbH,StadtwerkeKamp-LintfortGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Oberriexingen GmbH,StadtwerkeOberriexingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Oerlinghausen GmbH,StadtwerkeOerlinghausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwarzenberg GmbH,StadtwerkeSchwarzenbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Sondershausen GmbH,StadtwerkeSondershausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Sulzbach/Saar GmbH,StadtwerkeSulzbach/SaarGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weserbergland GmbH,StadtwerkeWeserberglandGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Winsen (Luhe) GmbH,StadtwerkeWinsen(Luhe)GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Schierling eG,StromversorgungSchierlingeG@test.com,https://www.lewagon.com/berlin
+Energy,Strom von Föhr Vertriebs-GmbH,StromvonFöhrVertriebs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,strotög GmbH Strom für Töging,strotögGmbHStromfürTöging@test.com,https://www.lewagon.com/berlin
+Energy,SVH Stromversorgung Haar GmbH,SVHStromversorgungHaarGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Elbe GmbH,VersorgungsbetriebeElbeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Röttingen,VersorgungsbetriebeRöttingen@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Zellingen,VersorgungsbetriebeZellingen@test.com,https://www.lewagon.com/berlin
+Energy,WEVG Salzgitter GmbH & Co. KG,WEVGSalzgitterGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Alpiq Energie Deutschland GmbH,AlpiqEnergieDeutschlandGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerke Berlin GmbH,ElektrizitätswerkeBerlinGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Hindelang eG,ElektrizitätswerkHindelangeG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Rohmund GmbH,ElektrizitätswerkRohmundGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Alzenau GmbH,EnergieversorgungAlzenauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Gaildorf OHG,EnergieversorgungGaildorfOHG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Limburg GmbH,EnergieversorgungLimburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Offenbach AG,EnergieversorgungOffenbachAG@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Everswinkel GmbH,GemeindewerkeEverswinkelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Holzkirchen GmbH,GemeindewerkeHolzkirchenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Oberhaching GmbH,GemeindewerkeOberhachingGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Wildeck Obersuhl,GemeindewerkeWildeckObersuhl@test.com,https://www.lewagon.com/berlin
+Energy,H & N Bürgerwind GmbH & Co. KG,H&NBürgerwindGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,ILZHÖFERS Nachf. Inh. Walch KG,ILZHÖFERSNachf.Inh.WalchKG@test.com,https://www.lewagon.com/berlin
+Energy,Kraftwerk Köhlgartenwiese GmbH,KraftwerkKöhlgartenwieseGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerk am See GmbH & Co. KG,StadtwerkamSeeGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Bergzabern GmbH,StadtwerkeBadBergzabernGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Barmstedt Xtra GmbH,StadtwerkeBarmstedtXtraGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Brilon Energie GmbH,StadtwerkeBrilonEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Buchen GmbH & Co KG,StadtwerkeBuchenGmbH&CoKG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Castrop-Rauxel GmbH,StadtwerkeCastrop-RauxelGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Dillingen/Saar GmbH,StadtwerkeDillingen/SaarGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Haltern am See GmbH,StadtwerkeHalternamSeeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neuburg a. d. Donau,StadtwerkeNeuburga.d.Donau@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwentinental GmbH,StadtwerkeSchwentinentalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwerin GmbH (SWS),StadtwerkeSchwerinGmbH(SWS)@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Stadtoldendorf GmbH,StadtwerkeStadtoldendorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Stein GmbH & Co. KG,StadtwerkeSteinGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,SWB Stadtwerke Biedenkopf GmbH,SWBStadtwerkeBiedenkopfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SWN Stadtwerke Neumünster GmbH,SWNStadtwerkeNeumünsterGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Technische Werke Naumburg GmbH,TechnischeWerkeNaumburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Volkswagen Group Charging GmbH,VolkswagenGroupChargingGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Oberwössen eG,ElektrizitätswerkOberwösseneG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Weißenhorn AG,ElektrizitätswerkWeißenhornAG@test.com,https://www.lewagon.com/berlin
+Energy,Energie und Wasser Potsdam GmbH,EnergieundWasserPotsdamGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Bad Boll GmbH,EnergieversorgungBadBollGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Gemünden GmbH,EnergieversorgungGemündenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Oberhausen AG,EnergieversorgungOberhausenAG@test.com,https://www.lewagon.com/berlin
+Energy,envia Mitteldeutsche Energie AG,enviaMitteldeutscheEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Freiberger Stromversorgung GmbH,FreibergerStromversorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Bobenheim-Roxheim,GemeindewerkeBobenheim-Roxheim@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Gundelfingen GmbH,GemeindewerkeGundelfingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Hohenwestedt GmbH,GemeindewerkeHohenwestedtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Schönkirchen GmbH,GemeindewerkeSchönkirchenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Stockelsdorf GmbH,GemeindewerkeStockelsdorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,MANN Naturenergie GmbH & Co. KG,MANNNaturenergieGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,PROKON Regenerative Energien eG,PROKONRegenerativeEnergieneG@test.com,https://www.lewagon.com/berlin
+Energy,Renergiewerke Buttenwiesen GmbH,RenergiewerkeButtenwiesenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SE SAUBER ENERGIE GmbH & Co. KG,SESAUBERENERGIEGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Langensalza GmbH,StadtwerkeBadLangensalzaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Sooden-Allendorf,StadtwerkeBadSooden-Allendorf@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kalkar GmbH & Co. KG,StadtwerkeKalkarGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lebach GmbH & Co. KG,StadtwerkeLebachGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Leine - Solling GmbH,StadtwerkeLeine-SollingGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lohmar GmbH & Co. KG,StadtwerkeLohmarGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke MüllheimStaufen GmbH,StadtwerkeMüllheimStaufenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neustadt in Holstein,StadtwerkeNeustadtinHolstein@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Overath Energie GmbH,StadtwerkeOverathEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Plön Versorgung GmbH,StadtwerkePlönVersorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwäbisch Hall GmbH,StadtwerkeSchwäbischHallGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Soltau GmbH & Co. KG,StadtwerkeSoltauGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Angermünde GmbH,StromversorgungAngermündeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Greifswald GmbH,StromversorgungGreifswaldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Ruhpolding GmbH,StromversorgungRuhpoldingGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Teutoburger Energie Netzwerk eG,TeutoburgerEnergieNetzwerkeG@test.com,https://www.lewagon.com/berlin
+Energy,Aschaffenburger Versorgungs-GmbH,AschaffenburgerVersorgungs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,DREWAG - Stadtwerke Dresden GmbH,DREWAG-StadtwerkeDresdenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Landsberg GmbH,ElektrizitätswerkLandsbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Schweiger GmbH,ElektrizitätswerkSchweigerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energie und Wasser Waldbröl GmbH,EnergieundWasserWaldbrölGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Lenningen GmbH,EnergieversorgungLenningenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Mittelrhein AG,EnergieversorgungMittelrheinAG@test.com,https://www.lewagon.com/berlin
+Energy,Energie Waldeck-Frankenberg GmbH,EnergieWaldeck-FrankenbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EUROGATE Technical Services GmbH,EUROGATETechnicalServicesGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Hermann Geuder Elektrizitätswerk,HermannGeuderElektrizitätswerk@test.com,https://www.lewagon.com/berlin
+Energy,Neubrandenburger Stadtwerke GmbH,NeubrandenburgerStadtwerkeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SimplyGreen von ENTEGA Plus GmbH,SimplyGreenvonENTEGAPlusGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Solargenossenschaft Rosenheim eG,SolargenossenschaftRosenheimeG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Augsburg Energie GmbH,StadtwerkeAugsburgEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Borken/Westfalen GmbH,StadtwerkeBorken/WestfalenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eisenhüttenstadt GmbH,StadtwerkeEisenhüttenstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Frankfurt (Oder) GmbH,StadtwerkeFrankfurt(Oder)GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Fürstenfeldbruck GmbH,StadtwerkeFürstenfeldbruckGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kelheim GmbH & Co. KG,StadtwerkeKelheimGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mühlheim am Main GmbH,StadtwerkeMühlheimamMainGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neustadt an der Donau,StadtwerkeNeustadtanderDonau@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Porta Westfalica GmbH,StadtwerkePortaWestfalicaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schaumburg-Lippe GmbH,StadtwerkeSchaumburg-LippeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwäbisch Gmünd GmbH,StadtwerkeSchwäbischGmündGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waldshut-Tiengen GmbH,StadtwerkeWaldshut-TiengenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Waltrop GmbH & Co. KG,StadtwerkeWaltropGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Neunkirchen GmbH,StromversorgungNeunkirchenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Technische Werke Ludwigshafen AG,TechnischeWerkeLudwigshafenAG@test.com,https://www.lewagon.com/berlin
+Energy,TWS Thüringer Wärme Service GmbH,TWSThüringerWärmeServiceGmbH@test.com,https://www.lewagon.com/berlin
+Energy,WSE Energiedienstleistungen GmbH,WSEEnergiedienstleistungenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Zwickauer Energieversorgung GmbH,ZwickauerEnergieversorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Markt Obernzell,ElektrizitätswerkMarktObernzell@test.com,https://www.lewagon.com/berlin
+Energy,EMB Energie Mark Brandenburg GmbH,EMBEnergieMarkBrandenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EnBW Energie Baden-Württemberg AG,EnBWEnergieBaden-WürttembergAG@test.com,https://www.lewagon.com/berlin
+Energy,EnergieSüdwest Aktiengesellschaft,EnergieSüdwestAktiengesellschaft@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Inselsberg GmbH,EnergieversorgungInselsbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Kranenburg GmbH,EnergieversorgungKranenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Marienberg GmbH,EnergieversorgungMarienbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Michelfeld GmbH,EnergieversorgungMichelfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Nordhausen GmbH,EnergieversorgungNordhausenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Oberstdorf GmbH,EnergieversorgungOberstdorfGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Oy-Kressen e.G.,EnergieversorgungOy-Kressene.G.@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Rudolstadt GmbH,EnergieversorgungRudolstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Trossingen GmbH,EnergieversorgungTrossingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gas- und Wärmedienst Börnsen GmbH,Gas-undWärmedienstBörnsenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Niefern-Öschelbronn,GemeindewerkeNiefern-Öschelbronn@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Schwarzenbruck GmbH,GemeindewerkeSchwarzenbruckGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Wickede (Ruhr) GmbH,GemeindewerkeWickede(Ruhr)GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Siegener Versorgungsbetriebe GmbH,SiegenerVersorgungsbetriebeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Sömmerdaer Energieversorgung GmbH,SömmerdaerEnergieversorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Andernach Energie GmbH,StadtwerkeAndernachEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Aue - Bad Schlema GmbH,StadtwerkeAue-BadSchlemaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bitterfeld-Wolfen GmbH,StadtwerkeBitterfeld-WolfenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eisenberg Energie GmbH,StadtwerkeEisenbergEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eppingen GmbH & Co. KG,StadtwerkeEppingenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Georgsmarienhütte GmbH,StadtwerkeGeorgsmarienhütteGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Kerpen GmbH und Co. KG,StadtwerkeKerpenGmbHundCo.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lambrecht (Pfalz) GmbH,StadtwerkeLambrecht(Pfalz)GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Leinefelde-Worbis GmbH,StadtwerkeLeinefelde-WorbisGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Munster-Bispingen GmbH,StadtwerkeMunster-BispingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pfaffenhofen a. d. Ilm,StadtwerkePfaffenhofena.d.Ilm@test.com,https://www.lewagon.com/berlin
+Energy,StadtWerke Rösrath - Energie GmbH,StadtWerkeRösrath-EnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rotenburg (Wümme) GmbH,StadtwerkeRotenburg(Wümme)GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rothenburg o.d.T. GmbH,StadtwerkeRothenburgo.d.T.GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Suhl/Zella-Mehlis GmbH,StadtwerkeSuhl/Zella-MehlisGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Walldorf GmbH & Co. KG,StadtwerkeWalldorfGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Wunstorf GmbH & Co. KG,StadtwerkeWunstorfGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Markt Egloffstein,StromversorgungMarktEgloffstein@test.com,https://www.lewagon.com/berlin
+Energy,Überlandwerk Erding GmbH & Co. KG,ÜberlandwerkErdingGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Elektra-Genossenschaft Pinzberg eG,Elektra-GenossenschaftPinzbergeG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätsvereinigung Böbing eG,ElektrizitätsvereinigungBöbingeG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Rüsselsheim GmbH,EnergieversorgungRüsselsheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Großkrotzenburg GmbH,GemeindewerkeGroßkrotzenburgGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Hansastrom - eine Marke der JES AG,Hansastrom-eineMarkederJESAG@test.com,https://www.lewagon.com/berlin
+Energy,Iberdrola Energie Deutschland GmbH,IberdrolaEnergieDeutschlandGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Regionalwerk Würmtal GmbH & Co. KG,RegionalwerkWürmtalGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Amberg Versorgungs GmbH,StadtwerkeAmbergVersorgungsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Neustadt a.d. Saale,StadtwerkeBadNeustadta.d.Saale@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Böblingen GmbH & Co. KG,StadtwerkeBöblingenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ditzingen GmbH & Co. KG,StadtwerkeDitzingenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Heidelberg Energie GmbH,StadtwerkeHeidelbergEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ingolstadt Energie GmbH,StadtwerkeIngolstadtEnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Leinfelden-Echterdingen,StadtwerkeLeinfelden-Echterdingen@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ludwigslust-Grabow GmbH,StadtwerkeLudwigslust-GrabowGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Oberursel (Taunus) GmbH,StadtwerkeOberursel(Taunus)GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schüttorf-Emsbüren GmbH,StadtwerkeSchüttorf-EmsbürenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Warsteiner Verbundgesellschaft mbH,WarsteinerVerbundgesellschaftmbH@test.com,https://www.lewagon.com/berlin
+Energy,24/7 Energie und Kommunikation GmbH,24/7EnergieundKommunikationGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Blomberger Versorgungsbetriebe GmbH,BlombergerVersorgungsbetriebeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Donau-Stadtwerke Dillingen-Lauingen,Donau-StadtwerkeDillingen-Lauingen@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätsgesellschaft Levern eG,ElektrizitätsgesellschaftLeverneG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Georg Grandl e.K.,ElektrizitätswerkGeorgGrandle.K.@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Heinrich Schirmer,ElektrizitätswerkHeinrichSchirmer@test.com,https://www.lewagon.com/berlin
+Energy,evd energieversorgung Dormagen GmbH,evdenergieversorgungDormagenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,KEW Karwendel Energie & Wasser GmbH,KEWKarwendelEnergie&WasserGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Regionalwerk Bodensee GmbH & Co. KG,RegionalwerkBodenseeGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lindau (B) GmbH & Co. KG,StadtwerkeLindau(B)GmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ramstein-Miesenbach GmbH,StadtwerkeRamstein-MiesenbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rietberg-Langenberg GmbH,StadtwerkeRietberg-LangenbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schloß Holte-Stukenbrock,StadtwerkeSchloßHolte-Stukenbrock@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schramberg GmbH & Co. KG,StadtwerkeSchrambergGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Traunstein GmbH & Co. KG,StadtwerkeTraunsteinGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Völklingen Vertrieb GmbH,StadtwerkeVölklingenVertriebGmbH@test.com,https://www.lewagon.com/berlin
+Energy,stromee - eine Marke der homee GmbH,stromee-eineMarkederhomeeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,SVI - Stromversorgung Ismaning GmbH,SVI-StromversorgungIsmaningGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Bordesholm GmbH,VersorgungsbetriebeBordesholmGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Kronshagen GmbH,VersorgungsbetriebeKronshagenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Eisenacher Versorgungs-Betriebe GmbH,EisenacherVersorgungs-BetriebeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektra-Genossenschaft Effeltrich eG,Elektra-GenossenschaftEffeltricheG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Gemeinde Glattbach,ElektrizitätswerkGemeindeGlattbach@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitäts-Werk Mainbernheim GmbH,Elektrizitäts-WerkMainbernheimGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elogico - eine Marke der ENSTROGA AG,Elogico-eineMarkederENSTROGAAG@test.com,https://www.lewagon.com/berlin
+Energy,Energie und Versorgung Butzbach GmbH,EnergieundVersorgungButzbachGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Main-Spessart GmbH,EnergieversorgungMain-SpessartGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EVE EnergieVersorgung Elbtalaue GmbH,EVEEnergieVersorgungElbtalaueGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeinde Heroldsbach Stromversorgung,GemeindeHeroldsbachStromversorgung@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Garmisch-Partenkirchen,GemeindewerkeGarmisch-Partenkirchen@test.com,https://www.lewagon.com/berlin
+Energy,Licht- und Kraftwerke Sonneberg GmbH,Licht-undKraftwerkeSonnebergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Oberhessische Versorgungsbetriebe AG,OberhessischeVersorgungsbetriebeAG@test.com,https://www.lewagon.com/berlin
+Energy,Osterholzer Stadtwerke GmbH & Co. KG,OsterholzerStadtwerkeGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadt- und Überlandwerke GmbH Lübben,Stadt-undÜberlandwerkeGmbHLübben@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bad Wildbad GmbH & Co. KG,StadtwerkeBadWildbadGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Bietigheim-Bissingen GmbH,StadtwerkeBietigheim-BissingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Clausthal-Zellerfeld GmbH,StadtwerkeClausthal-ZellerfeldGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Energie Jena-Pößneck GmbH,StadtwerkeEnergieJena-PößneckGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Freudenberg GmbH & Co. KG,StadtwerkeFreudenbergGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lutherstadt Eisleben GmbH,StadtwerkeLutherstadtEislebenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neumarkt in der Oberpfalz,StadtwerkeNeumarktinderOberpfalz@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neustadt an der Orla GmbH,StadtwerkeNeustadtanderOrlaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Reichenbach/Vogtland GmbH,StadtwerkeReichenbach/VogtlandGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rottenburg am Neckar GmbH,StadtwerkeRottenburgamNeckarGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung Zerbst GmbH & Co. KG,StromversorgungZerbstGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Verbands- und Gemeindewerke Rülzheim,Verbands-undGemeindewerkeRülzheim@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Hoyerswerda GmbH,VersorgungsbetriebeHoyerswerdaGmbH@test.com,https://www.lewagon.com/berlin
+Energy,VWS Verbundwerke Südwestsachsen GmbH,VWSVerbundwerkeSüdwestsachsenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Westenthanner Energieversorgung GmbH,WestenthannerEnergieversorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Bauer Elektrounternehmen GmbH & Co.KG,BauerElektrounternehmenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,eins energie in sachsen GmbH & Co. KG,einsenergieinsachsenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energiegenossenschaft für Wittmund eG,EnergiegenossenschaftfürWittmundeG@test.com,https://www.lewagon.com/berlin
+Energy,Energie-Gesellschaft Unterkirnach mbH,Energie-GesellschaftUnterkirnachmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energie- und Wasserwerke Bautzen GmbH,Energie-undWasserwerkeBautzenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,enewa GmbH Energie + Wasser Wachtberg,enewaGmbHEnergie+WasserWachtberg@test.com,https://www.lewagon.com/berlin
+Energy,enwor - energie & wasser vor ort GmbH,enwor-energie&wasservorortGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gas- und Wasserversorgung Höxter GmbH,Gas-undWasserversorgungHöxterGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Eppelborn GmbH & Co. KG,GemeindewerkeEppelbornGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerken Bovenden GmbH & Co. KG,GemeindewerkenBovendenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke St. Michel-Energie GmbH,GemeindewerkeSt.Michel-EnergieGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Georg Oest Mineralölwerk GmbH & Co KG,GeorgOestMineralölwerkGmbH&CoKG@test.com,https://www.lewagon.com/berlin
+Energy,Greenline - alternative energien GmbH,Greenline-alternativeenergienGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Eichstätt Versorgungs-GmbH,StadtwerkeEichstättVersorgungs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Freudenstadt GmbH & Co. KG,StadtwerkeFreudenstadtGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Heilbad Heiligenstadt GmbH,StadtwerkeHeilbadHeiligenstadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neustadt an der Aisch GmbH,StadtwerkeNeustadtanderAischGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Oldenburg in Holstein GmbH,StadtwerkeOldenburginHolsteinGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Pirmasens Versorgungs GmbH,StadtwerkePirmasensVersorgungsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Rosenheim Versorgungs GmbH,StadtwerkeRosenheimVersorgungsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Schwetzingen GmbH & Co. KG,StadtwerkeSchwetzingenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stromversorgung der Gemeinde Hemhofen,StromversorgungderGemeindeHemhofen@test.com,https://www.lewagon.com/berlin
+Energy,SWT Stadtwerke Trier Versorgungs-GmbH,SWTStadtwerkeTrierVersorgungs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetriebe Hann. Münden GmbH,VersorgungsbetriebeHann.MündenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,BEW Bergische Energie- und Wasser-GmbH,BEWBergischeEnergie-undWasser-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Braunschweiger Versorgungs-AG & Co. KG,BraunschweigerVersorgungs-AG&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Diessen Stadler GmbH,ElektrizitätswerkDiessenStadlerGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerke Reutte GmbH & Co KG,ElektrizitätswerkeReutteGmbH&CoKG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Rieger GmbH & Co. KG,ElektrizitätswerkRiegerGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Beckum GmbH & Co. KG,EnergieversorgungBeckumGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Südbaar GmbH & Co.KG,EnergieversorgungSüdbaarGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,ENNI Energie & Umwelt Niederrhein GmbH,ENNIEnergie&UmweltNiederrheinGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Freisinger Stadtwerke Versorgungs-GmbH,FreisingerStadtwerkeVersorgungs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Markt Stockstadt am Main,GemeindewerkeMarktStockstadtamMain@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindewerke Peiner Land GmbH & Co.KG,GemeindewerkePeinerLandGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Grünwelt - eine Marke der Stromio GmbH,Grünwelt-eineMarkederStromioGmbH@test.com,https://www.lewagon.com/berlin
+Energy,hev Hohenloher Energie Versorgung GmbH,hevHohenloherEnergieVersorgungGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Licht- und Kraftwerke Helmbrechts GmbH,Licht-undKraftwerkeHelmbrechtsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Furth im Wald GmbH & Co. KG,StadtwerkeFurthimWaldGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Groß-Gerau Versorgungs GmbH,StadtwerkeGroß-GerauVersorgungsGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Lutherstadt Wittenberg GmbH,StadtwerkeLutherstadtWittenbergGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Villingen-Schwenningen GmbH,StadtwerkeVillingen-SchwenningenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Strom09 - eine Marke der Lichtblick SE,Strom09-eineMarkederLichtblickSE@test.com,https://www.lewagon.com/berlin
+Energy,swb Vertrieb Bremerhaven GmbH & Co. KG,swbVertriebBremerhavenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Nürtingen GmbH,StadtwerkeNürtingenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EGF EnergieGesellschaft Frankenberg mbH,EGFEnergieGesellschaftFrankenbergmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätsgenossenschaft Ohlstadt eG,ElektrizitätsgenossenschaftOhlstadteG@test.com,https://www.lewagon.com/berlin
+Energy,Energie- und Wasserversorgung Bitz GmbH,Energie-undWasserversorgungBitzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Filstal GmbH & Co. KG,EnergieversorgungFilstalGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Oberes Wiesental GmbH,EnergieversorgungOberesWiesentalGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Titisee-Neustadt GmbH,EnergieversorgungTitisee-NeustadtGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Erenja - eine Marke der Gelsenwasser AG,Erenja-eineMarkederGelsenwasserAG@test.com,https://www.lewagon.com/berlin
+Energy,EVS Energieversorgung Schmalkalden GmbH,EVSEnergieversorgungSchmalkaldenGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Fischereihafen-Betriebsgesellschaft mbH,Fischereihafen-BetriebsgesellschaftmbH@test.com,https://www.lewagon.com/berlin
+Energy,Gemeindliche Stromversorgung Röttenbach,GemeindlicheStromversorgungRöttenbach@test.com,https://www.lewagon.com/berlin
+Energy,MONTANA Energieversorgung GmbH & Co. KG,MONTANAEnergieversorgungGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,NEW Niederrhein Energie und Wasser GmbH,NEWNiederrheinEnergieundWasserGmbH@test.com,https://www.lewagon.com/berlin
+Energy,nvb Nordhorner Versorgungsbetriebe GmbH,nvbNordhornerVersorgungsbetriebeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Rupert Buchauer E-Werk & Elektrotechnik,RupertBuchauerE-Werk&Elektrotechnik@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Annaberg-Buchholz Energie AG,StadtwerkeAnnaberg-BuchholzEnergieAG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Friedrichsthal GmbH & Co. KG,StadtwerkeFriedrichsthalGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Mühldorf a. Inn GmbH & Co.KG,StadtwerkeMühldorfa.InnGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Ostmünsterland GmbH & Co. KG,StadtwerkeOstmünsterlandGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Straubing Strom und Gas GmbH,StadtwerkeStraubingStromundGasGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke - Strom Plauen GmbH & Co. KG,Stadtwerke-StromPlauenGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Weimar Stadtversorgungs-GmbH,StadtwerkeWeimarStadtversorgungs-GmbH@test.com,https://www.lewagon.com/berlin
+Energy,Verbandsgemeindewerke Dahner Felsenland,VerbandsgemeindewerkeDahnerFelsenland@test.com,https://www.lewagon.com/berlin
+Energy,Versorgungsbetrieb Waldbüttelbrunn GmbH,VersorgungsbetriebWaldbüttelbrunnGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätsgenossenschaft Hasbergen eG,ElektrizitätsgenossenschaftHasbergeneG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätsgenossenschaft Karlstein eG,ElektrizitätsgenossenschaftKarlsteineG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätsgenossenschaft Oesterweg eG,ElektrizitätsgenossenschaftOesterwegeG@test.com,https://www.lewagon.com/berlin
+Energy,Elektrizitätswerk Leitlein GmbH & Co. KG,ElektrizitätswerkLeitleinGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energie- und Wasserversorgung Bünde GmbH,Energie-undWasserversorgungBündeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Buching-Trauchgau GmbH,EnergieversorgungBuching-TrauchgauGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Dahlenburg-Bleckede AG,EnergieversorgungDahlenburg-BleckedeAG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Rupert Heider & Co. KG,EnergieversorgungRupertHeider&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Energieversorgung Selb-Marktredwitz GmbH,EnergieversorgungSelb-MarktredwitzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,EWG Elektrizitätsversorgung Werther GmbH,EWGElektrizitätsversorgungWertherGmbH@test.com,https://www.lewagon.com/berlin
+Energy,KiezStrom - eine Marke der Lichtblick SE,KiezStrom-eineMarkederLichtblickSE@test.com,https://www.lewagon.com/berlin
+Energy,Kraftwerk Farchant A. Poettinger & Co KG,KraftwerkFarchantA.Poettinger&CoKG@test.com,https://www.lewagon.com/berlin
+Energy,Lünestrom - eine Marke der Firstcon GmbH,Lünestrom-eineMarkederFirstconGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Städtische Werke Magdeburg GmbH & Co. KG,StädtischeWerkeMagdeburgGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,SWP Stadtwerke Pforzheim GmbH & Co. KG,SWPStadtwerkePforzheimGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerkenergie Ostwestfalen-Lippe GmbH,StadtwerkenergieOstwestfalen-LippeGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neunburg vorm Wald Strom GmbH,StadtwerkeNeunburgvormWaldStromGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Neuss Energie und Wasser GmbH,StadtwerkeNeussEnergieundWasserGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Stadtwerke Röthenbach a. d. Pegnitz GmbH,StadtwerkeRöthenbacha.d.PegnitzGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Überlandwerk Schäftersheim GmbH & Co. KG,ÜberlandwerkSchäftersheimGmbH&Co.KG@test.com,https://www.lewagon.com/berlin
+Energy,voltera - eine Marke der Energy2day GmbH,voltera-eineMarkederEnergy2dayGmbH@test.com,https://www.lewagon.com/berlin
+Energy,Warendorfer Energieversorgung GmbH (WEV),WarendorferEnergieversorgungGmbH(WEV)@test.com,https://www.lewagon.com/berlin
+Food,REWE,REWE@test.com,shop.rewe.de
+Food,getnow,getnow@test.com,https://www.lewagon.com/berlin
+Food,Real.de,Real.de@test.com,https://www.lewagon.com/berlin
+Food,Edeka24,Edeka24@test.com,https://www.lewagon.com/berlin
+Food,Eismann,Eismann@test.com,https://www.lewagon.com/berlin
+Food,Lieferando,Lieferando@test.com,https://www.lewagon.com/berlin
+Food,HelloFresh,HelloFresh@test.com,https://www.lewagon.com/berlin
+Food,Amazon Fresh,AmazonFresh@test.com,https://www.lewagon.com/berlin
+Food,Durstexpress,Durstexpress@test.com,https://www.lewagon.com/berlin
+Food,Bringmeister Online-Supermarkt,BringmeisterOnline-Supermarkt@test.com,https://www.lewagon.com/berlin
+Food,myTime.de Lebensmittel online kaufen,myTime.deLebensmittelonlinekaufen@test.com,https://www.lewagon.com/berlin
+Health,BKK24,BKK24@test.com,https://www.lewagon.com/berlin
+Health,AOK Plus,AOKPlus@test.com,https://www.lewagon.com/berlin
+Health,BKK PwC,BKKPwC@test.com,https://www.lewagon.com/berlin
+Health,SKD BKK,SKDBKK@test.com,https://www.lewagon.com/berlin
+Health,TUI BKK,TUIBKK@test.com,https://www.lewagon.com/berlin
+Health,Audi BKK,AudiBKK@test.com,https://www.lewagon.com/berlin
+Health,Bahn-BKK,Bahn-BKK@test.com,https://www.lewagon.com/berlin
+Health,BKK Linde,BKKLinde@test.com,https://www.lewagon.com/berlin
+Health,BKK Pfalz,BKKPfalz@test.com,https://www.lewagon.com/berlin
+Health,Bosch BKK,BoschBKK@test.com,https://www.lewagon.com/berlin
+Health,Salus BKK,SalusBKK@test.com,https://www.lewagon.com/berlin
+Health,AOK Bayern,AOKBayern@test.com,https://www.lewagon.com/berlin
+Health,AOK Hessen,AOKHessen@test.com,https://www.lewagon.com/berlin
+Health,BKK firmus,BKKfirmus@test.com,https://www.lewagon.com/berlin
+Health,BKK Public,BKKPublic@test.com,https://www.lewagon.com/berlin
+Health,Debeka BKK,DebekaBKK@test.com,https://www.lewagon.com/berlin
+Health,AOK Nordost,AOKNordost@test.com,https://www.lewagon.com/berlin
+Health,IKK classic,IKKclassic@test.com,https://www.lewagon.com/berlin
+Health,IKK Südwest,IKKSüdwest@test.com,https://www.lewagon.com/berlin
+Health,BKK Euregio,BKKEuregio@test.com,https://www.lewagon.com/berlin
+Health,BKK Provita,BKKProvita@test.com,https://www.lewagon.com/berlin
+Health,Novitas BKK,NovitasBKK@test.com,https://www.lewagon.com/berlin
+Health,Pronova BKK,PronovaBKK@test.com,https://www.lewagon.com/berlin
+Health,Viactiv BKK,ViactivBKK@test.com,https://www.lewagon.com/berlin
+Health,Knappschaft,Knappschaft@test.com,https://www.lewagon.com/berlin
+Health,AOK Nordwest,AOKNordwest@test.com,https://www.lewagon.com/berlin
+Health,BKK Diakonie,BKKDiakonie@test.com,https://www.lewagon.com/berlin
+Health,BKK exklusiv,BKKexklusiv@test.com,https://www.lewagon.com/berlin
+Health,BKK Herkules,BKKHerkules@test.com,https://www.lewagon.com/berlin
+Health,Actimonda BKK,ActimondaBKK@test.com,https://www.lewagon.com/berlin
+Health,Securvita BKK,SecurvitaBKK@test.com,https://www.lewagon.com/berlin
+Health,DAK-Gesundheit,DAK-Gesundheit@test.com,https://www.lewagon.com/berlin
+Health,BKK Scheufelen,BKKScheufelen@test.com,https://www.lewagon.com/berlin
+Health,BKK Technoform,BKKTechnoform@test.com,https://www.lewagon.com/berlin
+Health,IKK gesund plus,IKKgesundplus@test.com,https://www.lewagon.com/berlin
+Health,Bertelsmann BKK,BertelsmannBKK@test.com,https://www.lewagon.com/berlin
+Health,BKK Freudenberg,BKKFreudenberg@test.com,https://www.lewagon.com/berlin
+Health,BKK Verbundplus,BKKVerbundplus@test.com,https://www.lewagon.com/berlin
+Health,BKK Melitta Plus,BKKMelittaPlus@test.com,https://www.lewagon.com/berlin
+Health,BKK ZF & Partner,BKKZF&Partner@test.com,https://www.lewagon.com/berlin
+Health,AOK Niedersachsen,AOKNiedersachsen@test.com,https://www.lewagon.com/berlin
+Health,Atlas BKK Ahlmann,AtlasBKKAhlmann@test.com,https://www.lewagon.com/berlin
+Health,BKK Dürkopp Adler,BKKDürkoppAdler@test.com,https://www.lewagon.com/berlin
+Health,AOK Sachsen-Anhalt,AOKSachsen-Anhalt@test.com,https://www.lewagon.com/berlin
+Health,Barmer Ersatzkasse,BarmerErsatzkasse@test.com,https://www.lewagon.com/berlin
+Health,BKK Werra-Meissner,BKKWerra-Meissner@test.com,https://www.lewagon.com/berlin
+Health,Handelskrankenkasse,Handelskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Heimat Krankenkasse,HeimatKrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,AOK Baden-Württemberg,AOKBaden-Württemberg@test.com,https://www.lewagon.com/berlin
+Health,AOK Rheinland/Hamburg,AOKRheinland/Hamburg@test.com,https://www.lewagon.com/berlin
+Health,BKK Akzo Nobel Bayern,BKKAkzoNobelBayern@test.com,https://www.lewagon.com/berlin
+Health,BKK Verkehrsbau Union,BKKVerkehrsbauUnion@test.com,https://www.lewagon.com/berlin
+Health,AOK Bremen/Bremerhaven,AOKBremen/Bremerhaven@test.com,https://www.lewagon.com/berlin
+Health,Techniker Krankenkasse,TechnikerKrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Innungskrankenkasse Nord,InnungskrankenkasseNord@test.com,https://www.lewagon.com/berlin
+Health,R+V Betriebskrankenkasse,R+VBetriebskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,BKK Achenbach Buschhütten,BKKAchenbachBuschhütten@test.com,https://www.lewagon.com/berlin
+Health,BKK Wirtschaft & Finanzen,BKKWirtschaft&Finanzen@test.com,https://www.lewagon.com/berlin
+Health,BKK EWE – betriebsbezogen,BKKEWE –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,BKK MTU – betriebsbezogen,BKKMTU –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,Die Bergische Krankenkasse,DieBergischeKrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,BKK Faber-Castell & Partner,BKKFaber-Castell&Partner@test.com,https://www.lewagon.com/berlin
+Health,Mhplus Betriebskrankenkasse,MhplusBetriebskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,AOK Rheinland-Pfalz/Saarland,AOKRheinland-Pfalz/Saarland@test.com,https://www.lewagon.com/berlin
+Health,BKK Würth – betriebsbezogen,BKKWürth –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,Energie-Betriebskrankenkasse,Energie-Betriebskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Merck BKK – betriebsbezogen,MerckBKK –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,Siemens-Betriebskrankenkasse,Siemens-Betriebskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Betriebskrankenkasse Mobil Oil,BetriebskrankenkasseMobilOil@test.com,https://www.lewagon.com/berlin
+Health,BKK Gildemeister Seidensticker,BKKGildemeisterSeidensticker@test.com,https://www.lewagon.com/berlin
+Health,Betriebskrankenkasse der Siemag,BetriebskrankenkassederSiemag@test.com,https://www.lewagon.com/berlin
+Health,HEK – Hanseatische Krankenkasse,HEK–HanseatischeKrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Südzucker BKK – betriebsbezogen,SüdzuckerBKK –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,Landwirtschaftliche Krankenkasse,LandwirtschaftlicheKrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Kaufmännische Krankenkasse – KKH,KaufmännischeKrankenkasse–KKH@test.com,https://www.lewagon.com/berlin
+Health,BKK Salzgitter – betriebsbezogen,BKKSalzgitter –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,Continentale Betriebskrankenkasse,ContinentaleBetriebskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Schwenninger Betriebskrankenkasse,SchwenningerBetriebskrankenkasse@test.com,https://www.lewagon.com/berlin
+Health,Ernst & Young BKK – betriebsbezogen,Ernst&YoungBKK –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,BKK Stadt Augsburg – betriebsbezogen,BKKStadtAugsburg –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,Koenig & Bauer BKK – betriebsbezogen,Koenig&BauerBKK –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,BKK Grillo-Werke AG – betriebsbezogen,BKKGrillo-WerkeAG –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,BKK Deutsche Bank AG – betriebsbezogen,BKKDeutscheBankAG –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Health,BKK B. Braun Aesculap – betriebsbezogen,BKKB.BraunAesculap –betriebsbezogen@test.com,https://www.lewagon.com/berlin
+Shopping,HM,HM@test.com,www2.hm.com/de_de/
+Shopping,Amazon,Amazon@test.com,www.amazon.de
+Shopping,DM,DM@test.com,www.dm.de
+Shopping,Qvc,Qvc@test.com,www.qvc.de
+Shopping,Obi,Obi@test.com,www.obi.de
+Shopping,Eis,Eis@test.com,www.eis.de
+Shopping,Emp,Emp@test.com,www.emp.de
+Shopping,Otto,Otto@test.com,www.otto.de
+Shopping,Lidl,Lidl@test.com,www.lidl.de
+Shopping,Ikea,Ikea@test.com,www.ikea.com/de/de/
+Shopping,Baur,Baur@test.com,baur.de
+Shopping,Asos,Asos@test.com,www.asos.de
+Shopping,Real,Real@test.com,www.real.de
+Shopping,Zara,Zara@test.com,www.zara.com
+Shopping,Nike,Nike@test.com,www.nike.com/de/
+Shopping,Dell,Dell@test.com,www.dell.com/de-de
+Shopping,Apple,Apple@test.com,www.apple.com
+Shopping,Bett1,Bett1@test.com,www.bett1.de
+Shopping,Hse24,Hse24@test.com,www.hse24.de
+Shopping,Shein,Shein@test.com,de.shein.com
+Shopping,Jacob,Jacob@test.com,www.jacob.de
+Shopping,Rebuy,Rebuy@test.com,www.rebuy.de
+Shopping,Heine,Heine@test.com,www.heine.de
+Shopping,Pearl,Pearl@test.com,www.pearl.de
+Shopping,Bader,Bader@test.com,www.bader.de
+Shopping,Saturn,Saturn@test.com,www.saturn.de
+Shopping,Conrad,Conrad@test.com,www.conrad.de
+Shopping,Tchibo,Tchibo@test.com,www.tchibo.de
+Shopping,Mytoys,Mytoys@test.com,www.mytoys.de
+Shopping,Esprit,Esprit@test.com,www.esprit.de
+Shopping,Medpex,Medpex@test.com,www.medpex.de
+Shopping,Home24,Home24@test.com,www.home24.de
+Shopping,Reuter,Reuter@test.com,www.reuter.de
+Shopping,Thalia,Thalia@test.com,www.thalia.de
+Shopping,Medion,Medion@test.com,www.medion.com/de/shop
+Shopping,Adidas,Adidas@test.com,www.adidas.de
+Shopping,Apotal,Apotal@test.com,shop.apotal.de
+Shopping,Schwab,Schwab@test.com,www.schwab.de
+Shopping,Christ,Christ@test.com,www.christ.de
+Shopping,Zalando,Zalando@test.com,www.zalando.de
+Shopping,Bonprix,Bonprix@test.com,www.bonprix.de
+Shopping,Thomann,Thomann@test.com,www.thomann.de
+Shopping,Douglas,Douglas@test.com,www.douglas.de
+Shopping,Zooplus,Zooplus@test.com,www.zooplus.de
+Shopping,Limango,Limango@test.com,www.limango.de
+Shopping,Klingel,Klingel@test.com,www.klingel.de
+Shopping,Flaconi,Flaconi@test.com,www.flaconi.de
+Shopping,Galeria,Galeria@test.com,www.galeria.de
+Shopping,Wayfair,Wayfair@test.com,www.wayfair.de
+Shopping,Soliver,Soliver@test.com,www.soliver.de
+Shopping,Hagebau,Hagebau@test.com,www.hagebau.de
+Shopping,Comtech,Comtech@test.com,comtech.de
+Shopping,C-And-A,C-And-A@test.com,www.c-and-a.com/de
+Shopping,Casando,Casando@test.com,www.casando.de
+Shopping,Bauhaus,Bauhaus@test.com,www.bauhaus.info
+Shopping,Apo-Rot,Apo-Rot@test.com,www.apo-rot.de
+Shopping,Aboutyou,Aboutyou@test.com,www.aboutyou.de
+Shopping,Hornbach,Hornbach@test.com,www.hornbach.de
+Shopping,Medimops,Medimops@test.com,medimops.de
+Shopping,Voelkner,Voelkner@test.com,www.voelkner.de
+Shopping,Weltbild,Weltbild@test.com,www.weltbild.de
+Shopping,Gearbest,Gearbest@test.com,www.gearbest.com
+Shopping,Westwing,Westwing@test.com,www.westwing.de
+Shopping,Reichelt,Reichelt@test.com,www.reichelt.de
+Shopping,Walbusch,Walbusch@test.com,www.walbusch.de
+Shopping,Landsend,Landsend@test.com,www.landsend.de
+Shopping,Mirapodo,Mirapodo@test.com,www.mirapodo.de
+Shopping,Schuhe24,Schuhe24@test.com,www.schuhe24.de
+Shopping,Cyberport,Cyberport@test.com,www.cyberport.de
+Shopping,Alternate,Alternate@test.com,www.alternate.de
+Shopping,Docmorris,Docmorris@test.com,www.docmorris.de
+Shopping,Westfalia,Westfalia@test.com,www.westfalia.de
+Shopping,Babymarkt,Babymarkt@test.com,www.babymarkt.de
+Shopping,Mytheresa,Mytheresa@test.com,www.mytheresa.com
+Shopping,Peterhahn,Peterhahn@test.com,www.peterhahn.de
+Shopping,Deichmann,Deichmann@test.com,www.deichmann.com/DE/de
+Shopping,Mediamarkt,Mediamarkt@test.com,www.mediamarkt.de
+Shopping,Bestsecret,Bestsecret@test.com,bestsecret.com
+Shopping,Breuninger,Breuninger@test.com,www.breuninger.com/de/
+Shopping,Auragentum,Auragentum@test.com,auragentum.de
+Shopping,Kfzteile24,Kfzteile24@test.com,www.kfzteile24.de
+Shopping,Happy-Size,Happy-Size@test.com,www.happy-size.de
+Shopping,Misterspex,Misterspex@test.com,www.misterspex.de
+Shopping,Mindfactory,Mindfactory@test.com,www.mindfactory.de
+Shopping,Witt-Weiden,Witt-Weiden@test.com,www.witt-weiden.de
+Shopping,Sportscheck,Sportscheck@test.com,www.sportscheck.com
+Shopping,Reifendirekt,Reifendirekt@test.com,www.reifendirekt.de
+Shopping,Shop-Apotheke,Shop-Apotheke@test.com,www.shop-apotheke.com
+Shopping,Atp-Autoteile,Atp-Autoteile@test.com,www.atp-autoteile.de
+Shopping,Brands4Friends,Brands4Friends@test.com,www.brands4friends.de
+Shopping,Zalando-Lounge,Zalando-Lounge@test.com,www.zalando-lounge.de
+Shopping,Goldsilbershop,Goldsilbershop@test.com,www.goldsilbershop.de
+Shopping,Computeruniverse,Computeruniverse@test.com,www.computeruniverse.net/de/
+Shopping,Notebooksbilliger,Notebooksbilliger@test.com,www.notebooksbilliger.de
+Shopping,Edelmetall-Handel,Edelmetall-Handel@test.com,www.edelmetall-handel.de
+Shopping,Degussa-Goldhandel,Degussa-Goldhandel@test.com,shop.degussa-goldhandel.de
+Shopping,Medikamente-Per-Klick,Medikamente-Per-Klick@test.com,www.medikamente-per-klick.de
+Sports,FitX,FitX@test.com,www.fitx.de
+Sports,McFit,McFit@test.com,www.mcfit.com
+Sports,Injoy,Injoy@test.com,www.injoy.de
+Sports,FIT/ONE,FIT/ONE@test.com,www.fit-one.de
+Sports,clever fit,cleverfit@test.com,www.clever-fit.com
+Sports,EASYFITNESS,EASYFITNESS@test.com,www.easyfitness.club
+Sports,Holmes Place,HolmesPlace@test.com,www.holmesplace.de
+Sports,Fitness First,FitnessFirst@test.com,www.fitnessfirst.de
+Sports,Kieser Training,KieserTraining@test.com,www.kieser-training.de
+Sports,Activ Fitness Deutschland,ActivFitnessDeutschland@test.com,www.activ-fitness-deutschland.de
+Sports,Deutscher Alpenverein (DAV),DeutscherAlpenverein(DAV)@test.com,www.alpenverein.de
+Travel,DB Bahncard,DBBahncard@test.com,www.bahn.de
+Travel,Flying Blue,FlyingBlue@test.com,www.flyingblue.de
+Travel,Etihad Guest,EtihadGuest@test.com,www.etihadguest.com
+Travel,SIXT Neuwagen,SIXTNeuwagen@test.com,www.sixt-neuwagen.de
+Travel,Lufthansa Miles & More,LufthansaMiles&More@test.com,www.miles-and-more.com
