@@ -1,3 +1,6 @@
 class Move < ApplicationRecord
-    validates :moving_date, presence: true
+  has_many :updates, dependent: :destroy
+
+  validates :moving_date, presence: true
+
 end

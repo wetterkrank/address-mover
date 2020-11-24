@@ -1,9 +1,10 @@
 puts 'Cleaning database now...'
-Provider.destroy_all
 User.destroy_all
+Provider.destroy_all
 Address.destroy_all
 MyProvider.destroy_all
 Move.destroy_all
+Update.destroy_all
 puts 'Database clean ✅'
 
 
@@ -58,9 +59,7 @@ random_day = rand(19..30)
 user.birthday = DateTime.new(1999, 11, random_day)
 user.save!
 
-
 # Provider:
-
 provider = Provider.new
 provider.name = 'Test Provider'
 provider.description = 'Test Description'
@@ -70,14 +69,14 @@ provider.save!
 
 # My_Provider:
 
-my_provider = MyProvider.new
-my_provider.user = user
-my_provider.provider = provider
-my_provider.identifier_value = 'test value'
-my_provider.save!
+my_provider1 = MyProvider.new
+my_provider1.user = user
+my_provider1.provider = provider
+my_provider1.identifier_value = 'test value'
+my_provider1.save!
 
 
-#Address
+# Address
 address = Address.new
 address.city = "Berlin"
 address.street_number = "23"
@@ -99,7 +98,7 @@ address.street_name = "Bundesplatz"
 address.zip = "12163"
 address.save!
 
-#Move
+# Move
 move = Move.new
 random_day = rand(19..30)
 move.moving_date = DateTime.new(2020, 11, random_day)
@@ -120,9 +119,18 @@ random_day = rand(19..30)
 move.moving_date = DateTime.new(2021, 01, random_day)
 move.save!
 
+
+# Update:
+update1 = Update.new
+update1.update_status = ['request not sent 🟡', 'pending 🟠', 'changed 🟢', 'declined 🔴'].sample
+update1.provider = provider
+update1.move = move
+update1.save!
+
 puts "Done!"
 puts "Created #{Provider.count} providers."
 puts "Created #{User.count} users."
 puts "Created #{MyProvider.count} selections of providers (aka 'my providers')."
 puts "Created #{Address.count} addresses."
 puts "Created #{Move.count} moves."
+puts "Created #{Update.count} updates."

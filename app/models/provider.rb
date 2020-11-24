@@ -1,4 +1,6 @@
 class Provider < ApplicationRecord
+  has_many :my_providers, dependent: :destroy
+  has_many :updates, dependent: :destroy
 
   validates :name, presence: true
   validates :name, uniqueness: true
