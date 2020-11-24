@@ -59,6 +59,8 @@ random_day = rand(19..30)
 user.birthday = DateTime.new(1999, 11, random_day)
 user.save!
 
+puts "Created #{User.count} users."
+
 # Provider:
 provider = Provider.new
 provider.name = 'Test Provider'
@@ -66,6 +68,8 @@ provider.description = 'Test Description'
 provider.category = 'Sports'
 provider.provider_email = 'provider@gmail.com'
 provider.save!
+
+puts "Created #{Provider.count} providers."
 
 # My_Provider:
 
@@ -75,6 +79,7 @@ my_provider1.provider = provider
 my_provider1.identifier_value = 'test value'
 my_provider1.save!
 
+puts "Created #{MyProvider.count} selections of providers (aka 'my providers')."
 
 # Address
 address = Address.new
@@ -82,6 +87,7 @@ address.city = "Berlin"
 address.street_number = "23"
 address.street_name = "Schlosstr"
 address.zip = "12163"
+address.user = user
 address.save!
 
 address = Address.new
@@ -89,6 +95,7 @@ address.city = "Berlin"
 address.street_number = "25"
 address.street_name = "Schlosstr"
 address.zip = "12163"
+address.user = user
 address.save!
 
 address = Address.new
@@ -96,29 +103,41 @@ address.city = "Berlin"
 address.street_number = "2"
 address.street_name = "Bundesplatz"
 address.zip = "12163"
+address.user = user
 address.save!
+
+puts "Created #{Address.count} addresses."
 
 # Move
 move = Move.new
 random_day = rand(19..30)
 move.moving_date = DateTime.new(2020, 11, random_day)
+move.user = user
+move.address = address
 move.save!
 
 move = Move.new
 random_day = rand(19..30)
 move.moving_date = DateTime.new(2020, 12, random_day)
+move.user = user
+move.address = address
 move.save!
 
 move = Move.new
 random_day = rand(19..30)
 move.moving_date = DateTime.new(2021, 01, random_day)
+move.user = user
+move.address = address
 move.save!
 
 move = Move.new
 random_day = rand(19..30)
 move.moving_date = DateTime.new(2021, 01, random_day)
+move.user = user
+move.address = address
 move.save!
 
+puts "Created #{Move.count} moves."
 
 # Update:
 update1 = Update.new
@@ -127,10 +146,6 @@ update1.provider = provider
 update1.move = move
 update1.save!
 
-puts "Done!"
-puts "Created #{Provider.count} providers."
-puts "Created #{User.count} users."
-puts "Created #{MyProvider.count} selections of providers (aka 'my providers')."
-puts "Created #{Address.count} addresses."
-puts "Created #{Move.count} moves."
 puts "Created #{Update.count} updates."
+
+puts "Done! :)"
