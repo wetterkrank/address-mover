@@ -11,6 +11,7 @@ puts 'Cleaning database now...'
 Provider.destroy_all
 User.destroy_all
 Address.destroy_all
+Move.destroy_all
 puts 'Database clean ✅'
 
 
@@ -64,8 +65,20 @@ address.street_name = "Schlosstr"
 address.zip = "12163"
 address.save!
 
+#Move
+move = Move.new
+random_day = rand(19..30)
+move.moving_date = DateTime.new(2020, 11, random_day)
+move.save!
+
+move = Move.new
+random_day = rand(19..30)
+move.moving_date = DateTime.new(2020, 12, random_day)
+move.save!
+
 
 puts "Done!"
 puts "Created #{Provider.count} providers."
 puts "Created #{User.count} users."
 puts "Created #{Address.count} addresses."
+puts "Created #{Move.count} moves."
