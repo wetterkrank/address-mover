@@ -5,3 +5,22 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+puts 'Cleaning database now...'
+Provider.destroy_all
+
+puts 'Database clean ✅'
+
+
+# Provider:
+
+provider = Provider.new
+provider.name = 'Test Provider'
+provider.description = 'Test Description'
+provider.category = 'Sports'
+provider.provider_email = 'provider@gmail.com'
+provider.save!
+
+puts "Done!"
+puts "Created #{Provider.count} providers."
