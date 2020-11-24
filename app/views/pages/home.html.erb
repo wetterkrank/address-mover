@@ -1,6 +1,6 @@
-<div class="banner">
-  <div class="banner-content text-center">
-    <h1>The future of moving is here.</h1>
-    <%= link_to "Start now", new_user_session_path, class: "btn btn-lg btn-primary"  %>
-  </div>
-</div>
+<%= content_for(:navbar_class, "navbar-home") %>
+
+<%= render 'home-banner' %>
+
+<%= render 'home-middle-text' %>
+
