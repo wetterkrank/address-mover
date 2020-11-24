@@ -10,7 +10,7 @@
 puts 'Cleaning database now...'
 Provider.destroy_all
 User.destroy_all
-
+Address.destroy_all
 puts 'Database clean ✅'
 
 
@@ -49,6 +49,23 @@ user.birthday = DateTime.new(1993, 04, random_day)
 user.save!
 
 
+#Address
+address = Address.new
+address.city = "Berlin"
+address.street_number = "23"
+address.street_name = "Schlosstr"
+address.zip = "12163"
+address.save!
+
+address = Address.new
+address.city = "Berlin"
+address.street_number = "25"
+address.street_name = "Schlosstr"
+address.zip = "12163"
+address.save!
+
+
 puts "Done!"
 puts "Created #{Provider.count} providers."
 puts "Created #{User.count} users."
+puts "Created #{Address.count} addresses."
