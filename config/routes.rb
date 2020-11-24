@@ -6,3 +6,4 @@ Rails.application.routes.draw do
   resources :providers, only: [ :index ]
   resources :addresses, only: [ :index, :show ]
   
+end
