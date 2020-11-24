@@ -9,6 +9,7 @@
 
 puts 'Cleaning database now...'
 Provider.destroy_all
+User.destroy_all
 
 puts 'Database clean ✅'
 
@@ -22,5 +23,32 @@ provider.category = 'Sports'
 provider.provider_email = 'provider@gmail.com'
 provider.save!
 
+
+
+
+# User:
+user = User.new
+user.email = 'bob@gmail.com'
+user.password = '123456'
+user.first_name = "Bob"
+user.last_name = "Fredo"
+user.phone_number = "070723573"
+random_day = rand(19..30)
+user.birthday = DateTime.new(1993, 03, random_day)
+user.save!
+
+
+user = User.new
+user.email = 'bill@gmail.com'
+user.password = '123456'
+user.first_name = "Bill"
+user.last_name = "Fredo"
+user.phone_number = "078457838"
+random_day = rand(19..30)
+user.birthday = DateTime.new(1993, 04, random_day)
+user.save!
+
+
 puts "Done!"
 puts "Created #{Provider.count} providers."
+puts "Created #{User.count} users."
