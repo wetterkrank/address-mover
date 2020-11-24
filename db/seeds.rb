@@ -122,7 +122,7 @@ puts "Created #{Move.count} moves."
 
 11.times do
   Update.create!(
-    update_status: ['request not sent 🟡', 'pending 🟠', 'changed 🟢', 'declined 🔴'].sample,
+    update_status: ['request not sent', 'pending', 'changed', 'declined'].sample,
     provider: provider_array.sample,
     move: move_array.sample,
   )
