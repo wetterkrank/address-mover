@@ -49,6 +49,36 @@ random_day = rand(19..30)
 user.birthday = DateTime.new(1993, 04, random_day)
 user.save!
 
+user = User.new
+user.email = 'joe@gmail.com'
+user.password = '123456'
+user.first_name = "Joe"
+user.last_name = "Worren"
+user.phone_number = "0784587"
+random_day = rand(19..30)
+user.birthday = DateTime.new(1991, 05, random_day)
+user.save!
+
+user = User.new
+user.email = 'daniel@gmail.com'
+user.password = '123456'
+user.first_name = "Daniel"
+user.last_name = "Bosh"
+user.phone_number = "07845878"
+random_day = rand(19..30)
+user.birthday = DateTime.new(1990, 11, random_day)
+user.save!
+
+user = User.new
+user.email = 'nick@gmail.com'
+user.password = '123456'
+user.first_name = "Nick"
+user.last_name = "Peters"
+user.phone_number = "07845898"
+random_day = rand(19..30)
+user.birthday = DateTime.new(1999, 11, random_day)
+user.save!
+
 
 #Address
 address = Address.new
@@ -65,6 +95,13 @@ address.street_name = "Schlosstr"
 address.zip = "12163"
 address.save!
 
+address = Address.new
+address.city = "Berlin"
+address.street_number = "2"
+address.street_name = "Bundesplatz"
+address.zip = "12163"
+address.save!
+
 #Move
 move = Move.new
 random_day = rand(19..30)
@@ -76,6 +113,15 @@ random_day = rand(19..30)
 move.moving_date = DateTime.new(2020, 12, random_day)
 move.save!
 
+move = Move.new
+random_day = rand(19..30)
+move.moving_date = DateTime.new(2021, 01, random_day)
+move.save!
+
+move = Move.new
+random_day = rand(19..30)
+move.moving_date = DateTime.new(2021, 01, random_day)
+move.save!
 
 puts "Done!"
 puts "Created #{Provider.count} providers."
