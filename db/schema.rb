@@ -20,14 +20,20 @@ ActiveRecord::Schema.define(version: 2020_11_24_102226) do
     t.string "street_number"
     t.string "street_name"
     t.string "zip"
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_addresses_on_user_id"
   end
 
   create_table "moves", force: :cascade do |t|
     t.date "moving_date"
+    t.bigint "user_id", null: false
+    t.bigint "address_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["address_id"], name: "index_moves_on_address_id"
+    t.index ["user_id"], name: "index_moves_on_user_id"
   end
 
   create_table "my_providers", force: :cascade do |t|
@@ -76,6 +82,9 @@ ActiveRecord::Schema.define(version: 2020_11_24_102226) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "addresses", "users"
+  add_foreign_key "moves", "addresses"
+  add_foreign_key "moves", "users"
   add_foreign_key "my_providers", "providers"
   add_foreign_key "my_providers", "users"
   add_foreign_key "updates", "moves"
