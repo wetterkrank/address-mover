@@ -24,15 +24,6 @@ user.birthday = DateTime.new(1993, 03, random_day)
 user.admin = true
 user.save!
 
-admin = User.new
-admin.email = 'admin@gmail.com'
-admin.password = '123456'
-admin.first_name = "Bob"
-admin.last_name = "Admin"
-admin.phone_number = "070723573"
-admin.birthday = DateTime.new(1993, 02, 01)
-admin.save!
-
 user_array = []
 
 user = User.new
@@ -44,6 +35,7 @@ user.phone_number = "078457838"
 user.birthday = DateTime.new(1994, 03, 02)
 user.save!
 user_array << user
+
 
 csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_users.csv'))
 csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
