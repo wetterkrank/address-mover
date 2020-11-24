@@ -4,5 +4,4 @@ class Move < ApplicationRecord
   belongs_to :address, dependent: :destroy
 
   validates :moving_date, presence: true
-
 end
