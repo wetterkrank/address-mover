@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>All addresses</h2>
+
+    <ul>
+      <% @addresses.each do |addr| %>
+        <li><%= "#{addr.street_name}, #{addr.street_number}, #{addr.zip}, #{addr.city}" %></li>
+      <% end %>
+    </ul>
+    
+</div>
