@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_24_100256) do
+ActiveRecord::Schema.define(version: 2020_11_24_102226) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,16 @@ ActiveRecord::Schema.define(version: 2020_11_24_100256) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "my_providers", force: :cascade do |t|
+    t.string "identifier_value"
+    t.bigint "user_id", null: false
+    t.bigint "provider_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["provider_id"], name: "index_my_providers_on_provider_id"
+    t.index ["user_id"], name: "index_my_providers_on_user_id"
+  end
+
   create_table "providers", force: :cascade do |t|
     t.string "name"
     t.string "identifier_name"
@@ -38,6 +48,16 @@ ActiveRecord::Schema.define(version: 2020_11_24_100256) do
     t.string "provider_email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "updates", force: :cascade do |t|
+    t.string "update_status"
+    t.bigint "provider_id", null: false
+    t.bigint "move_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["move_id"], name: "index_updates_on_move_id"
+    t.index ["provider_id"], name: "index_updates_on_provider_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -56,4 +76,8 @@ ActiveRecord::Schema.define(version: 2020_11_24_100256) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "my_providers", "providers"
+  add_foreign_key "my_providers", "users"
+  add_foreign_key "updates", "moves"
+  add_foreign_key "updates", "providers"
 end
