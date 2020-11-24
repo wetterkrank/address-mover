@@ -1,0 +1,11 @@
+﻿email,password,first_name,last_name,phone_number,birthday
+mia.hofer@test.com,123456,Mia,Hofer,0049 12325651,1955/01/11
+milan.gruber@test.com,123456,Milan,Gruber,0049 12325652,1960/02/13
+emilia.becker@test.com,123456,Emilia,Becker,0049 12325653,1965/03/15
+leon.wagner@test.com,123456,Leon,Wagner,0049 12325654,1970/04/17
+lina.meyer@test.com,123456,Lina,Meyer,0049 12325655,1975/05/19
+noah.weber@test.com,123456,Noah,Weber,0049 12325656,1980/06/21
+emma.fischer@test.com,123456,Emma,Fischer,0049 12325657,1985/07/23
+jonas.schneider@test.com,123456,Jonas,Schneider,0049 12325658,1990/08/25
+lara.schmidt@test.com,123456,Lara,Schmidt,0049 12325659,1995/09/27
+elias.müller@test.com,123456,Elias,Müller,0049 12325661,2000/10/29
