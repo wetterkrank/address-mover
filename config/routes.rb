@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
+  resources :user do
+    resources :my_providers, only: [ :index, :show, :new, :create, :destroy ]
+  end
+
   resources :users do
     resources :moves, only: [ :index, :show ] do
       resources :updates, only: [ :index, :edit ]
@@ -15,3 +19,5 @@ Rails.application.routes.draw do
   resources :addresses, only: [ :index, :show ]
 
 end
+
+
