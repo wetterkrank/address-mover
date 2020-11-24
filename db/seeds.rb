@@ -1,30 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-
 puts 'Cleaning database now...'
 Provider.destroy_all
 User.destroy_all
 Address.destroy_all
+MyProvider.destroy_all
 Move.destroy_all
 puts 'Database clean ✅'
-
-
-# Provider:
-
-provider = Provider.new
-provider.name = 'Test Provider'
-provider.description = 'Test Description'
-provider.category = 'Sports'
-provider.provider_email = 'provider@gmail.com'
-provider.save!
-
-
 
 
 # User:
@@ -37,7 +17,6 @@ user.phone_number = "070723573"
 random_day = rand(19..30)
 user.birthday = DateTime.new(1993, 03, random_day)
 user.save!
-
 
 user = User.new
 user.email = 'bill@gmail.com'
@@ -78,6 +57,24 @@ user.phone_number = "07845898"
 random_day = rand(19..30)
 user.birthday = DateTime.new(1999, 11, random_day)
 user.save!
+
+
+# Provider:
+
+provider = Provider.new
+provider.name = 'Test Provider'
+provider.description = 'Test Description'
+provider.category = 'Sports'
+provider.provider_email = 'provider@gmail.com'
+provider.save!
+
+# My_Provider:
+
+my_provider = MyProvider.new
+my_provider.user = user
+my_provider.provider = provider
+my_provider.identifier_value = 'test value'
+my_provider.save!
 
 
 #Address
@@ -126,5 +123,6 @@ move.save!
 puts "Done!"
 puts "Created #{Provider.count} providers."
 puts "Created #{User.count} users."
+puts "Created #{MyProvider.count} selections of providers (aka 'my providers')."
 puts "Created #{Address.count} addresses."
 puts "Created #{Move.count} moves."
