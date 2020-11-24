@@ -1,3 +1,5 @@
+require 'csv'
+
 puts 'Cleaning database now...'
 User.destroy_all
 Provider.destroy_all
@@ -6,146 +8,129 @@ MyProvider.destroy_all
 Move.destroy_all
 Update.destroy_all
 puts 'Database clean ✅'
+puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
 
-# User:
+
+# Users: 1x Admin, 1x LogIn User, 10x 'Real Users'
 user = User.new
-user.email = 'bob@gmail.com'
+user.email = 'admin@gmail.com'
 user.password = '123456'
 user.first_name = "Bob"
 user.last_name = "Fredo"
 user.phone_number = "070723573"
 random_day = rand(19..30)
 user.birthday = DateTime.new(1993, 03, random_day)
+user.admin = true
 user.save!
 
+user_array = []
+
 user = User.new
-user.email = 'bill@gmail.com'
+user.email = 'user@gmail.com'
 user.password = '123456'
-user.first_name = "Bill"
-user.last_name = "Fredo"
+user.first_name = "Anne"
+user.last_name = "User"
 user.phone_number = "078457838"
-random_day = rand(19..30)
-user.birthday = DateTime.new(1993, 04, random_day)
+user.birthday = DateTime.new(1994, 03, 02)
 user.save!
+user_array << user
 
-user = User.new
-user.email = 'joe@gmail.com'
-user.password = '123456'
-user.first_name = "Joe"
-user.last_name = "Worren"
-user.phone_number = "0784587"
-random_day = rand(19..30)
-user.birthday = DateTime.new(1991, 05, random_day)
-user.save!
 
-user = User.new
-user.email = 'daniel@gmail.com'
-user.password = '123456'
-user.first_name = "Daniel"
-user.last_name = "Bosh"
-user.phone_number = "07845878"
-random_day = rand(19..30)
-user.birthday = DateTime.new(1990, 11, random_day)
-user.save!
-
-user = User.new
-user.email = 'nick@gmail.com'
-user.password = '123456'
-user.first_name = "Nick"
-user.last_name = "Peters"
-user.phone_number = "07845898"
-random_day = rand(19..30)
-user.birthday = DateTime.new(1999, 11, random_day)
-user.save!
+csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_users.csv'))
+csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
+csv.each do |row|
+  t = User.new
+  t.email = row[:email]
+  t.password = row[:password]
+  t.first_name = row[:first_name]
+  t.last_name = row[:last_name]
+  t.phone_number = row[:phone_number]
+  t.birthday = row[:birthday]
+  t.save!
+  user_array << t
+end
 
 puts "Created #{User.count} users."
 
 # Provider:
-provider = Provider.new
-provider.name = 'Test Provider'
-provider.description = 'Test Description'
-provider.category = 'Sports'
-provider.provider_email = 'provider@gmail.com'
-provider.save!
+
+provider_array = []
+
+csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_categories_providers.csv'))
+csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
+csv.each do |row|
+  # p row
+  t = Provider.new
+  t.name = row[:name]
+  t.description = row[:description]
+  t.category = row[:category]
+  t.provider_email = row[:provider_email]
+  t.save!
+  provider_array << t
+end
 
 puts "Created #{Provider.count} providers."
 
 # My_Provider:
 
-my_provider1 = MyProvider.new
-my_provider1.user = user
-my_provider1.provider = provider
-my_provider1.identifier_value = 'test value'
-my_provider1.save!
+100.times do
+MyProvider.create!(
+  user: user_array.sample,
+  provider: provider_array.sample,
+# my_provider.identifier_value = 'test value'
+)
+end
 
 puts "Created #{MyProvider.count} selections of providers (aka 'my providers')."
 
-# Address
-address = Address.new
-address.city = "Berlin"
-address.street_number = "23"
-address.street_name = "Schlosstr"
-address.zip = "12163"
-address.user = user
-address.save!
+# Address:
 
-address = Address.new
-address.city = "Berlin"
-address.street_number = "25"
-address.street_name = "Schlosstr"
-address.zip = "12163"
-address.user = user
-address.save!
+address_array = []
 
-address = Address.new
-address.city = "Berlin"
-address.street_number = "2"
-address.street_name = "Bundesplatz"
-address.zip = "12163"
-address.user = user
-address.save!
+csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_addresses.csv'))
+csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
+csv.each do |row|
+  # p row
+  t = Address.new
+  t.street_name = row[:street_name]
+  t.street_number = row[:street_number]
+  t.zip = row[:zip]
+  t.city = row[:city]
+  t.user = user_array.sample
+  t.save!
+  address_array << t
+end
 
 puts "Created #{Address.count} addresses."
 
-# Move
-move = Move.new
-random_day = rand(19..30)
-move.moving_date = DateTime.new(2020, 11, random_day)
-move.user = user
-move.address = address
-move.save!
+# Move:
 
-move = Move.new
-random_day = rand(19..30)
-move.moving_date = DateTime.new(2020, 12, random_day)
-move.user = user
-move.address = address
-move.save!
+move_array = []
 
-move = Move.new
-random_day = rand(19..30)
-move.moving_date = DateTime.new(2021, 01, random_day)
-move.user = user
-move.address = address
-move.save!
+11.times do
+  random_day = rand(1..28)
+  random_month = rand(1..12)
 
-move = Move.new
-random_day = rand(19..30)
-move.moving_date = DateTime.new(2021, 01, random_day)
-move.user = user
-move.address = address
-move.save!
+  move_array << Move.create!(
+    moving_date: DateTime.new(2020, random_month, random_day),
+    user: user_array.sample,
+    address: address_array.sample,
+  )
+end
 
 puts "Created #{Move.count} moves."
 
 # Update:
-update1 = Update.new
-update1.update_status = ['request not sent 🟡', 'pending 🟠', 'changed 🟢', 'declined 🔴'].sample
-update1.provider = provider
-update1.move = move
-update1.save!
+
+11.times do
+  Update.create!(
+    update_status: ['request not sent', 'pending', 'changed', 'declined'].sample,
+    provider: provider_array.sample,
+    move: move_array.sample,
+  )
+end
 
 puts "Created #{Update.count} updates."
 
-puts "Done! :)"
+puts "All done! 😎👍✅"
