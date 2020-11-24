@@ -24,6 +24,12 @@ ActiveRecord::Schema.define(version: 2020_11_24_102226) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "moves", force: :cascade do |t|
+    t.date "moving_date"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "my_providers", force: :cascade do |t|
     t.string "identifier_value"
     t.bigint "user_id", null: false
@@ -47,8 +53,10 @@ ActiveRecord::Schema.define(version: 2020_11_24_102226) do
   create_table "updates", force: :cascade do |t|
     t.string "update_status"
     t.bigint "provider_id", null: false
+    t.bigint "move_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["move_id"], name: "index_updates_on_move_id"
     t.index ["provider_id"], name: "index_updates_on_provider_id"
   end
 
@@ -70,5 +78,6 @@ ActiveRecord::Schema.define(version: 2020_11_24_102226) do
 
   add_foreign_key "my_providers", "providers"
   add_foreign_key "my_providers", "users"
+  add_foreign_key "updates", "moves"
   add_foreign_key "updates", "providers"
 end
