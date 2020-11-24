@@ -10,13 +10,14 @@ puts 'Database clean ✅'
 
 # User:
 user = User.new
-user.email = 'bob@gmail.com'
+user.email = 'admin@gmail.com'
 user.password = '123456'
 user.first_name = "Bob"
 user.last_name = "Fredo"
 user.phone_number = "070723573"
 random_day = rand(19..30)
 user.birthday = DateTime.new(1993, 03, random_day)
+user.admin = true
 user.save!
 
 user = User.new

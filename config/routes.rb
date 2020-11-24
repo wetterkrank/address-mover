@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   end
 
   resources :providers, only: [ :index ]
-  resources :addresses, only: [ :index, :show ]
+  resources :addresses, only: [ :index, :show, :edit, :new, :update, :create, :destroy ]
 
 end
 
