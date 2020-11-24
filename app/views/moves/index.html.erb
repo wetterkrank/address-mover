@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Moves#index</h1>
+
+    <ul>
+        <% @moves.each do |move| %>
+            <li><%= "#{move.moving_date}, to: #{move.address.street_name}" %></li>
+        <% end %>
+    </ul>
+    
+</div>
+
