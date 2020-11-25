@@ -1,12 +1,15 @@
 require 'csv'
 
 puts 'Cleaning database now...'
-User.destroy_all
-Provider.destroy_all
-MyProvider.destroy_all
-Address.destroy_all
 Move.destroy_all
+p Move.all
+Address.destroy_all
+p Address.all
+MyProvider.destroy_all
+User.destroy_all
+p User.all
 Update.destroy_all
+Provider.destroy_all
 puts 'Database clean ✅'
 puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
@@ -110,7 +113,6 @@ move_array = []
 
   move_array << Move.create!(
     moving_date: DateTime.new(2020, random_month, random_day),
-    user: user_array.sample,
     address: address_array.sample,
   )
 end
