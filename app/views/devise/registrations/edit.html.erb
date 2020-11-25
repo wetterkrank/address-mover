@@ -5,20 +5,22 @@
     <%= f.error_notification %>
 
     <div class="form-inputs mb-2">
-      <%= f.input :email, required: true, autofocus: true %>
-
-      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-        <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
-      <% end %>
 
       <p>Please complete these fields:</p>
       <%= f.input :first_name %>
       <%= f.input :last_name %>
       <%= f.input :phone_number %>
-      <%= f.input :birthday %>
+      <%= f.input :birthday, as: :string, input_html: {class: "datepicker"} %>
+      <%= f.input :address_id, label: "Your new address", collection: Address.all, label_method: :to_s %>
+      <%= f.input :moving_date, label: "Planned move date", as: :string, input_html: {class: "datepicker"} %>
 
       <hr>
       
+      <%= f.input :email, required: true, autofocus: true %>
+
+      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+        <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
+      <% end %>
       <%= f.input :password,
                   hint: "leave it blank if you don't want to change it",
                   required: false,
