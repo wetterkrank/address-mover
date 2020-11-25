@@ -3,5 +3,5 @@ class Update < ApplicationRecord
   belongs_to :move
 
   validates :update_status, presence: true
-
+  
 end
