@@ -1,19 +1,46 @@
 require 'csv'
 
 puts 'Cleaning database now...'
+puts "" 
+puts "🔴 Moves:"
 Move.destroy_all
 p Move.all
+
+puts "🔴 Adresses:"
 Address.destroy_all
 p Address.all
-MyProvider.destroy_all
+
+puts "🔴 Users:"
 User.destroy_all
 p User.all
+
+puts "🔴 My Providers:" 
+MyProvider.destroy_all
+p MyProvider.all
+
+puts "🔴 Updates:" 
 Update.destroy_all
+p Update.all
+
+puts "🔴 Providers:" 
 Provider.destroy_all
+p Provider.all
+puts "" 
 puts 'Database clean ✅'
+puts "" 
 puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
 # Users: 1x Admin, 1x LogIn User, 10x 'Real Users'
+
+admin = User.new	
+admin.email = 'admin@gmail.com'	
+admin.password = '123456'	
+admin.first_name = "Bob"	
+admin.last_name = "Admin"	
+admin.phone_number = "070723573"
+admin.admin = true
+admin.birthday = DateTime.new(1993, 02, 01)	
+admin.save!
 
 user_array = []
 
@@ -42,7 +69,7 @@ csv.each do |row|
   user_array << t
 end
 
-puts "Created #{User.count} users."
+puts "- Created #{User.count} users."
 
 # Provider:
 
@@ -61,7 +88,7 @@ csv.each do |row|
   provider_array << t
 end
 
-puts "Created #{Provider.count} providers."
+puts "- Created #{Provider.count} providers."
 
 # My_Provider:
 
@@ -73,7 +100,7 @@ MyProvider.create!(
 )
 end
 
-puts "Created #{MyProvider.count} selections of providers (aka 'my providers')."
+puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
 
 # Address:
 
@@ -93,7 +120,7 @@ csv.each do |row|
   address_array << t
 end
 
-puts "Created #{Address.count} addresses."
+puts "- Created #{Address.count} addresses."
 
 # Move:
 
@@ -109,7 +136,7 @@ move_array = []
   )
 end
 
-puts "Created #{Move.count} moves."
+puts "- Created #{Move.count} moves."
 
 # Update:
 
@@ -121,6 +148,6 @@ puts "Created #{Move.count} moves."
   )
 end
 
-puts "Created #{Update.count} updates."
+puts "- Created #{Update.count} updates."
 
 puts "All done! 😎👍✅"

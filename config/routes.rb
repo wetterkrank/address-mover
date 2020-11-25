@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   resources :users
-  resources :providers, only: [ :index ]
+  resources :providers, only: [ :index, :show, :edit, :update, :destroy ]
   resources :my_providers, only: [ :index, :show, :new, :create, :destroy ]
   
   resources :addresses

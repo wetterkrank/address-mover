@@ -1,9 +1,12 @@
 <div class="cards">
   <% @my_providers.each do |my_provider| %>
-  <div class="card-product">
+  <div class="card-product-index">
     <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" />
       <div class="card-product-infos">
         <h2> <%= my_provider.identifier_value %></h2>
+        <h2> <%= my_provider.provider.name%></h2>
+        <h2> <%= my_provider.provider.category%></h2>
+        <%= link_to 'X' , my_provider_path(my_provider), method: :delete, class:"btn btn-light"%>
       </div>
   </div>
   <% end %>
