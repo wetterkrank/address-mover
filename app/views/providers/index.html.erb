@@ -1,5 +1,9 @@
-<div class="container-fluid mt-5">
-  <%= render "cards-index" %>
+<div class="container mt-5">
+
+  <% Provider::CATEGORY.each do |cat_name| %>
+    <% cat_content = @providers.filter { |prov| prov.category == cat_name } %>
+    <%= render "category", name: cat_name, providers: cat_content %>
+
+  <% end %>
+
 </div>
-
-
