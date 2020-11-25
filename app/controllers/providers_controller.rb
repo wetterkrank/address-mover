@@ -1,8 +1,9 @@
 class ProvidersController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :index ]
+  skip_before_action :authenticate_user!, only: [:index]
+
   def index
-    # @providers = Provider.all
-    @providers = policy_scope(Provider)
+    skip_policy_scope
+    @providers = Provider.all
   end
 
   def show
@@ -21,5 +22,4 @@ class ProvidersController < ApplicationController
   def destroy
     authorize @provider
   end
-
 end
