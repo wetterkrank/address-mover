@@ -29,7 +29,7 @@ class MyProvidersController < ApplicationController
         authorize @my_provider
         @my_provider.save
         if @my_provider.save 
-          redirect_to my_provider_path(@my_provider)
+          redirect_to my_providers_path(@my_provider)
         else 
           render :new
         end
@@ -39,7 +39,10 @@ class MyProvidersController < ApplicationController
     end
 
     def destroy
+      @my_provider = MyProvider.find(params[:id])
+      @my_provider.destroy
       authorize @my_provider
+      redirect_to my_providers_path(@my_provider)
     end
 
     private
