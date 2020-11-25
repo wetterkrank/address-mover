@@ -1,6 +1,6 @@
 .card-provider {
   overflow: hidden;
-  height: 100px;
+  height: 80px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
@@ -9,14 +9,15 @@
 
 .card-provider img {
   height: 100%;
-  width: 100px;
+  width: 80px;
   object-fit: cover;
+  padding: 4px;
 }
 
 .card-provider h3 {
   font-size: 14px;
   font-weight: bold;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .card-provider p {
@@ -24,9 +25,9 @@
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
-  margin-top: 8px;
+  // margin-top: 8px;
 }
 
 .card-provider .card-provider-info {
-  padding: 16px;
+  padding: 0 10px;
 }
