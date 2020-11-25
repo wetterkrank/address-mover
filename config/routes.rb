@@ -4,9 +4,9 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   resources :providers, only: [ :index ]
-  resources :user do
-    resources :my_providers, only: [ :index, :show, :new, :create, :destroy ]
-  end
+
+  resources :my_providers, only: [ :index, :show, :new, :create, :destroy ]
+
   resources :addresses, only: [ :index, :show ]
   
 end
