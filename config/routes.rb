@@ -8,8 +8,6 @@ Rails.application.routes.draw do
   resources :providers, only: [ :index, :show, :edit, :update, :destroy ]
   resources :my_providers, only: [ :index, :show, :new, :create, :destroy ]
   
-  resources :addresses
-  
   resources :moves do
     resources :updates, only: [ :index, :edit ]
   end
