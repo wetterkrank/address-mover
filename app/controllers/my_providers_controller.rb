@@ -1,7 +1,7 @@
 class MyProvidersController < ApplicationController
 
     def index 
-      @my_provider = policy_scope(MyProvider).order(created_at: :desc)
+      @my_providers = policy_scope(MyProvider).order(created_at: :desc)
     end
 
     def show
