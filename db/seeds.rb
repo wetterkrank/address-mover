@@ -1,14 +1,11 @@
 require 'csv'
+require 'date'
 
 puts 'Cleaning database now...'
 puts "" 
 puts "🔴 Moves:"
 Move.destroy_all
 p Move.all
-
-puts "🔴 Adresses:"
-Address.destroy_all
-p Address.all
 
 puts "🔴 Users:"
 User.destroy_all
@@ -30,7 +27,7 @@ puts 'Database clean ✅'
 puts "" 
 puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
-# Users: 1x Admin, 1x LogIn User, 10x 'Real Users'
+# User: 1x Admin, 1x LogIn User, 10x 'Real Users'
 
 admin = User.new	
 admin.email = 'admin@gmail.com'	
@@ -102,41 +99,28 @@ end
 
 puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
 
-# Address:
+# Move:
 
-address_array = []
+move_array = []
 
 csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_addresses.csv'))
 csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
 csv.each do |row|
-  # p row
-  t = Address.new
+  random_day = rand(1..28)
+  random_month = rand(1..12)
+  t = Move.new
+  t.moving_date = DateTime.new(2020, random_month, random_day)
   t.street_name = row[:street_name]
   t.street_number = row[:street_number]
   t.zip = row[:zip]
   t.city = row[:city]
   t.user = user_array.sample
   t.save!
-  address_array << t
-end
-
-puts "- Created #{Address.count} addresses."
-
-# Move:
-
-move_array = []
-
-11.times do
-  random_day = rand(1..28)
-  random_month = rand(1..12)
-
-  move_array << Move.create!(
-    moving_date: DateTime.new(2020, random_month, random_day),
-    address: address_array.sample,
-  )
+  move_array << t
 end
 
 puts "- Created #{Move.count} moves."
+
 
 # Update:
 
