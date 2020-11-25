@@ -6,6 +6,7 @@
         <h2> <%= my_provider.identifier_value %></h2>
         <h2> <%= my_provider.provider.name%></h2>
         <h2> <%= my_provider.provider.category%></h2>
+        <%= link_to 'X' , my_provider_path(my_provider), method: :delete, class:"btn btn-light"%>
       </div>
   </div>
   <% end %>
