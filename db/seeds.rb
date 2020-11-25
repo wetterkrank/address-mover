@@ -1,28 +1,19 @@
 require 'csv'
 
 puts 'Cleaning database now...'
-User.destroy_all
-Provider.destroy_all
-Address.destroy_all
-MyProvider.destroy_all
 Move.destroy_all
+p Move.all
+Address.destroy_all
+p Address.all
+MyProvider.destroy_all
+User.destroy_all
+p User.all
 Update.destroy_all
+Provider.destroy_all
 puts 'Database clean ✅'
 puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
-
-
 # Users: 1x Admin, 1x LogIn User, 10x 'Real Users'
-user = User.new
-user.email = 'admin@gmail.com'
-user.password = '123456'
-user.first_name = "Bob"
-user.last_name = "Fredo"
-user.phone_number = "070723573"
-random_day = rand(19..30)
-user.birthday = DateTime.new(1993, 03, random_day)
-user.admin = true
-user.save!
 
 user_array = []
 
@@ -114,7 +105,6 @@ move_array = []
 
   move_array << Move.create!(
     moving_date: DateTime.new(2020, random_month, random_day),
-    user: user_array.sample,
     address: address_array.sample,
   )
 end
