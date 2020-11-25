@@ -1,15 +1,31 @@
 require 'csv'
 
 puts 'Cleaning database now...'
+
+puts "🔴 Moves:"
 Move.destroy_all
 p Move.all
+
+puts "🔴 Adresses:"
 Address.destroy_all
 p Address.all
-MyProvider.destroy_all
+
+puts "🔴 Users:"
 User.destroy_all
 p User.all
+
+puts "🔴 My Providers:" 
+MyProvider.destroy_all
+p MyProvider.all
+
+puts "🔴 Updates:" 
 Update.destroy_all
+p Update.all
+
+puts "🔴 Providers:" 
 Provider.destroy_all
+p Provider.all
+
 puts 'Database clean ✅'
 puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
