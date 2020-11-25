@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   end
 
   resources :users do
-    resources :moves, only: [ :index, :show ] do
+    resources :moves, only: [ :index, :show, :edit, :new, :update, :create, :destroy ] do
       resources :updates, only: [ :index, :edit ]
     end
   end
