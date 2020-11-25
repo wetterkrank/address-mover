@@ -1,0 +1,6 @@
+<%= simple_form_for [@my_provider] do |f| %>
+  <%= f.input :identifier_value %>
+  <%= f.input :provider_id, collection: Provider.all %>
+  <hr>
+  <%= f.submit class:"button" %>
+<% end %>
