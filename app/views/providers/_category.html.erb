@@ -1,9 +1,9 @@
 <div class="drawer-category">
 
-  <div class="category-cover" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(<%= image_path "city-skyline.jpg" %>)">
+  <div data-action="click->selection#categoryToggle" id="<%= name %>" class="category-cover" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(<%= image_path "city-skyline.jpg" %>)">
     <%= name %>
   </div>
-  <div class="cards category-providers">
+  <div class="cards category-providers" hidden>
     <%= render providers %>
   </div>
   
