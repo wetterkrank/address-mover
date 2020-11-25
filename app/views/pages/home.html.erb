@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= content_for(:navbar_class, "navbar-home") %>
+
+<%= render 'home-banner' %>
+
+<%= render 'home-middle-text' %>
+

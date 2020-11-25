@@ -1,7 +1,11 @@
 require 'csv'
 
 puts 'Cleaning database now...'
+<<<<<<< HEAD
 puts "" 
+=======
+
+>>>>>>> master
 puts "🔴 Moves:"
 Move.destroy_all
 p Move.all
