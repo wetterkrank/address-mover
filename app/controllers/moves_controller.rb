@@ -13,6 +13,8 @@ class MovesController < ApplicationController
   end
 
   def new
+    @user = current_user
+    @move = Move.new
     authorize @move
   end
 
@@ -21,10 +23,24 @@ class MovesController < ApplicationController
   end
 
   def create
+    @user = current_user
+    @move = Move.new(move_params)
+    @move.user = current_user
     authorize @move
+    if @move.save
+      redirect_to moves_path
+    else
+      render :edit
+    end
   end
 
   def destroy
     authorize @move
+  end
+
+  private
+
+  def move_params
+    params.require(:move).permit(:moving_date, :street_name, :street_number, :ZIP, :city)
   end
 end
