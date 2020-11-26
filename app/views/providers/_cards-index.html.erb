@@ -1,0 +1,11 @@
+<div class="cards">
+  <% @providers.each do |provider| %>
+  <div class="card-product">
+    <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" />
+      <div class="card-product-infos">
+        <h2> <%= provider.name %></h2>
+        <p><%=  provider.description %></p>
+      </div>
+  </div>
+  <% end %>
+</div>
