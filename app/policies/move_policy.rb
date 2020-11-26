@@ -19,7 +19,11 @@ class MovePolicy < ApplicationPolicy
 
   def create_updates?
     user_is_owner? || user_is_admin?
-  end 
+  end
+
+  def send_updates?
+    user_is_owner? || user_is_admin?
+  end
 
   def user_is_admin?
     user.admin

@@ -1,44 +1,32 @@
 class UpdatesController < ApplicationController
   def index
-    @updates = policy_scope(Update).order(created_at: :desc)
-    @move = current_user.moves.last #We decided to select the last created move
-    @updates = @move.updates
-    
-  end
- 
-  def show
-    authorize @update
+    @move = current_user.moves.last # We select the last created move as current
+    @updates = policy_scope(Update).where(move: @move)
   end
 
-  def edit 
-    authorize @update
-  end
-
-  def new 
-    authorize @update
-  end
-
-  def update
-    authorize @update
-  end
-
-  def create
-    authorize @update
-  end
-
-  def destroy
-    authorize @update
-  end
-
-  #This method should crate updates and should call another method calling apis
+  # This method creates all updates for the current move
   def create_updates
     @move = current_user.moves.last
+    # Checking if user is allowed to start the move
     authorize @move
     @my_providers = current_user.my_providers
     @my_providers.each do |my_provider|
-      Update.create(move: @move, provider: my_provider.provider, update_status: "request not sent")
+      Update.create(move: @move, provider: my_provider.provider, update_status: Update::STATUS[0])
     end
-    redirect_to my_providers_path
+    redirect_to move_updates_path(@move)
   end
 
+  # This method sends out updates
+  def send_updates
+    @move = current_user.moves.last
+    # Checking if user is allowed to commence the move
+    authorize @move
+    # Here we should actually do some sending; for now just changing the status
+    @move.updates.each do |update|
+      update.update_status = Update::STATUS[1]
+      update.save
+    end
+    flash[:notice] = "We're sending out messages, please check your updates later"
+    redirect_to my_providers_path
+  end
 end
