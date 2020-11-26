@@ -1,4 +1,4 @@
-<div class="card-provider">
+<div class="card-provider"> 
 
   <%= image_tag "enterprise.svg" %>
   
@@ -7,8 +7,8 @@
     <p><%= provider.description %></p>
   </div>
 
-  <div class="card-provider-icon">
-    <%= image_tag "icons/plus.svg" %>
+  <div class="card-provider-icon" >
+    <%= image_tag "icons/plus.svg", data: {action: "click->selection#add"}, id: provider.id %>
   </div>
 
 </div>
