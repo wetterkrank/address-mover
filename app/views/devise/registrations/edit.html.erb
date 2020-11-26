@@ -11,8 +11,6 @@
       <%= f.input :last_name %>
       <%= f.input :phone_number %>
       <%= f.input :birthday, as: :string, input_html: {class: "datepicker"} %>
-      <%= f.input :address_id, label: "Your new address", collection: Address.all, label_method: :to_s %>
-      <%= f.input :moving_date, label: "Planned move date", as: :string, input_html: {class: "datepicker"} %>
 
       <hr>
       
@@ -43,3 +41,4 @@
 
   <%= link_to "Back", :back, class: "btn btn-primary btn-sm" %>
 </div>
+
