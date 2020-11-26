@@ -12,4 +12,12 @@ Rails.application.routes.draw do
   resources :moves do
     resources :updates, only: [ :index, :edit ]
   end
+
+  # namespace :users do
+  #   root :to => "my_providers#index"
+  # end
+
+  get '/user' => "my_providers#index", :as => :user_root
+
+
 end
