@@ -38,6 +38,21 @@ class MovesController < ApplicationController
     authorize @move
   end
 
+  def savemove
+    @move = current_user.moves.last
+    address = params[:informations][0]
+    @move.street_name = address.split(', ')[0]
+    @move.street_number = address.split(', ')[1]
+    @move.zip = address.split(', ')[2]
+    @move.city = address.split(', ')[3]
+    @move.moving_date = params[:informations][1]
+    provider_name = params[:informations][2]
+    @provider = Provider.where(name: provider_name)[0]
+    identifier_value = params[:informations][3]
+    @move.save
+    redirect_to my_providers_path(@my_providers)
+  end
+
   private
 
   def move_params
