@@ -6,6 +6,7 @@ export default class extends Controller {
     console.log('Selection controller go!');
   }
 
+  // Creates the new MyProvider object with AJAX and shows some feedback
   add(event) {
     const providerID = event.target.id;
     const newSelection = { my_provider: { provider_id: providerID } };
