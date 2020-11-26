@@ -1,6 +1,10 @@
 <div class="card-provider"> 
 
-  <%= image_tag "enterprise.svg" %>
+  <% if provider.logo_url.blank? %>
+    <%= image_tag "enterprise.svg" %>
+  <% else %>
+    <img src="<%= provider.logo_url %>">
+  <% end %>
   
   <div class="card-provider-info">
     <h3><%= provider.name %></h3>
