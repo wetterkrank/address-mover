@@ -1,0 +1,24 @@
+<div class= "my-providers-cards">
+  <% @updates.each do |update| %>
+    <div class="card-my-status">
+
+        <% if update.provider.logo_url.blank? %>
+          <%= image_tag "enterprise.svg" %>
+        <% else %>
+          <img src="<%= update.provider.logo_url %>">
+        <% end %>
+
+      <div class="card-my-status-info">
+        <h3> <%= update.provider.name %></h3>
+        <p> <%= update.provider.category %></p>
+        <p> Status: <%= update.update_status %></p>
+      </div>
+
+      <div class="card-my-status-right">
+        <h3> Status: </h3>
+        <p><%= update.update_status %></p>
+      </div>
+
+    </div>
+  <% end %>
+</div>
