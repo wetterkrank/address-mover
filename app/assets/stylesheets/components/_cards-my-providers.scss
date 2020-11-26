@@ -1,4 +1,4 @@
-.card-provider {
+.card-my-provider {
   height: 80px;
   display: grid;
   grid-template-columns: 80px auto 80px;
@@ -10,36 +10,35 @@
   border-radius: 2px;
 }
 
-.card-provider>img {
+.card-my-provider>img {
   height: 100%;
   width: 80px;
   object-fit: contain;
   padding: 4px;
 }
 
-.card-provider h3 {
+.card-my-provider h3 {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
-.card-provider p {
+.card-my-provider p {
   font-size: 12px;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
 }
 
-.card-provider-info {
+.card-my-provider-info {
   padding: 0 10px;
   overflow: hidden;
 }
 
-.card-provider-icon {
+.card-my-provider-icon {
   place-self: center;
-  cursor: pointer;
   img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 }
