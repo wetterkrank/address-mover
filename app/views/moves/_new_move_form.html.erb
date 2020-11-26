@@ -1,22 +1,26 @@
 <%= simple_form_for [@move] do |f| %>
+ <h1>Create your move!</h1>
  <div class="form-inputs mt-3">
-   <%= f.input :moving_date, as: :string, input_html: {class: "datepicker"}, label: 'When are you moving?'%>
   <hr>
+ <h5><strong> <%= f.input :moving_date, as: :string, input_html: {class: "datepicker"}, label: "When are you moving?", placeholder: "Click to pick from calendar"%>
+
  </div>
- <div class="mt-3">
-    Where are you moving to?
+ <hr>
+ <div class="mt-3 mb-3">
+  <h5><strong>Where are you moving to?</strong></h5>
  </div>
-    <%= f.input :street_name %>
-    <%= f.input :street_number %>
-    <%= f.input :zip %>
-    <%= f.input :city %>
-  <div class="form-actions">
-    <%= f.submit class:"button mt-3" %> <span> And start choosing your services!</span>
+    <h5><%= f.input :street_name, placeholder: "i.e. Schlossstrasse" %></h5>
+    <h5><%= f.input :street_number, placeholder: "12" %>
+    <h5><%= f.input :zip, placeholder: "14059" %></h5>
+    <h5><%= f.input :city, placeholder: "Berlin" %></h5>
+  <div class="form-actions mb-3">
+    <%= f.submit class:"button btn btn btn-lg btn-primary" %>
+
   </div>
 <% end %>
 
-
-<div class="mt-5"><span> or </span>
-  <%= link_to 'Go back to Dashboard' , my_providers_path %>
+<div>
+  <p> And start choosing your services on the next step!</p>
+  <span> or </span> <%= link_to 'Go back to Dashboard' , my_providers_path, class: "" %>
 </div>
 
