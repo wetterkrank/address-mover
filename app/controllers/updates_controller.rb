@@ -26,7 +26,7 @@ class UpdatesController < ApplicationController
       update.update_status = Update::STATUS[1]
       update.save
     end
-    flash[:notice] = "We're sending out messages, please check your updates later"
+    flash[:notice] = "We're sending out messages, please check for updates later."
     redirect_to my_providers_path
   end
 end
