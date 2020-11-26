@@ -1,10 +1,11 @@
 class UpdatesController < ApplicationController
   def index
     @updates = policy_scope(Update).order(created_at: :desc)
-    @move = Move.find(params[:move_id])
+    @move = current_user.moves.last #We decided to select the last created move
     @updates = @move.updates
+    
   end
-
+ 
   def show
     authorize @update
   end
