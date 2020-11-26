@@ -1,0 +1,13 @@
+<%= simple_form_for [@move] do |f| %>
+  <%= f.input :moving_date, label: 'When are you moving?'%>
+  <hr>
+  <div class="mb-3"> Where are you moving to? </div>
+  <%= f.input :street_name %>
+  <%= f.input :street_number %>
+  <%= f.input :zip %>
+  <%= f.input :city %>
+  <%= f.submit class:"button mt-3" %> <span> And start choosing your services!</span>
+<% end %>
+
+
+

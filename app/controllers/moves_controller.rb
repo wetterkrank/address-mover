@@ -28,9 +28,9 @@ class MovesController < ApplicationController
     @move.user = current_user
     authorize @move
     if @move.save
-      redirect_to moves_path
+      redirect_to providers_path
     else
-      render :edit
+      render :new
     end
   end
 
@@ -41,6 +41,6 @@ class MovesController < ApplicationController
   private
 
   def move_params
-    params.require(:move).permit(:moving_date, :street_name, :street_number, :ZIP, :city)
+    params.require(:move).permit(:moving_date, :street_name, :street_number, :zip, :city)
   end
 end
