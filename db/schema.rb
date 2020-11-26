@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 2020_11_25_160509) do
     t.string "description"
     t.string "category"
     t.string "provider_email"
+    t.string "logo_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

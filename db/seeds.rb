@@ -81,6 +81,7 @@ csv.each do |row|
   t.description = row[:description]
   t.category = row[:category]
   t.provider_email = row[:provider_email]
+  t.logo_url = row[:image_url]
   t.save!
   provider_array << t
 end
@@ -90,11 +91,11 @@ puts "- Created #{Provider.count} providers."
 # My_Provider:
 
 100.times do
-MyProvider.create!(
-  user: user_array.sample,
-  provider: provider_array.sample,
-# my_provider.identifier_value = 'test value'
-)
+  MyProvider.create!(
+    user: user_array.sample,
+    provider: provider_array.sample,
+    # my_provider.identifier_value = 'test value'
+  )
 end
 
 puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
