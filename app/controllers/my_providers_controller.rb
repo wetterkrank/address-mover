@@ -2,6 +2,7 @@ class MyProvidersController < ApplicationController
   def index
     @my_providers = policy_scope(MyProvider).order(created_at: :desc)
     @move = current_user.moves.last
+    @updates = @move.updates
   end
 
   def show
