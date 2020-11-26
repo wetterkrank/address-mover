@@ -1,16 +1,16 @@
   .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    line-height: 30px; /* Vertically center the text there */
     background: white;
     box-shadow: 0px -2px 13px rgba(0,0,0,0.13);
     a {
-    color: black;
-  }
+      color: black;
+    }
     li {
-    color: black;
-  }
+      color: black;
+    }
+    ul {
+      padding: 20px 0;
+      margin: 0;
+    }
   }
 
   .list-inline-item {
