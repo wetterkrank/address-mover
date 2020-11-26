@@ -1,0 +1,22 @@
+<%= simple_form_for [@move] do |f| %>
+ <div class="form-inputs mt-3">
+   <%= f.input :moving_date, as: :string, input_html: {class: "datepicker"}, label: 'When are you moving?'%>
+  <hr>
+ </div>
+ <div class="mt-3">
+    Where are you moving to?
+ </div>
+    <%= f.input :street_name %>
+    <%= f.input :street_number %>
+    <%= f.input :zip %>
+    <%= f.input :city %>
+  <div class="form-actions">
+    <%= f.submit class:"button mt-3" %> <span> And start choosing your services!</span>
+  </div>
+<% end %>
+
+
+<div class="mt-5"><span> or </span>
+  <%= link_to 'Go back to Dashboard' , my_providers_path %>
+</div>
+

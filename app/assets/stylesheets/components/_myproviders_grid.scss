@@ -1,0 +1,8 @@
+.my-providers-cards {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

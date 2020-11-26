@@ -1,17 +1,35 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  a {
+    color: $our-green;
+    text-decoration: none;
+    transition-duration: 0.8s;
 
-}
+  }
+  a:hover {
+    color: black;
+    text-decoration: none;
+
+  }
+  }
+
 
 .navbar-home {
   position: absolute;
   width: 100%;
   background: transparent;
   box-shadow: none;
-  .navbar-wagon-link {
-    color: white;
+  a {
+    color: black;
     font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.8s;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+
   }
 }
 
