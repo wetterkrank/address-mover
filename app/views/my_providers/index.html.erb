@@ -1,7 +1,7 @@
 <div class="container mt-5">
   <%= link_to "1.Update Profile", edit_user_registration_path(@user), class: "btn btn-sm btn-success mb-5" %>
   <%= link_to "2.Add Providers", new_my_provider_path(@my_provider), class: "btn btn-sm btn-success mb-5" %>
-  <%= link_to "3.Start Process",new_move_path(@move), class: "btn btn-sm btn-success mb-5" %>
+  <%= link_to "3.Start Process",new_move_path(@my_provider), class: "btn btn-sm btn-success mb-5" %>
   <h4> Your providers: </h4>
   <%= render "cards" %>
 </div>

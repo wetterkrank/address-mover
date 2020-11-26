@@ -6,4 +6,7 @@ class Move < ApplicationRecord
   validates :zip, presence: true
   validates :city, presence: true
   
+  def address_string
+    "#{street_name}, #{street_number}, #{zip}, #{city}"
+  end
 end
