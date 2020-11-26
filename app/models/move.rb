@@ -1,6 +1,7 @@
 class Move < ApplicationRecord
   has_many :updates, dependent: :destroy
   belongs_to :user
+  has_many :providers, through: :updates
   
   validates_presence_of :moving_date, :street_name, :street_number
   validates :zip, presence: true

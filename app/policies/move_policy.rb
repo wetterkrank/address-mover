@@ -17,6 +17,10 @@ class MovePolicy < ApplicationPolicy
     user_is_owner? || user_is_admin?
   end
 
+  def create_updates?
+    user_is_owner? || user_is_admin?
+  end 
+
   def user_is_admin?
     user.admin
   end

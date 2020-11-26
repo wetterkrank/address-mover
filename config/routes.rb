@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
   get 'about', to: 'pages#about'
+  post "savemove", to: 'updates#create_updates'
 
   resources :users
   resources :providers, only: [ :index, :show, :edit, :update, :destroy ]
