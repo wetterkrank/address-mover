@@ -16,7 +16,7 @@
       <p> <%= my_pro.provider.category %></p>
       <%# my_pro.provider.identifier_name = "contract number" %>
       <% unless my_pro.provider.identifier_name.blank? %>
-        <p> Additional data requred: <%= link_to my_pro.provider.identifier_name, edit_my_provider_path(my_pro) %></p>
+        <p> Additional data requred: <%= my_pro.provider.identifier_name %> </p>
       <% end %>
     </div>
 

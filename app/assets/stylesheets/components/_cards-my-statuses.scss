@@ -1,7 +1,7 @@
 .card-my-status {
   height: 100px;
   display: grid;
-  grid-template-columns: 80px auto 200px;
+  grid-template-columns: 90px auto 200px;
 
   align-items: center;
   overflow: hidden;
@@ -11,6 +11,7 @@
 }
 
 .card-my-status>img {
+  place-self: center;
   height: 100%;
   width: 80px;
   object-fit: contain;

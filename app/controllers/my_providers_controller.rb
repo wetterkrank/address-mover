@@ -54,6 +54,14 @@ class MyProvidersController < ApplicationController
     end
   end
 
+  # Maybe we should move it to updates controller, just need to figure out how
+  # Checks if all updates are in the new (index 0) status
+  def updates_new?
+    p @updates
+    @updates.all? { |update| update.update_status == Update::STATUS[0] }
+  end
+  helper_method :updates_new?
+
   private
 
   def strong_params
