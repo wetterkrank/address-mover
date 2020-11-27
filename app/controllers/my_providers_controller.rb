@@ -1,8 +1,8 @@
 class MyProvidersController < ApplicationController
   def index
     @my_providers = policy_scope(MyProvider).order(created_at: :desc)
-    @move = current_user.moves.last
-    @updates = @move.updates
+    @move = current_user.moves.last # Showing the last created move as current
+    @updates = @move&.updates # Using the safe navigation operator here, useful in case @move is nil!
   end
 
   def show
