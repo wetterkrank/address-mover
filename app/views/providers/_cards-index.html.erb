@@ -1,11 +1,25 @@
-<div class="cards">
-  <% @providers.each do |provider| %>
-  <div class="card-product">
-    <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" />
-      <div class="card-product-infos">
-        <h2> <%= provider.name %></h2>
-        <p><%=  provider.description %></p>
-      </div>
+<div class="cards-home">
+  <div class="card-home">
+    <%= image_tag "dkb.jpg"%>
   </div>
-  <% end %>
+
+  <div class="card-home">
+    <%= image_tag "amazon.jpg"%>
+  </div>
+
+  <div class="card-home">
+    <%= image_tag "o2.jpg"%>
+  </div>
+
+  <div class="card-home">
+    <%= image_tag  "lidl.jpg"%>
+  </div>
+
+   <div class="card-home">
+    <%= image_tag  "ikea.jpg"%>
+  </div>
+
+   <div class="card-home">
+    <%= image_tag  "otto.jpg"%>
+  </div>
 </div>
