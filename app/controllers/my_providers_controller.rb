@@ -41,9 +41,13 @@ class MyProvidersController < ApplicationController
     @my_provider = MyProvider.find(params[:id])
     authorize @my_provider
     @my_provider.destroy
-    redirect_to my_providers_path
+    respond_to do |format|
+      format.html { redirect_to my_providers_path }
+      format.js {}
+    end
   end
 
+  # This one receives requests from the list providers, :id refers to provider
   def unselect
     @my_provider = MyProvider.where(user: current_user, provider_id: params[:id]).first
     authorize @my_provider

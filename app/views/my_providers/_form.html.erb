@@ -1,6 +1,6 @@
 <div class="container">
   <%= simple_form_for [@my_provider] do |f| %>
-    <%= f.input :identifier_value %>
+    <%= f.input :identifier_value, label: @my_provider.provider.identifier_name %>
     <%= f.input :provider_id, collection: Provider.all %>
     <hr>
     <%= f.submit class:"button" %>
