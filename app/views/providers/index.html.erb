@@ -9,5 +9,7 @@
     <% contents = @providers.filter { |prov| prov.category == cat_name } %>
     <%= render "category", name: cat_name, providers: contents, selected_ids: @selected_ids, icons: @icons %>
   <% end %>
-  <%= link_to "Done", my_providers_path, class: "btn btn-success mt-5" %>
+  <div class="fixed">
+    <%= link_to "Done", my_providers_path, class: "btn btn-success mt-5" %>
+  </div>
 </div>
