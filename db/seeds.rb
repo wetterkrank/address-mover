@@ -90,7 +90,7 @@ puts "- Created #{Provider.count} providers."
 
 # My_Provider:
 
-100.times do
+10.times do
   MyProvider.create!(
     user: user_array.sample,
     provider: provider_array.sample,
@@ -125,7 +125,7 @@ puts "- Created #{Move.count} moves."
 
 # Update:
 
-11.times do
+10.times do
   Update.create!(
     update_status: ['request not sent', 'pending', 'changed', 'declined'].sample,
     provider: provider_array.sample,
