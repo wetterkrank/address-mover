@@ -105,36 +105,36 @@ puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')
 
 # Move:
 
-move_array = []
+# move_array = []
 
-csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_addresses.csv'))
-csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
-csv.each do |row|
-  random_day = rand(1..28)
-  random_month = rand(1..12)
-  t = Move.new
-  t.moving_date = DateTime.new(2020, random_month, random_day)
-  t.street_name = row[:street_name]
-  t.street_number = row[:street_number]
-  t.zip = row[:zip]
-  t.city = row[:city]
-  t.user = user_array.sample
-  t.save!
-  move_array << t
-end
+# csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_addresses.csv'))
+# csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
+# csv.each do |row|
+#   random_day = rand(1..28)
+#   random_month = rand(1..12)
+#   t = Move.new
+#   t.moving_date = DateTime.new(2020, random_month, random_day)
+#   t.street_name = row[:street_name]
+#   t.street_number = row[:street_number]
+#   t.zip = row[:zip]
+#   t.city = row[:city]
+#   t.user = user_array.sample
+#   t.save!
+#   move_array << t
+# end
 
 puts "- Created #{Move.count} moves."
 
 
 # Update:
 
-10.times do
-  Update.create!(
-    update_status: ['request not sent', 'pending', 'changed', 'declined'].sample,
-    provider: provider_array.sample,
-    move: move_array.sample,
-  )
-end
+# 10.times do
+#   Update.create!(
+#     update_status: ['request not sent', 'pending', 'changed', 'declined'].sample,
+#     provider: provider_array.sample,
+#     move: move_array.sample,
+#   )
+# end
 
 puts "- Created #{Update.count} updates."
 
