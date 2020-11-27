@@ -6,7 +6,6 @@ class CreateProviders < ActiveRecord::Migration[6.0]
       t.string :description
       t.string :category
       t.string :provider_email
-      t.string :logo_url
      
       t.timestamps
     end
