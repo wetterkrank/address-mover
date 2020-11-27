@@ -1,11 +1,12 @@
 <div class="container-update">
   <div class="update-info">
-    <h2>Changes review</h2>
+    <h2>Confirm your details</h2>
   </div>
   <div class="update-card">
-    <h4><strong> Personal info </strong><i class="fas fa-info-circle"></i></h4>
+    <h4><strong> Your new address </strong><i class="fas fa-info-circle"></i></h4>
     <h6 class= "input_information"> <%= @move.address_string %></h6>
-    <h5><strong>Your moving date </strong><i class="far fa-calendar-alt"></i></h5>
+    <br>
+    <h4><strong>Your moving date </strong><i class="far fa-calendar-alt"></i></h4>
     <h6 class= "input_information"> <%= @move.moving_date %></h6>
     <hr>
     <h4><strong>Your selected services</strong> <i class="far fa-list-alt"></i></h4>
@@ -17,7 +18,14 @@
     <% end %>
     <%# <%= link_to "Confirm changes",my_providers_path(@my_providers), class: "btn btn-success mt-5" , id: "submit"%>
     <%# <div  class= "btn btn-success mt-5 " id = "submit">Confirm changes</div> %>
-    <%= link_to "Confirm changes", send_path, class: "btn btn-success mt-5", method: "POST" %>
+    <div class ="button-position mt-5">
+      <div class="confirm">
+        <%= link_to "Confirm changes", send_path, class: "btn btn-success", method: "POST" %>
+      </div>
+      <div class="back">
+        <%= link_to "Back to dashboard", my_providers_path %>
+      </div>
+    </div>
   </div>
 </div>
 

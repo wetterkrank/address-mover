@@ -32,3 +32,19 @@
     $headers-font: 'Montserrat', sans-serif;
     color: white;
 }
+
+.button-position{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.confirm{
+    float: right;
+    width: 30%;
+}
+
+.back{
+    float: left;
+    width: 30%;
+}
