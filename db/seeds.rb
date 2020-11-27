@@ -90,12 +90,12 @@ puts "- Created #{Provider.count} providers."
 
 # My_Provider:
 
-10.times do
-  MyProvider.create!(
-    user: user_array.sample,
-    provider: provider_array.sample,
-    # my_provider.identifier_value = 'test value'
-  )
+users_set = user_array.sample(rand(7..9))
+users_set.each do |user|
+  providers_set = provider_array.sample(rand(3..15))
+  providers_set.each do |provider|
+    MyProvider.create!(user: user, provider: provider)
+  end
 end
 
 puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
