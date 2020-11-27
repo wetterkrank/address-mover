@@ -1,50 +1,46 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
-  padding: 20px 50px 20px 50px;
-
+  padding: 5px 25px;
   a {
     color: $cta-green;
     text-decoration: none;
+    transition-property: color;
     transition-duration: 0.8s;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 2rem;
-
   }
   a:hover {
     color: black;
     text-decoration: none;
-
   }
-  }
-
+}
 
 .navbar-home {
   position: absolute;
-    width: 100%;
-    background: transparent;
-    box-shadow: none;
-    padding: 20px 50px 8px 50px;
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  padding: 5px 25px;
+
   a {
+    padding-right: 2rem;
     color: white;
     font-weight: bold;
-    text-decoration: none;
+    transition-property: color;
     transition-duration: 0.8s;
-    padding-right: 2rem;
-
   }
   a:hover {
     color: $navigation-blue;
-    text-decoration: none;
-
   }
+
   .dropdown-menu-right {
     a {
-    color: $navigation-blue;
-    font-weight: bold;
-    text-decoration: none;
-    transition-duration: 0.8s;
-    padding-right: 2rem;
+      color: $navigation-blue;
+      font-weight: bold;
+      text-decoration: none;
+      transition-duration: 0.8s;
+      padding-right: 2rem;
     }
   }
 }
@@ -54,7 +50,6 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
-
+  width: 80px;
 }
 
