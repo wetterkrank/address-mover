@@ -1,7 +1,7 @@
 .card-my-provider {
   height: 100px;
   display: grid;
-  grid-template-columns: 80px auto 80px;
+  grid-template-columns: 90px auto 80px;
 
   align-items: center;
   overflow: hidden;
@@ -11,6 +11,7 @@
 }
 
 .card-my-provider>img {
+  place-self: center;
   height: 100%;
   width: 80px;
   object-fit: contain;

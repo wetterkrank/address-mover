@@ -6,23 +6,36 @@
     <%= link_to "3. Send the updates", start_path, method: "POST", class: "btn btn-success" %>
   </div>
 
+  <%# The completely new user will see this: %>
   <% if @my_providers.empty? && @move.nil? %>
     <p class="text-center">
       Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
     </p>
   <% end %>
 
+  <%# If we have the move information, we show this: %>
   <% unless @move.nil? %>
-    <h4> Your planned move: </h4>
+    <h4> Your move information: </h4>
     <%= render "move-info" %>
-    <%= render "move-updates" %>
+      <%# If we already have some updates planned, we show this: %>
+      <% unless @updates.empty? || updates_new? %>
+        <%= render "move-updates" %>
+      <% end %>
     <hr>
   <% end %>
   
+  <%# If we haven't sent the updates yet, we show the provider selections: %>
   <% unless @my_providers.empty? %>
     <h4> Your providers: </h4>
     <%= render "cards" %>
   <% end %>
-  
+
+  <%# A message in case the move is created, but providers are not selected %>
+  <% if @move.present? && @my_providers.empty? %>
+    <p class="text-center">
+      Now <%= link_to "select the providers", new_move_path(@my_provider) %> which you'd like to inform about your new address.
+    </p>
+  <% end %>
+
 </div>
 
