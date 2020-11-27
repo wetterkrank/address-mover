@@ -33,7 +33,7 @@
   <%# A message in case the move is created, but providers are not selected %>
   <% if @move.present? && @my_providers.empty? %>
     <p class="text-center">
-      Now <%= link_to "select the providers", new_move_path(@my_provider) %> which you'd like to inform about your new address.
+      Now <%= link_to "select the providers", providers_path %> which you'd like to inform about your new address.
     </p>
   <% end %>
 
