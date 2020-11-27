@@ -41,9 +41,16 @@ class MyProvidersController < ApplicationController
     @my_provider = MyProvider.find(params[:id])
     authorize @my_provider
     @my_provider.destroy
-    respond_to do |format|
-      format.html { redirect_to my_providers_path }
-      format.json { render json: {}, status: 200 }
+    redirect_to my_providers_path
+  end
+
+  def unselect
+    @my_provider = MyProvider.where(user: current_user, provider_id: params[:id]).first
+    authorize @my_provider
+    if @my_provider.destroy
+      render json: {}, status: 200
+    else
+      render_errors
     end
   end
 
