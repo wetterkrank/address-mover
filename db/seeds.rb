@@ -71,6 +71,7 @@ puts "- Created #{User.count} users."
 # Provider:
 
 provider_array = []
+identifier_name_array = ['Contract Number', 'Passport ID', 'Phone Number']
 
 csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_categories_providers.csv'))
 csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
@@ -82,6 +83,7 @@ csv.each do |row|
   t.category = row[:category]
   t.provider_email = row[:provider_email]
   t.logo_url = row[:image_url]
+  t.identifier_name = identifier_name_array.sample
   t.save!
   provider_array << t
 end
@@ -99,6 +101,7 @@ users_set.each do |user|
 end
 
 puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
+
 
 # Move:
 
