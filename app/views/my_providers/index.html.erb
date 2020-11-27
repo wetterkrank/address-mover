@@ -1,10 +1,28 @@
-<div class="container mt-5">
-  <%= link_to "1. Create a new move", new_move_path(@my_provider), class: "btn btn-sm btn-success mb-5" %>
-  <%= link_to "2. Add providers to your list", providers_path, class: "btn btn-sm btn-success mb-5" %>
-  <%= link_to "3. Start the update process", start_path, method: "POST", class: "btn btn-sm btn-success mb-5" %>
-  <h4> Your providers: </h4>
-  <%= render "cards" %>
-  <h4> Current move: </h4>
-  <%= render "move-status" %>
+<div class="container">
+
+  <div class="navigation my-5 d-flex justify-content-center">
+    <%= link_to "1. Plan a new move", new_move_path(@my_provider), class: "btn btn-success mr-3" %>
+    <%= link_to "2. Add providers to your list", providers_path, class: "btn btn-success mr-3" %>
+    <%= link_to "3. Send the updates", start_path, method: "POST", class: "btn btn-success" %>
+  </div>
+
+  <% if @my_providers.empty? && @move.nil? %>
+    <p class="text-center">
+      Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
+    </p>
+  <% end %>
+
+  <% unless @move.nil? %>
+    <h4> Your planned move: </h4>
+    <%= render "move-info" %>
+    <%= render "move-updates" %>
+    <hr>
+  <% end %>
+  
+  <% unless @my_providers.empty? %>
+    <h4> Your providers: </h4>
+    <%= render "cards" %>
+  <% end %>
+  
 </div>
 

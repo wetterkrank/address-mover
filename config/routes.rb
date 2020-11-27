@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   
   resources :users
   resources :providers, only: [ :index, :show, :edit, :update, :destroy ]
-  resources :my_providers, only: [ :index, :show, :new, :create, :destroy ]
+  resources :my_providers
   delete "my_providers/unselect/:id", to: "my_providers#unselect"
 
   resources :moves do

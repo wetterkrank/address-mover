@@ -1,4 +1,4 @@
-<div class="my-providers-cards">
+<div class="my-providers-cards mb-3">
 
   <% @my_providers.each do |my_pro| %>
   <div class="card-my-provider">
@@ -14,7 +14,10 @@
     <div class="card-my-provider-info">
       <h3> <%= my_pro.provider.name %></h3>
       <p> <%= my_pro.provider.category %></p>
-      <p> Personal data requred: <%= my_pro.provider.identifier_name %></p>
+      <%# my_pro.provider.identifier_name = "contract number" %>
+      <% unless my_pro.provider.identifier_name.blank? %>
+        <p> Additional data requred: <%= link_to my_pro.provider.identifier_name, edit_my_provider_path(my_pro) %></p>
+      <% end %>
     </div>
 
     <div class="card-my-provider-icon">
