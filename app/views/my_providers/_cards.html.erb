@@ -1,7 +1,7 @@
 <div class="my-providers-cards mb-3">
 
   <% @my_providers.each do |my_pro| %>
-  <div class="card-my-provider">
+  <div class="card-my-provider" id='<%= "mp#{my_pro.id}" %>'>
 
     <%# Must refactor with N+1 request technique %>
     <% if my_pro.provider.logo_url.blank? %>
@@ -21,7 +21,7 @@
     </div>
 
     <div class="card-my-provider-icon">
-      <%= link_to my_provider_path(my_pro), method: :delete do %>
+      <%= link_to my_provider_path(my_pro), method: :delete, remote: true do %>
         <%= image_tag "icons/unchecked.svg" %>
       <% end %>
     </div>

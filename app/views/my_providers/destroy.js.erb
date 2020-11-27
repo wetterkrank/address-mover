@@ -1,0 +1,7 @@
+console.log('AAAA it works!');
+
+document.getElementById('<%= "mp#{@my_provider.id}" %>').remove();
+
+if (document.querySelector('.card-my-provider') == null) {
+  Turbolinks.visit(location.toString());
+}
