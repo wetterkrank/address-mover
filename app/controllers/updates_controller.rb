@@ -7,13 +7,19 @@ class UpdatesController < ApplicationController
   # This method creates all updates for the current move
   def create_updates
     @move = current_user.moves.last
-    # Checking if user is allowed to start the move
-    authorize @move
-    @my_providers = current_user.my_providers
-    @my_providers.each do |my_provider|
-      Update.create(move: @move, provider: my_provider.provider, update_status: Update::STATUS[0])
+    if @move.present?
+      authorize @move
+      # Checking if user is allowed to start the move
+      @my_providers = current_user.my_providers
+      @my_providers.each do |my_provider|
+        Update.create(move: @move, provider: my_provider.provider, update_status: Update::STATUS[0])
+      end
+      redirect_to move_updates_path(@move)
+    else
+      skip_authorization
+      flash[:alert] = "Please make sure your address and date are set."
+      redirect_to my_providers_path
     end
-    redirect_to move_updates_path(@move)
   end
 
   # This method sends out updates
