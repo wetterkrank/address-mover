@@ -1,19 +1,19 @@
 <div class="container-update">
   <div class="update-info">
-    <h2><strong> Changes review </strong></h2>
+    <h2>Changes review</h2>
   </div>
   <div class="update-card">
+    <h4><strong> Personal info </strong><i class="fas fa-info-circle"></i></h4>
+    <h6 class= "input_information"> <%= @move.address_string %></h6>
+    <h5><strong>Your moving date </strong><i class="far fa-calendar-alt"></i></h5>
+    <h6 class= "input_information"> <%= @move.moving_date %></h6>
+    <hr>
+    <h4><strong>Your selected services</strong> <i class="far fa-list-alt"></i></h4>
     <% @updates.each do |update| %>
-    <h5>Personal info:</h5>
-    <h6 class= "input_information"> <%= update.move.address_string %></h6>
     <hr>
-    <h5>Your moving date </h5>
-    <h6 class= "input_information"> <%= update.move.moving_date %></h6>
-    <hr>
-    <h5>Your selected services:</h5>
-    <h6 class= "input_information"> <%= update.provider.name %></h6>
-    <h5>Your provided identificaton:</h5>
-    <h6 class= "input_information"> <%= update.provider.identifier_name %></h6>
+    <p class= "input_information"> <span><%= update.provider.name %></span></p>
+    <h6>Your provided identificaton:</h6>
+    <p class= "input_information"> <%= update.provider.identifier_name%> </p>
     <% end %>
     <%# <%= link_to "Confirm changes",my_providers_path(@my_providers), class: "btn btn-success mt-5" , id: "submit"%>
     <%# <div  class= "btn btn-success mt-5 " id = "submit">Confirm changes</div> %>
