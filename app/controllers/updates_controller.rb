@@ -6,10 +6,11 @@ class UpdatesController < ApplicationController
 
   # This method creates all updates for the current move
   def create_updates
-    @move = current_user.moves.last
+    @move = current_move
     if @move.present?
-      authorize @move
       # Checking if user is allowed to start the move
+      authorize @move
+      @move.updates.destroy_all if updates_new?
       @my_providers = current_user.my_providers
       @my_providers.each do |my_provider|
         Update.create(move: @move, provider: my_provider.provider, update_status: Update::STATUS[0])
@@ -34,5 +35,9 @@ class UpdatesController < ApplicationController
     end
     flash[:notice] = "We're sending out messages, please check for updates later."
     redirect_to my_providers_path
+  end
+
+  def updates_new?
+    @move.updates.all? { |update| update.update_status == Update::STATUS[0] }
   end
 end
