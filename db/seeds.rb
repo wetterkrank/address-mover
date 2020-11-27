@@ -102,7 +102,6 @@ end
 
 puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
 
-
 # Move:
 
 # move_array = []
@@ -124,7 +123,6 @@ puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')
 # end
 
 puts "- Created #{Move.count} moves."
-
 
 # Update:
 
