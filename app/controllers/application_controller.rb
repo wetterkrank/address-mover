@@ -27,6 +27,10 @@ class ApplicationController < ActionController::Base
     ])
   end
 
+  def current_move
+    current_user.moves.last
+  end
+
   private
 
   def skip_pundit?

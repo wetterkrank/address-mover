@@ -128,7 +128,7 @@ puts "- Created #{Move.count} moves."
 
 # 10.times do
 #   Update.create!(
-#     update_status: ['request not sent', 'pending', 'changed', 'declined'].sample,
+#     update_status: Update::STATUS.sample,
 #     provider: provider_array.sample,
 #     move: move_array.sample,
 #   )
