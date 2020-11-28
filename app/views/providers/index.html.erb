@@ -1,15 +1,15 @@
-<div class="container my-5" 
-  data-controller="selection" 
-  data-selection-plus="<%= @icons[:plus] %>" 
-  data-selection-check="<%= @icons[:check] %>"
->
+<div class="container my-5" data-controller="selection">
+
   <h6><strong> Who should you notify when moving?</strong> </h6>
   <p> Click on the categories and select all providers you need to give a heads up about your new home. The selected providers will be added to your provider list in your dashboard. </p>
+
   <% Provider::CATEGORY.each do |cat_name| %>
     <% contents = @providers.filter { |prov| prov.category == cat_name } %>
     <%= render "category", name: cat_name, providers: contents, selected_ids: @selected_ids, icons: @icons %>
   <% end %>
+
   <div class="fixed">
     <%= link_to "Done", my_providers_path, class: "btn btn-success mt-5" %>
   </div>
+
 </div>

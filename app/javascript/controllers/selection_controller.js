@@ -2,69 +2,45 @@ import { Controller } from "stimulus";
 import Rails from "@rails/ujs";
 
 export default class extends Controller {
-
-  initialize() {
-    console.log(this.data.get("check"));
-  }
-
   connect() {
     console.log('Selection controller go!');
   }
 
   // Creates the new MyProvider object with AJAX and shows some feedback
-  add(event) {
-    const checkIcon = this.data.get('check');
-    const providerID = event.target.id;
-    const newSelection = { my_provider: { provider_id: providerID } };
+  toggle(event) {
+    const provider = event.currentTarget;
+    const checked = provider.classList.contains("checked");
 
-    fetch('/my_providers', {
-      method: 'POST',
-      body: JSON.stringify(newSelection),
-      headers: {
-        'Content-Type': 'application/json',
-        'X-CSRF-Token': Rails.csrfToken(),
-        'Accept': 'application/json'
-      },
-      credentials: 'same-origin'
+    const url = this.setUrl(checked, provider);
+    const params = this.setParams(checked, provider);
+    
+    fetch(url, params)
+    .then(function (response) {
+      return response.json(); })
 
-    }).then(function (response) {
-      return response.json();
-
-    }).then(function (data) {
-      const providerButton = document.getElementById(providerID);
-      providerButton.dataset.action = "click->selection#remove";
-      providerButton.src = checkIcon;
-
-    }).catch((error) => {
-      console.error('Error:', error);  // TODO: Add some error message
+    .then(function (data) {
+      provider.classList.toggle("checked"); })
+      
+    .catch((error) => {
+      console.error('Error:', error);  // TODO: Add some error notification
     });
   }
 
+  setUrl(checked, provider) {
+    return (checked ? `/my_providers/unselect/${provider.id}` : '/my_providers');
+  }
 
-  remove(event) {
-    const providerID = event.target.id;
-    const plusIcon = this.data.get('plus');
-
-    fetch(`/my_providers/unselect/${providerID}`, {
-      method: 'DELETE',
+  setParams(checked, provider) {
+    return {
+      method: (checked ? 'DELETE' : 'POST'),
+      body: (checked ? '' : JSON.stringify({ my_provider: { provider_id: provider.id } })),
       headers: {
         'Content-Type': 'application/json',
         'X-CSRF-Token': Rails.csrfToken(),
         'Accept': 'application/json'
       },
       credentials: 'same-origin'
-
-    }).then(function (response) {
-      return response.json();
-
-    }).then(function (data) {
-      const providerButton = document.getElementById(providerID);
-      providerButton.dataset.action = "click->selection#add";
-      providerButton.src = plusIcon;
-
-    }).catch((error) => {
-      console.error('Error:', error);  // TODO: Add some error message
-    });    
+    }
   }
 
   categoryToggle(event) {
