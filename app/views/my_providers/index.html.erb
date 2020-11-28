@@ -2,7 +2,7 @@
 
   <%= render "index-buttons" %>
 
-  <%# The completely new user will see this: %>
+  <%# Completely new user will see this: %>
   <% if @my_providers.empty? && @move.nil? %>
     <p>
       Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
@@ -15,7 +15,7 @@
     <%= render "move-info" %>
       <%# If we already have some updates planned, we show the updates block: %>
       <% unless @updates.empty? || updates_new? %>
-        <h5> Sent updates: </h4>
+        <h4> Sent updates: </h4>
         <%= render "move-updates" %>
       <% end %>
   <% end %>
