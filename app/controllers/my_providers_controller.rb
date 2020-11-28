@@ -10,16 +10,6 @@ class MyProvidersController < ApplicationController
     authorize @my_provider
   end
 
-  def edit
-    authorize @my_provider
-  end
-
-  def new
-    @user = current_user
-    @my_provider = MyProvider.new
-    authorize @my_provider
-  end
-
   def create
     @my_provider = MyProvider.new(strong_params)
     authorize @my_provider
@@ -34,6 +24,18 @@ class MyProvidersController < ApplicationController
     else
       render_errors
     end
+  end
+
+  def edit
+    @my_provider = MyProvider.find(params[:id])
+    authorize @my_provider
+  end
+
+  def update
+    @my_provider = MyProvider.find(params[:id])
+    authorize @my_provider
+    @my_provider.update(strong_params)
+    redirect_to my_providers_path
   end
 
   def destroy
