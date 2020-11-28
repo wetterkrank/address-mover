@@ -10,13 +10,16 @@
   border-radius: 4px;
   transition-property: transform;
   transition-duration: 100ms;
+  background-position: 95% 50%;
+  background-size: 40px;
+  background-repeat: no-repeat;
 }
 
 .card-provider.checked {
   background-image: url(asset_path("icons/checked.svg"));
-  background-position: 95% 50%;
-  background-size: 40px;
-  background-repeat: no-repeat;
+}
+.card-provider.error {
+  background-image: url(asset_path("icons/attention.svg"));
 }
 
 .card-provider:hover {
@@ -36,15 +39,14 @@
 }
 
 .card-provider h3 {
-  font-size: 14px;
+  font-size: smaller;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .card-provider p {
   font-size: 12px;
-  line-height: 1.4;
-  opacity: .7;
+  opacity: .8;
   margin-bottom: 0;
 }
 

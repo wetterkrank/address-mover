@@ -20,9 +20,10 @@ export default class extends Controller {
 
     .then(function (data) {
       provider.classList.toggle("checked"); })
-      
+
     .catch((error) => {
-      console.error('Error:', error);  // TODO: Add some error notification
+      console.error('Error:', error);
+      provider.classList.add("error");
     });
   }
 
