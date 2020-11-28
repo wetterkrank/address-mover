@@ -5,8 +5,6 @@ class ProvidersController < ApplicationController
     skip_policy_scope
     @providers = Provider.all
     @selected_ids = current_user.my_providers.pluck(:provider_id)
-    @icons = { plus: ActionController::Base.helpers.image_url("icons/plus.svg"),
-               check: ActionController::Base.helpers.image_url("icons/checked.svg") }
   end
 
   def show

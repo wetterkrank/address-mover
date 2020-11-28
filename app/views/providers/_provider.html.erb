@@ -1,4 +1,6 @@
-<div class="card-provider"> 
+<div class="card-provider <%= "checked" if provider.id.in?(selected_ids) %>" 
+     data-action="click->selection#toggle" 
+     id="<%= provider.id %>">
 
   <% if provider.logo_url.blank? %>
     <%= image_tag "enterprise.svg" %>
@@ -9,14 +11,6 @@
   <div class="card-provider-info">
     <h3><%= provider.name %></h3>
     <p><%= provider.description %></p>
-  </div>
-
-  <div class="card-provider-icon" >
-    <% if provider.id.in?(selected_ids) %>
-      <%= image_tag icons[:check], data: {action: "click->selection#remove"}, id: provider.id %>
-    <% else %>
-      <%= image_tag icons[:plus], data: {action: "click->selection#add"}, id: provider.id %>
-    <% end %>
   </div>
 
 </div>
