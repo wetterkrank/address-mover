@@ -40,7 +40,7 @@ class UpdatesController < ApplicationController
     updates.each do |update|
       update.update_status = Update::STATUS[1]
       update.save
-      if update.provider.update_method == "api"
+      if update.provider.update_method == "api" && update.provider.api_endpoint.present?
         response = api_send(update)
         logger.debug(response)
       end

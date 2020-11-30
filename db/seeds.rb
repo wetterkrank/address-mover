@@ -78,7 +78,7 @@ Provider.create(
   logo_url: "",
   identifier_name: "Customer number",
   update_method: "api",
-  api_endpoint: "http://localhost:9090/update"
+  api_endpoint: ""
 )
 
 provider_array = []
