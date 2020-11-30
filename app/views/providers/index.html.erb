@@ -5,6 +5,7 @@
 
   <%= render "search_bar" %>
 
+  <%= pluralize @providers.count, "result" %> 
 
   <% Provider::CATEGORY.each do |cat_name| %>
     <% contents = @providers.filter { |prov| prov.category == cat_name } %>
