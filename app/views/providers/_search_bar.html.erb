@@ -2,8 +2,10 @@
   <%= text_field_tag :query,
     params[:query],
     class: "form-control",
-    placeholder: "Find a provider"
+    placeholder: "Find a provider",
+    id: "autocomplete"
   %>
   <%= submit_tag "Search", class: "btn btn-primary mt-3"  %>
 <% end %>
+
 

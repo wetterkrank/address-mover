@@ -3,8 +3,7 @@
   <div data-action="click->selection#categoryToggle" id="<%= name %>" class="category-cover" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(<%= image_path "categories/#{name}.jpg" %>)">
     <%= name %>
   </div>
-
-  <div class="cards-providers category-providers" hidden>
+  <div class="cards-providers category-providers" <%= @search_performed ? "" : "hidden" %>>
     <%= render providers, selected_ids: selected_ids, icons: icons %>
   </div>
 
