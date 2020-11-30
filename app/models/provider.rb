@@ -1,6 +1,6 @@
 class Provider < ApplicationRecord
   CATEGORY = [
-    "Banking & Insurance",
+    "Banking&Insurance",
     "Charity",
     "Communication",
     "Energy",
