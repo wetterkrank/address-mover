@@ -1,4 +1,4 @@
-<div class="card-provider <%= "checked" if provider.id.in?(selected_ids) %>" 
+<div class="card-provider <%= "checked" if selected_ids.include?(provider.id) %>" 
      data-action="click->selection#toggle" 
      id="<%= provider.id %>">
 
