@@ -21,4 +21,12 @@ class Provider < ApplicationRecord
   validates :category, inclusion: { in: CATEGORY, message: "Not a valid category" }
   validates :provider_email, presence: true
   validates :provider_email, uniqueness: true
+
+  include PgSearch::Model
+  pg_search_scope :search_name,
+    against: [ :name ],
+    using: {
+      tsearch: { prefix: true }
+    }
+
 end
