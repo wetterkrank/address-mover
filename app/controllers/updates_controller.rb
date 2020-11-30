@@ -1,5 +1,6 @@
 # TODO: Do we need the require here at all? Or put it somewhere else for autoload?
 require 'net/http'
+require 'net/https'
 require 'uri'
 require 'json'
 
@@ -15,7 +16,7 @@ class UpdatesController < ApplicationController
     if @move.present?
       # Checking if user is allowed to start the move
       authorize @move
-      @move.updates.destroy_all if updates_new?
+      @move.updates.destroy_all # if updates_new?
       @my_providers = current_user.my_providers
       @my_providers.each do |my_provider|
         Update.create(move: @move, provider: my_provider.provider, id_sent: my_provider.identifier_value, update_status: Update::STATUS[0])
@@ -40,7 +41,7 @@ class UpdatesController < ApplicationController
       update.update_status = Update::STATUS[1]
       update.save
       if update.provider.update_method == "api"
-        response = api_call(update)
+        response = api_send(update)
         logger.debug(response)
       end
     end
@@ -48,11 +49,10 @@ class UpdatesController < ApplicationController
     redirect_to my_providers_path
   end
 
-  def api_call(update)
-    uri = URI.parse(update.provider.api_endpoint)
-
+  def api_send(update)
+    uri = URI(update.provider.api_endpoint)
     header = { 'Content-Type': 'application/json', 'Accept': 'application/json' }
-    user = {
+    data = {
       user: {
         customer_number: update.id_sent,
         street_name: update.move.street_name,
@@ -62,12 +62,10 @@ class UpdatesController < ApplicationController
       }
     }
 
-    # Create the HTTP objects
+    # Create and send the HTTP object
     http = Net::HTTP.new(uri.host, uri.port)
-    request = Net::HTTP::Post.new(uri.request_uri, header)
-    request.body = user.to_json
-
-    # Send the request
+    request = Net::HTTP::Patch.new(uri, header)
+    request.body = data.to_json
     http.request(request)
   end
 
