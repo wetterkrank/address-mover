@@ -70,6 +70,17 @@ puts "- Created #{User.count} users."
 
 # Provider:
 
+Provider.create(
+  name: "Company X", 
+  description: "Other services", 
+  category: "Travel", 
+  provider_email: "accounts@companyx.com",
+  logo_url: "",
+  identifier_name: "Customer number",
+  update_method: "api",
+  api_endpoint: ""
+)
+
 provider_array = []
 identifier_name_array = ['Contract Number', 'Passport ID', 'Phone Number']
 

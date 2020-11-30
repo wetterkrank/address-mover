@@ -1,22 +1,21 @@
 .container-update{
-    padding: 30px;
+    padding: 20px 155px;
     display: flex;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("update-background-1.jpg");
+}
+.update-picture{
+    float: left;
+    width: 50%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("update-background.jpg");
     background-size: cover;
     background-position: center;
-}
-.update-info{
-    float: left;
-    width: 30%;
-    padding: 5px;
+
 }
 
 .update-card{
     float: right;
-    width: 70%;
+    width: 50%;
     padding: 40px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 13px;
     width: 50%;
     font-weight: bold;
     background: white;
@@ -25,12 +24,14 @@
     }
 }
 
-.update-info h2 {
+.update-card h2 {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 0;
     $headers-font: 'Montserrat', sans-serif;
-    color: white;
+    color: $cta-green;
+    padding-bottom: 20px;
+
 }
 
 .button-position{

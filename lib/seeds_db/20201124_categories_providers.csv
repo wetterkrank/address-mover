@@ -1,14 +1,14 @@
 ﻿category,name,provider_email,description,image_url
-Banking & Insurance,AXA,AXA@test.com,www.axa.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606485642/Address-Mover-Logos/1024px-AXA_Logo.svg_rzvtly.png
-Banking & Insurance,ING,ING@test.com,www.ing.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323418/BANKING%20AND%20INSURANCE/ing_rexlkz.jpg
-Banking & Insurance,DKB,DKB@test.com,www.dkb.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323417/BANKING%20AND%20INSURANCE/512x512bb_ynriag.jpg
-Banking & Insurance,ADAC,ADAC@test.com,www.adac.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/adac_logo_400x400_vdfxdc.png
-Banking & Insurance,Allianz,Allianz@test.com,www.allianz.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323417/BANKING%20AND%20INSURANCE/269a06387ab7898efbbfd1f62da01efb_fjbuev.jpg
-Banking & Insurance,Commerzbank,Commerzbank@test.com,www.commerzbank.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/Commerzbank-Logo_nt9fhd.png
-Banking & Insurance,ERGO Direkt AG,ERGODirektAG@test.com,www.ergo.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323418/BANKING%20AND%20INSURANCE/800px-ERGO_Kindlustusgrupi_logo.svg_nmvekp.png
-Banking & Insurance,Hypovereinsbank,Hypovereinsbank@test.com,www.hypovereinsbank.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/HypoVereinsbank-Logo-650x315_h8maph.png
-Banking & Insurance,Berliner Sparkasse,BerlinerSparkasse@test.com,www.berliner-sparkasse.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/huk_coburg_sn86z5.png
-Banking & Insurance,HUK-COBURG Versicherung,HUK-COBURGVersicherungsgruppe@test.com,www.huk.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/huk_coburg_sn86z5.png
+Banking&Insurance,AXA,AXA@test.com,www.axa.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606485642/Address-Mover-Logos/1024px-AXA_Logo.svg_rzvtly.png
+Banking&Insurance,ING,ING@test.com,www.ing.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323418/BANKING%20AND%20INSURANCE/ing_rexlkz.jpg
+Banking&Insurance,DKB,DKB@test.com,www.dkb.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323417/BANKING%20AND%20INSURANCE/512x512bb_ynriag.jpg
+Banking&Insurance,ADAC,ADAC@test.com,www.adac.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/adac_logo_400x400_vdfxdc.png
+Banking&Insurance,Allianz,Allianz@test.com,www.allianz.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323417/BANKING%20AND%20INSURANCE/269a06387ab7898efbbfd1f62da01efb_fjbuev.jpg
+Banking&Insurance,Commerzbank,Commerzbank@test.com,www.commerzbank.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/Commerzbank-Logo_nt9fhd.png
+Banking&Insurance,ERGO Direkt AG,ERGODirektAG@test.com,www.ergo.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323418/BANKING%20AND%20INSURANCE/800px-ERGO_Kindlustusgrupi_logo.svg_nmvekp.png
+Banking&Insurance,Hypovereinsbank,Hypovereinsbank@test.com,www.hypovereinsbank.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/HypoVereinsbank-Logo-650x315_h8maph.png
+Banking&Insurance,Berliner Sparkasse,BerlinerSparkasse@test.com,www.berliner-sparkasse.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/huk_coburg_sn86z5.png
+Banking&Insurance,HUK-COBURG Versicherung,HUK-COBURGVersicherungsgruppe@test.com,www.huk.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474592/Address-Mover-Logos/huk_coburg_sn86z5.png
 Charity,Tdh,Tdh@test.com,www.tdh.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474613/Address-Mover-Logos/terre_des_hommes_xcys38.png
 Charity,Plan,Plan@test.com,www.plan.de,https://res.cloudinary.com/dzokjumuf/image/upload/v1606474613/Address-Mover-Logos/plan-logo_lepyzm.png
 Charity,Unicef,Unicef@test.com,www.unicef.de,https://res.cloudinary.com/daf0zj13q/image/upload/v1606323513/charity/bf34fc01b9ad70afc5fc3f23858c2a88_yn5tzs.png
