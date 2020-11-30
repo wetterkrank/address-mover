@@ -71,14 +71,14 @@ puts "- Created #{User.count} users."
 # Provider:
 
 Provider.create(
-  name: "Company X", 
+  name: "Some Company", 
   description: "Other services", 
   category: "Travel", 
   provider_email: "accounts@companyx.com",
   logo_url: "",
   identifier_name: "Customer number",
   update_method: "api",
-  api_endpoint: ""
+  api_endpoint: "http://some-company.herokuapp.com/update"
 )
 
 provider_array = []
