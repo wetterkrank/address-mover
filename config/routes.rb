@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "about", to: "pages#about"
   
   resources :users
+  get 'providers/search', to: 'providers#search'
   resources :providers, only: [ :index, :show, :edit, :update, :destroy ]
   resources :my_providers
   delete "my_providers/unselect/:id", to: "my_providers#unselect"

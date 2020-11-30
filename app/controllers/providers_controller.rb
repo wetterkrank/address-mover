@@ -1,4 +1,5 @@
 class ProvidersController < ApplicationController
+  before_action :force_json, only: :search
 
   def index
     skip_policy_scope
@@ -14,6 +15,12 @@ class ProvidersController < ApplicationController
       format.json { render json: @providers }
       format.html
     end
+  end
+
+  def search
+    skip_authorization
+    q = params[:q].downcase
+    @providers = Provider.where("name ILIKE ?", "%#{q}%").limit(10)
   end
 
   def show
@@ -32,4 +39,11 @@ class ProvidersController < ApplicationController
   def destroy
     authorize @provider
   end
+
+  private
+  
+  def force_json
+    request.format = :json
+  end
+
 end

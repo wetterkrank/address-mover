@@ -4,8 +4,17 @@ import Rails from "@rails/ujs";
 export default class extends Controller {
   connect() {
     console.log('Selection controller go!');
-    
-    this.getProvidersList();
+   
+    var options = {
+      url: function(phrase) {
+        return "/providers/search.json?q=" + phrase;
+      },
+      getValue: "name",
+    };
+  
+    $('#autocomplete').easyAutocomplete(options);
+
+    // this.getProvidersList();
   }
 
   // Creates the new MyProvider object with AJAX and shows some feedback
