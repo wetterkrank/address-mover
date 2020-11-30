@@ -62,31 +62,4 @@ export default class extends Controller {
     providerList.toggleAttribute('hidden');
   }
 
-  getProvidersList() {
-    const params = {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-CSRF-Token': Rails.csrfToken(),
-        'Accept': 'application/json'
-      },
-      credentials: 'same-origin'
-    };
-
-    const url = '/providers';
-      
-    fetch(url, params)
-    .then(response => response.json())
-    .then((data) => {  
-      let providerList = [];
-        for( let entry in data ){
-          const provider = data[entry];
-          const providerName = provider.name;
-          providerList.push(providerName);
-        }
-      const options = { data: providerList };
-      console.log(options)
-      $("#autocomplete").easyAutocomplete(options);
-    });
-  }
 }
