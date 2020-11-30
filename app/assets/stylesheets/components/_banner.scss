@@ -11,9 +11,18 @@
     font-size: 55px;
     width: 300px;
     height: 177px;
-
-
   }
+
+  p{
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    height: 150px;
+    margin-top: 3rem;
+    text-align: left;
+  }
+
+
 
   .banner-content {
     padding-left: 12%;
@@ -23,12 +32,13 @@
   }
 
   .btn {
-    padding: 15px 50px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding: 15px 80px;
     display: block;
-    margin-left: 45%;
     z-index: 1;
-    margin-top: 20%;
-    border-radius: 25px;
+    margin-top: 3rem;
+    border-radius: 7px;
   }
 }
 
