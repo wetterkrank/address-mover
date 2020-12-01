@@ -33,44 +33,23 @@ class UpdatesController < ApplicationController
   # This method sends out updates
   def send_updates
     @move = current_user.moves.last
-    # Checking if user is allowed to commence the move
     authorize @move
-    # TODO: refactor with N+1 request (add providers to updates)
-    updates = @move.updates
+    updates = @move.updates.includes(:provider)
+
     # Here we should actually do some sending; for now just changing the status
     updates.each do |update|
-      update.update_status = Update::STATUS[1]
-      update.save
+      update.update(update_status: Update::STATUS[1]) # Muahaha
       if update.provider.update_method == "api" && update.provider.api_endpoint.present?
-        response = api_send(update)
-        logger.debug(response)
+        ApiSendJob.perform_later(update)
+        next
       end
-      if update.provider.update_method == "none"
+      if update.provider.update_method.blank?
         PDF.create(parent: update, uuid: SecureRandom.uuid)
       end
     end
+
     flash[:notice] = "Hooray! We're informing your providers, please come back later to check the updates."
     redirect_to my_providers_path
-  end
-
-  def api_send(update)
-    uri = URI(update.provider.api_endpoint)
-    header = { 'Content-Type': 'application/json', 'Accept': 'application/json' }
-    data = {
-      user: {
-        customer_number: update.id_sent,
-        street_name: update.move.street_name,
-        street_number: update.move.street_number,
-        zip: update.move.zip,
-        city: update.move.city
-      }
-    }
-
-    # Create and send the HTTP object
-    http = Net::HTTP.new(uri.host, uri.port)
-    request = Net::HTTP::Patch.new(uri, header)
-    request.body = data.to_json
-    http.request(request)
   end
 
   def updates_new?
