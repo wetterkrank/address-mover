@@ -3,6 +3,7 @@ require 'net/http'
 require 'net/https'
 require 'uri'
 require 'json'
+require 'securerandom'
 
 class UpdatesController < ApplicationController
   def index
@@ -43,6 +44,9 @@ class UpdatesController < ApplicationController
       if update.provider.update_method == "api" && update.provider.api_endpoint.present?
         response = api_send(update)
         logger.debug(response)
+      end
+      if update.provider.update_method == "none"
+        PDF.create(parent: update, uuid: SecureRandom.uuid)
       end
     end
     flash[:notice] = "Hooray! We're informing your providers, please come back later to check the updates."

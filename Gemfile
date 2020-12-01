@@ -66,3 +66,7 @@ gem 'pundit'
 
 # PG Search
 gem 'pg_search', '~> 2.3.0'
+
+# PDF Generation
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'

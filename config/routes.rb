@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
   post "start", to: "updates#create_updates"
   post "send", to: "updates#send_updates"
+  get "pdfs/:uuid", to: "pdfs#show"
 
   # What's this for? Nicer dashboard URL?
   get '/user' => "my_providers#index", :as => :user_root
