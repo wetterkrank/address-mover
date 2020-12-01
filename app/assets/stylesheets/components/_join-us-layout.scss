@@ -4,7 +4,6 @@ border-radius: 5px;
 background: #F4F4F4;
 box-shadow:  8px 8px 16px #e0e0e0,
              -8px -8px 16px #ffffff;
-
   h3 {
     color: white;
     font-weight: bolder;
@@ -13,6 +12,8 @@ box-shadow:  8px 8px 16px #e0e0e0,
   }
   a {
     border-radius: 7px;
-
+  }
+  h4 {
+    color: $background-purple;
   }
 }
