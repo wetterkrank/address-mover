@@ -17,54 +17,23 @@
 		</div>
 	</div>
 
-	<input type="radio" name="tabs-v" id="tab2-v">
+		<input type="radio" name="tabs-v" id="tab2-v" checked="checked">
 	<label for="tab2-v">
-
-		<p>2 . Add providers to your list</p>
+		<p> 2 . Add New Providers </p>
 	</label>
 	<div class="tab-content">
-		<div class="reverse-tab">
-			<div class="txt-tab-first">
-      
-				<div class="second-content">
-					  <%# Completely new user will see this: %>
-            <% if @my_providers.empty? && @move.nil? %>
-              <p>
-                Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
-              </p>
-            <% end %>
-
-            <%# If we have the move information, we show the move block: %>
-            <% unless @move.nil? %>
-              <h2> Your move information: </h2>
-              <%= render "move-info" %>
-                <%# If we already have some updates planned, we show the updates block: %>
-                <% unless @updates.empty? || updates_new? %>
-                  <h4> Requests sent to providers </h4>
-                  <%= render "move-updates" %>
-                <% end %>
-            <% end %>
-  
-              <%# If we haven't sent the updates yet, we show the provider selections: %>
-              <% unless @my_providers.empty? %>
-                <hr>
-                <h4> Previously added providers: </h4>
-                <%= render "cards" %>
-              <% end %>
-
-              <%# A message in case the move is created, but providers are not selected: %>
-              <% if @move.present? && @my_providers.empty? && updates_new? %>
-                <hr>
-                <p>
-                  <%= link_to "Select the providers", providers_path %> which you'd like to inform about your new address.
-                </p>
-              <% end %>
+		<div>
+			<div class="txt-tab">
+				<div>
+					<h3>Where and when do you move? </h3>
+					<p>Please let us know your new address and indicate as of when the change should be valid.</p>
+					  <%= link_to "Add new providers", providers_path, class: "btn btn-large btn-success mr-3" %>
 				</div>
 			</div>
+			<div class="img-tab2"></div>
 		</div>
-    <%= link_to "Add new providers", providers_path, class: "btn btn-large btn-success mr-3 mt-3 mb-3" %>
 	</div>
-
+      
 	<input type="radio" name="tabs-v" id="tab3-v">
 	<label for="tab3-v">
 		<p>3 . Confirm & Send</p>
