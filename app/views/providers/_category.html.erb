@@ -1,6 +1,6 @@
 <div class="drawer-category">
 
-  <div data-action="click->selection#categoryToggle" id="<%= name %>" class="category-cover" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url(<%= image_path "categories/#{name}.jpg" %>)">
+  <div data-action="click->selection#categoryToggle" id="<%= name %>" class="category-cover" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(<%= image_path "categories/#{name}.jpg" %>)">
     <%= name %>
   </div>
   <div class="cards-providers category-providers" <%= @search_performed ? "" : "hidden" %>>
