@@ -31,6 +31,11 @@ class ApplicationController < ActionController::Base
     current_user.moves.last
   end
 
+  # Rails image_url helper requires you setup your host to generate the absolute url needed to load your images from the external world (Facebook, Twitter, ...).
+  def default_url_options
+    { host: ENV["DOMAIN"] || "localhost:3000" }
+  end
+
   private
 
   def skip_pundit?
