@@ -11,7 +11,9 @@
 
   <% Provider::CATEGORY.each do |cat_name| %>
     <% contents = @providers.filter { |prov| prov.category == cat_name } %>
+    <% unless contents.empty? %>
     <%= render "category", name: cat_name, providers: contents, selected_ids: @selected_ids, icons: @icons %>
+    <% end %>
   <% end %>
 
   <div class="fixed">
