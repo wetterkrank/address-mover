@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_30_121647) do
+ActiveRecord::Schema.define(version: 2020_12_01_150026) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,6 +35,14 @@ ActiveRecord::Schema.define(version: 2020_11_30_121647) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["provider_id"], name: "index_my_providers_on_provider_id"
     t.index ["user_id"], name: "index_my_providers_on_user_id"
+  end
+
+  create_table "pdfs", force: :cascade do |t|
+    t.string "uuid"
+    t.bigint "update_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["update_id"], name: "index_pdfs_on_update_id"
   end
 
   create_table "providers", force: :cascade do |t|
@@ -82,6 +90,7 @@ ActiveRecord::Schema.define(version: 2020_11_30_121647) do
   add_foreign_key "moves", "users"
   add_foreign_key "my_providers", "providers"
   add_foreign_key "my_providers", "users"
+  add_foreign_key "pdfs", "updates"
   add_foreign_key "updates", "moves"
   add_foreign_key "updates", "providers"
 end
