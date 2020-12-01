@@ -70,3 +70,6 @@ gem 'pg_search', '~> 2.3.0'
 # PDF Generation
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+
+# Background jobs
+gem 'sucker_punch', '~> 2.0'

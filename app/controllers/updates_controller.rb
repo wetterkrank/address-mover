@@ -13,64 +13,56 @@ class UpdatesController < ApplicationController
 
   # This method creates all updates for the current move
   def create_updates
-    @move = current_move
-    if @move.present?
-      # Checking if user is allowed to start the move
-      authorize @move
-      @move.updates.destroy_all # if updates_new?
-      @my_providers = current_user.my_providers
-      @my_providers.each do |my_provider|
-        Update.create(move: @move, provider: my_provider.provider, id_sent: my_provider.identifier_value, update_status: Update::STATUS[0])
-      end
-      redirect_to move_updates_path(@move)
-    else
+    @move = current_move # current_user.moves.last
+
+    if @move.nil?
       skip_authorization
       flash[:alert] = "Please make sure your new address and move date are set."
       redirect_to my_providers_path
+      return
     end
+
+    authorize @move
+
+    my_providers = current_user.my_providers.includes(:provider)
+    if some_id_missing?(my_providers)
+      flash[:alert] = "Some data required by your providers is missing, please fill in and try again."
+      redirect_to my_providers_path
+      return
+    end
+
+    @move.updates.destroy_all # if updates_new?
+    my_providers.each do |my_pro|
+      Update.create(move: @move, provider: my_pro.provider, id_sent: my_pro.identifier_value, update_status: Update::STATUS[0])
+    end
+
+    redirect_to move_updates_path(@move)
   end
 
   # This method sends out updates
   def send_updates
     @move = current_user.moves.last
-    # Checking if user is allowed to commence the move
     authorize @move
-    # TODO: refactor with N+1 request (add providers to updates)
-    updates = @move.updates
+    updates = @move.updates.includes(:provider)
+
     # Here we should actually do some sending; for now just changing the status
     updates.each do |update|
-      update.update_status = Update::STATUS[1]
-      update.save
+      update.update(update_status: Update::STATUS[1]) # Muahaha
       if update.provider.update_method == "api" && update.provider.api_endpoint.present?
-        response = api_send(update)
-        logger.debug(response)
+        ApiSendJob.perform_later(update)
+        next
       end
-      if update.provider.update_method == "none"
+      if update.provider.update_method.blank?
         PDF.create(parent: update, uuid: SecureRandom.uuid)
       end
     end
+
     flash[:notice] = "Hooray! We're informing your providers, please come back later to check the updates."
     redirect_to my_providers_path
   end
 
-  def api_send(update)
-    uri = URI(update.provider.api_endpoint)
-    header = { 'Content-Type': 'application/json', 'Accept': 'application/json' }
-    data = {
-      user: {
-        customer_number: update.id_sent,
-        street_name: update.move.street_name,
-        street_number: update.move.street_number,
-        zip: update.move.zip,
-        city: update.move.city
-      }
-    }
-
-    # Create and send the HTTP object
-    http = Net::HTTP.new(uri.host, uri.port)
-    request = Net::HTTP::Patch.new(uri, header)
-    request.body = data.to_json
-    http.request(request)
+  def some_id_missing?(my_providers)
+    my_providers.any? { |my_pro| my_pro.identifier_value.blank? && my_pro.provider.identifier_name.present? }
   end
 
   def updates_new?

@@ -3,7 +3,7 @@ class Update < ApplicationRecord
 
   belongs_to :provider
   belongs_to :move
-  has_one :pdf
+  has_one :pdf, dependent: :destroy
   has_one :user, through: :move
 
   validates :update_status, presence: true
