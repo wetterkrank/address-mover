@@ -8,8 +8,8 @@
 		<div>
 			<div class="txt-tab">
 				<div>
-					<h3>When do you want to move </h3>
-					<p>Nullam nec gravida diam, sed aliquet metus. Pellentesque fermentum orci tincidunt nibh vestibulum, ut dignissim augue aliquet. Proin porta nec massa vel tincidunt. Aliquam ac rutrum elit. Proin ut fringilla orci, eget ultrices ligula. Nulla sed tincidunt ipsum. Nullam scelerisque vel massa nec tempus. Maecenas fermentum leo ut malesuada porta.</p>
+					<h3>Where and when do you move? </h3>
+					<p>Please let us know your new address and indicate as of when the change should be valid.</p>
 					 <%= link_to "Plan your move", new_move_path(@my_provider), class: "btn btn-large btn-success mr-3" %>
 				</div>
 			</div>
@@ -67,15 +67,15 @@
 
 	<input type="radio" name="tabs-v" id="tab3-v">
 	<label for="tab3-v">
-		<p>3 . Send updates</p>
+		<p>3 . Confirm & Send</p>
 	</label>
 	<div class="tab-content">
 		<div>
 			<div class="txt-tab">
 				<div>
-					<h3>Aenean nisi nulla, ultricies dignissim lectus at, auctor euismod sem.</h3>
-					<p>Aliquam massa elit, molestie sit amet aliquam sit amet, efficitur ut justo. Suspendisse sagittis purus tellus, et lobortis lacus tincidunt eu. Etiam at pretium sapien. Duis eu lacinia leo, vitae dictum orci. Sed varius viverra turpis, eu fermentum ex tempus eu. Aliquam ut dolor urna.</p>
-					  <%= link_to "Send the updates", start_path, method: "POST", class: "btn btn-large btn-success" %>
+					<h3>Everything is ready?</h3>
+					<p>In the last step, please review your data. Everything looks fine? Ready to go! 🎉.</p>
+					  <%= link_to "Review your data", start_path, method: "POST", class: "btn btn-large btn-success" %>
 				</div>
 			</div>
 			<div class="img-tab3"></div>

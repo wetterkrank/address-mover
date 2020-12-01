@@ -1,5 +1,5 @@
 <%= simple_form_for [@move] do |f| %>
-  <h1>Create your move!</h1>
+  <h1>Plan your move!</h1>
 
   <div class="form-inputs mt-3">
     <hr>
@@ -13,7 +13,7 @@
     <h5><strong>Where are you moving to?</strong></h5>
   </div>
 
-  <h5><%= f.input :street_name, placeholder: "i.e. Schlossstrasse" %></h5>
+  <h5><%= f.input :street_name, placeholder: "i.e. Schlossstraße" %></h5>
   <h5><%= f.input :street_number, placeholder: "12" %>
   <h5><%= f.input :zip, placeholder: "14059" %></h5>
   <h5><%= f.input :city, placeholder: "Berlin" %></h5>
@@ -24,6 +24,6 @@
 <% end %>
 
 <div>
-  <p> And start choosing your services on the next step!</p>
+  <p> And start choosing your providers on the next step!</p>
   <span> or </span> <%= link_to 'Go back to Dashboard', my_providers_path %>
 </div>
