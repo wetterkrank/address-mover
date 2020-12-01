@@ -1,14 +1,15 @@
-<div class="container home-providers-layout my-5 p-5 text-center">
+<div class="container join-us-layout my-5 p-5 text-center">
   <% if user_signed_in? %>
-    <h4> Already stressed about having to update your info when you move? Get started today and change your address in all your services in minutes!</h4>
+    <h4> Stressed about having to update your info when you move?</h4>
+    <h4>Start today and change your address in all your services in minutes!</h4>
     <div class="container d-flex justify-content-center">
-    <%= link_to "Create a Move", new_move_path, class: "btn btn-lg btn-info mb-3" %>
+      <%= link_to "Create a Move", new_move_path, class: "btn btn-lg btn-info mb-3" %>
     </div>
   <% else %>
-    <h4> Already stressed about having to update your info when you move? Register in two minutes and get started today!</h4>
+    <h4> Stressed about having to update your info when you move? Register in two minutes and get started today!</h4>
     <div class="container d-flex justify-content-center">
-    <%= link_to "Join Us", new_user_registration_path, class: "btn btn-lg btn-info mb-3" %>
+      <%= link_to "Join Us", new_user_registration_path, class: "btn btn-lg btn-info mb-3" %>
     </div>
-    <% end %>
+  <% end %>
 
-  </div>
+</div>

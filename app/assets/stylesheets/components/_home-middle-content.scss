@@ -10,6 +10,7 @@
 .home-steps {
   margin-top: 40px;
   margin-bottom: 40px;
+
   i {
     font-size : 3rem;
     color: #03c4a1;
@@ -24,4 +25,23 @@
     color: #31326f;
   }
 
+}
+
+.intro-row {
+  background: $background-purple;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+  p {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.20rem;
+    text-align: center;
+  }
+}
+
+.steps-row{
+border-radius: 5px;
+background: #F4F4F4;
+box-shadow:  8px 8px 16px #e0e0e0,
+             -8px -8px 16px #ffffff;
 }
