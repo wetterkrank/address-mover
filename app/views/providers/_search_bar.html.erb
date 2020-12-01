@@ -1,11 +1,12 @@
-<%= form_tag providers_path, method: :get do %>
-  <%= text_field_tag :query,
-    params[:query],
-    class: "form-control",
-    placeholder: "Find a provider",
-    id: "autocomplete"
-  %>
-  <%= submit_tag "Search", class: "btn btn-primary mt-3"  %>
-<% end %>
 
-
+<div class="search-form-control form-group">
+  <%= form_tag providers_path, method: :get do %>
+    <%= text_field_tag :query,
+      params[:query],
+      class: "form-control string required",
+      placeholder: "Find a provider",
+      id: "autocomplete"
+    %>
+    <%= submit_tag "Search", class: "btn btn-primary"  %>
+  <% end %>
+</div>
