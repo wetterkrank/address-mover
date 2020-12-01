@@ -21,7 +21,7 @@
 .tabs-v label > p {padding:0 0 0 15px;
   margin:0;
   font-family:$body-font;
-  font-size:.8em;
+  font-size: 15px;
   color:$cta-green;
   text-transform:uppercase;
   transition:all 500ms ease-in-out}
@@ -70,11 +70,7 @@
   border-right:0;
   transition:all 500ms ease;
   z-index:1}
-.second-content{
-  height:100%;
-  overflow:scroll;
-  overflow-x:hidden;
-}
+
 .tabs-v > input + label::after {content:"";
   position:absolute;
   right:0;top:50%;
@@ -106,6 +102,7 @@
   min-height:35vh}
   
 .tabs-v .img-tab1 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-karolina-grabowska-4506226_sjcqft.jpg)}
+.tabs-v .img-tab2 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-karolina-grabowska-4506231_lv53on.jpg)}
 .tabs-v .img-tab3 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-ketut-subiyanto-4246202_n2ftvq.jpg)}
 
 
