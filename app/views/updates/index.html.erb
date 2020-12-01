@@ -9,13 +9,13 @@
     <h6 class= "input_information"> <%= @move.moving_date %></h6>
     <hr>
     <h4><i class="far fa-list-alt mt-3"></i><strong> Your selected services:</strong></h4>
+    
     <% @updates.each do |update| %>
       <hr>
       <p class= "input_information"> <span><%= update.provider.name %></span></p>
-      <h6>Your provided identificaton:  <%= update.provider.identifier_name%> </h6>
+      <h6>Your provided identificaton:  <%= "#{update.provider.identifier_name}, #{update.id_sent}" %> </h6>
     <% end %>
-    <%# <%= link_to "Confirm changes",my_providers_path(@my_providers), class: "btn btn-success mt-5" , id: "submit"%>
-    <%# <div  class= "btn btn-success mt-5 " id = "submit">Confirm changes</div> %>
+    
     <div class ="button-position mt-5">
       <div class="confirm">
         <%= link_to "Confirm & Send", send_path, class: "btn btn-success", method: "POST" %>

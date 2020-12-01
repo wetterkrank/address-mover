@@ -3,7 +3,7 @@ class ApiSendJob < ApplicationJob
 
   def perform(update)
 
-    sleep 5
+    sleep 10
 
     uri = URI(update.provider.api_endpoint)
     header = { 'Content-Type': 'application/json', 'Accept': 'application/json' }
