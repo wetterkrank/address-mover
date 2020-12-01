@@ -1,9 +1,11 @@
 <div class="home-providers-layout my-5 p-5">
+  <div class="container d-flex justify-content">
   <h3> Check out some of the services we work with :</h3>
+</div>
   <div>
     <%= render "providers/cards-index" %>
   </div>
-  <div class="container d-flex justify-content-center">
-    <%= link_to "Go to All Services", providers_path, class: "btn btn-lg btn-info mb-3" %>
+  <div class="container d-flex justify-content-flex-end">
+    <%= link_to "Go to All Services", providers_path, class: "btn btn-lg btn-info" %>
   </div>
 </div>
