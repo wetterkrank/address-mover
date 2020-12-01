@@ -35,15 +35,15 @@
   width:calc(100% - 325px);
   padding:0;
   margin:0;
-  display:none}
+  display:none;}
 
 .tabs-v .tab-content > div {display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   align-items:stretch;
-  background-color:#fff}
+  background-color: white}
 
-.tabs-v .tab-content > div > div {height:500px}
+.tabs-v .tab-content > div > div {height:430px}
 
 .tabs-v .txt-tab {display:flex;
   flex-direction:row;
@@ -70,16 +70,41 @@
   border-right:0;
   transition:all 500ms ease;
   z-index:1}
+.second-content{
+  height:100%;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+.tabs-v > input + label::after {content:"";
+  position:absolute;
+  right:0;top:50%;
+  transform:translateY(-50%);
+  width:1px;height:100%;
+  background-color:#ccc;
+  transition:all 500ms ease}
 
-.tabs-v > input + label::after {content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:100%;background-color:#ccc;transition:all 500ms ease}
 .tabs-v > input:checked + label {background-color:rgba(0,0,0,.03)}
-.tabs-v > input:checked + label::before {border:8px solid transparent;border-right:0;border-left-color:var(--c1)}
-.tabs-v > input:checked + label::after {width:5px;background-color:var(--c1)}
+
+.tabs-v > input:checked + label::before {border:8px solid transparent;
+  border-right:0;
+  border-left-color:var(--c1)}
+
+.tabs-v > input:checked + label::after {width:5px;
+  background-color:var(--c1)}
+
 .tabs-v > input:checked + label > img {filter:saturate(1)}
+
 .tabs-v > input:checked + label > p {color:var(--c1)}
+
 .tabs-v > input:checked + label + .tab-content {display:block}
 
-.tabs-v [class*="img-tab"] {width:50%;background-repeat:no-repeat;background-size:cover;background-position:50%;min-height:35vh}
+
+.tabs-v [class*="img-tab"] {width:50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:50%;
+  min-height:35vh}
+  
 .tabs-v .img-tab1 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-karolina-grabowska-4506226_sjcqft.jpg)}
 .tabs-v .img-tab3 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-ketut-subiyanto-4246202_n2ftvq.jpg)}
 
