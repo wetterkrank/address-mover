@@ -45,7 +45,7 @@ user = User.new
 user.email = 'user@gmail.com'
 user.password = '123456'
 user.first_name = "Anne"
-user.last_name = "User"
+user.last_name = "Perez"
 user.phone_number = "078457838"
 user.birthday = DateTime.new(1994, 03, 02)
 user.save!
@@ -82,7 +82,7 @@ Provider.create(
 )
 
 provider_array = []
-identifier_name_array = ['Contract Number', 'Passport ID', 'Phone Number']
+identifier_name_array = ['Contract number', 'Passport number', 'Phone number']
 
 csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_categories_providers.csv'))
 csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
@@ -105,7 +105,7 @@ puts "- Created #{Provider.count} providers."
 
 users_set = user_array.sample(rand(7..9))
 users_set.each do |user|
-  providers_set = provider_array.sample(rand(3..15))
+  providers_set = provider_array.sample(rand(3..7))
   providers_set.each do |provider|
     MyProvider.create!(user: user, provider: provider)
   end

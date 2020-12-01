@@ -24,7 +24,7 @@ class UpdatesController < ApplicationController
       redirect_to move_updates_path(@move)
     else
       skip_authorization
-      flash[:alert] = "Please make sure your address and date are set."
+      flash[:alert] = "Please make sure your new address and move date are set."
       redirect_to my_providers_path
     end
   end
@@ -45,7 +45,7 @@ class UpdatesController < ApplicationController
         logger.debug(response)
       end
     end
-    flash[:notice] = "We're sending out messages, please come back later to check the updates."
+    flash[:notice] = "Hooray! We're informing your providers, please come back later to check the updates."
     redirect_to my_providers_path
   end
 
