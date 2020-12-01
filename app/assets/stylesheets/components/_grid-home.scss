@@ -1,8 +1,50 @@
 .cards-home {
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
+
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+.cards-home {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;}
+  padding-left: 10%
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards-home {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+padding-top: 16px;
+  padding-bottom: 16px;}
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 900px) {
+.cards-home {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+padding-top: 16px;
+  padding-bottom: 16px;}}
+
+
