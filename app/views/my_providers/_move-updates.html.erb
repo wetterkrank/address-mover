@@ -15,7 +15,13 @@
 
       <div class="card-my-status-right">
         <h3> Status: </h3>
-        <p><%= update.update_status %></p>
+        <p>
+          <%= update.update_status %>
+          <% case update.update_status %>
+          <% when "pending" %>
+           <%= icon("fas", "paper-plane", class: "text-info") %>
+          <% end %>
+        </p>
       </div>
 
     </div>

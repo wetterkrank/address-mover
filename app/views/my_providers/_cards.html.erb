@@ -17,9 +17,13 @@
       <%# my_pro.provider.identifier_name = "contract number" %>
       <% unless my_pro.provider.identifier_name.blank? %>
         <p> 
-          Additional data requred: 
+          <% if my_pro.identifier_value.blank? %>
+            Add information:
+          <% else %>
+            Receives your
+          <% end %>
           <%= link_to my_pro.provider.identifier_name, edit_my_provider_path(my_pro) %>
-          <%= icon('fas', "exclamation-triangle") if my_pro.identifier_value.blank? %>
+          <%= icon("fas", "exclamation-triangle", class: "text-danger") if my_pro.identifier_value.blank? %>
         </p>
       <% end %>
     </div>
