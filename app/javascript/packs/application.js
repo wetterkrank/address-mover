@@ -42,3 +42,8 @@ document.addEventListener('turbolinks:load', () => {
 //= require underscore
 //= require select2
 //= require providers
+import { initMapbox } from '../plugins/init_mapbox';
+
+document.addEventListener('turbolinks:load', () => {
+  initMapbox();
+})
