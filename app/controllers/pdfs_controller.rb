@@ -9,7 +9,9 @@ class PdfsController < ApplicationController
     respond_to do |format|
       format.html
       format.pdf do
-        render pdf: "Address Change Notification"   # Excluding ".pdf" extension.
+        render pdf: "Address Change Notification",
+               margin: { top: 20, bottom: 25, left: 25, right: 20 } # in mm
+              #  disposition: 'attachment' # default 'inline'
       end
     end
   end
