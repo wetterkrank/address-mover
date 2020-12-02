@@ -5,6 +5,13 @@
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("background-home.png");
   background-size: cover;
   background-position: center;
+  .banner-content {
+    padding-left: 12%;
+    padding-bottom: 10%;
+    position: absolute;
+    margin-top: 10%;
+  }
+
   h1 {
     color: white;
     font-weight: bold;
@@ -21,17 +28,6 @@
     margin-top: 3rem;
     text-align: left;
   }
-
-
-
-  .banner-content {
-    padding-left: 12%;
-    padding-bottom: 10%;
-    position: absolute;
-    margin-top: 10%;
-  }
-
-
   .btn {
     font-size: 1.25rem;
     font-weight: bolder;
@@ -42,4 +38,106 @@
     border-radius: 7px;
   }
 }
+
+
+
+
+
+@media (min-width:600px) {
+  .banner {
+    h1 {
+    font-size: 32px;
+    height: 60px;
+    }
+    .banner-content {
+    padding-left: 12%;
+    padding-bottom: 10%;
+    position: absolute;
+    margin-top: 20%;
+    }
+     p{
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    }
+    .btn {
+    font-size: 1rem;
+    padding: 15px 50px;
+    margin-top: 2rem;
+
+    }
+  }
+}
+
+
+
+@media (min-width:768px) {
+  .banner {
+    h1 {
+    font-size: 35px;
+    height: 60px;
+    }
+    .banner-content {
+    padding-left: 12%;
+    padding-bottom: 10%;
+    position: absolute;
+    margin-top: 20%;
+    }
+     p{
+    font-size: 22px;
+    width: 300px;
+    height: 100px;
+    }
+    .btn {
+    font-size: 1rem;
+    padding: 15px 50px;
+    margin-top: 3rem;
+
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("background-home.png");
+  background-size: cover;
+  background-position: center;
+  .banner-content {
+    padding-left: 12%;
+    padding-bottom: 10%;
+    position: absolute;
+    margin-top: 10%;
+  }
+
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    width: 300px;
+    height: 177px;
+  }
+
+  p{
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    height: 150px;
+    margin-top: 3rem;
+    text-align: left;
+  }
+  .btn {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding: 15px 80px;
+    display: block;
+    z-index: 1;
+    margin-top: 3rem;
+    border-radius: 7px;
+  }
+}
+}
+
 
