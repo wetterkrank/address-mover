@@ -1,141 +1,93 @@
-
-.tabs-v {position:relative;
-  display:flex;
-  flex-direction:column;
+.tabs-v {display:flex;
   flex-wrap:wrap;
-  justify-content:center;
-  height: auto;
-}
+  justify-content:center}
 
 .tabs-v label {position:relative;
   order:1;
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  width:325px;height:calc(500px / 8);
-  padding:10px 15px;
-  margin-bottom:0px;
+  width:200px;
+  padding:15px 0 20px;
   background-color:transparent;
-  cursor:pointer;transition:background-color 500ms ease-in-out}
+  margin-bottom:0;
+  cursor:pointer;
+  text-align:center;
+  transition:background-color 500ms ease-in-out}
 
-.tabs-v label > p {padding:0 0 0 15px;
+.tabs-v label > img {width:50px;
+  height:auto;
+  filter:saturate(0);
+  transition:all 500ms ease-in-out}
+
+.tabs-v label > p {padding:15px 10px 0;
   margin:0;
   font-family:$body-font;
-  font-size: 15px;
+  font-size:15px;
   color:$cta-green;
   text-transform:uppercase;
   transition:all 500ms ease-in-out}
+
 .tabs-v label:hover {background-color:rgba(0,0,0,.03)}
+
 .tabs-v label:hover > img {filter:saturate(1)}
+
 .tabs-v label:hover > p {color:var(--c1)}
 
-.tabs-v .tab-content {position:absolute;
-  top:0;
-  right:0;
-  width:calc(100% - 325px);
+.tabs-v .tab-content {order:2;
+  width:100%;
   padding:0;
   margin:0;
-  display:none;}
+  display:none}
 
 .tabs-v .tab-content > div {display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   align-items:stretch;
-  background-color: white}
+  background-color:#fff}
 
-.tabs-v .tab-content > div > div {height:430px}
+.tabs-v .tab-content > div > div {width:50%}
+
+.tabs-v .tab-content > .reverse-tab > .txt-tab {order:2}
 
 .tabs-v .txt-tab {display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   align-items:center;
-  width:50%;
-  padding:4vh calc(2vw + 15px)}
-
-.tabs-v .txt-tab-first {align-items:center;
-  width:100%;
-  padding:10px;
-  margin-bottom:30px;}
+  padding:4vh calc(2vw + 15px);
+  min-height:25vh}
 
 .tabs-v > input {display:none}
-
-.tabs-v > input + label::before {content:"";
-  position:absolute;
-  left:100%;
-  top:50%;
-  transform:translateY(-50%);
-  width:0;
-  height:0;
-  border:0 solid transparent;
-  border-right:0;
-  transition:all 500ms ease;
-  z-index:1}
-
 .tabs-v > input + label::after {content:"";
   position:absolute;
-  right:0;top:50%;
-  transform:translateY(-50%);
-  width:1px;height:100%;
+  left:50%;bottom:0;
+  transform:translateX(-50%);
+  width:100%;
+  height:1px;
   background-color:#ccc;
   transition:all 500ms ease}
 
 .tabs-v > input:checked + label {background-color:rgba(0,0,0,.03)}
-
-.tabs-v > input:checked + label::before {border:8px solid transparent;
-  border-right:0;
-  border-left-color:var(--c1)}
-
-.tabs-v > input:checked + label::after {width:5px;
-  background-color:var(--c1)}
-
+.tabs-v > input:checked + label::after {height:5px;background-color:var(--c1)}
 .tabs-v > input:checked + label > img {filter:saturate(1)}
-
 .tabs-v > input:checked + label > p {color:var(--c1)}
-
 .tabs-v > input:checked + label + .tab-content {display:block}
 
-
-.tabs-v [class*="img-tab"] {width:50%;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:50%;
-  min-height:35vh}
-  
+.tabs-v [class*="img-tab"] {background-repeat:no-repeat;background-size:cover;background-position:50%;min-height:35vh}
 .tabs-v .img-tab1 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-karolina-grabowska-4506226_sjcqft.jpg)}
 .tabs-v .img-tab2 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-karolina-grabowska-4506231_lv53on.jpg)}
 .tabs-v .img-tab3 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-ketut-subiyanto-4246202_n2ftvq.jpg)}
 
+.text-above{
+  width: 100%;
+  background-color:#0bc4a14a;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 20px 12%;
+  color:#070930d1;
+  font-weight: bold;
 
-@media only screen and (max-width:1239px) {
-.tabs-v {flex-direction:row}
-.tabs-v label {display:block;width:calc(100% / 4);height:auto;padding:15px 0 20px;text-align:center}
-.tabs-v label > img {width:50px}
-.tabs-v label > p {padding:15px 10px 0}
-.tabs-v > input + label::before {display:none}
-.tabs-v > input + label::after {right:auto;left:50%;top:auto;bottom:0;transform:translateX(-50%);width:100%;height:1px;border:none}
-.tabs-v > input:checked + label::after {width:100%;height:5px;background-color:var(--c1)}
-.tabs-v .tab-content {order:2;position:relative;width:100%}
-.tabs-v .tab-content > .reverse-tab > .txt-tab {order:2}
-.tabs-v .tab-content > div > div {width:50%;height:auto}
-.tabs-v .txt-tab {min-height:25vh}
+  p{
+    margin-bottom: 0;
+  }
 }
-
-@media only screen and (max-width:959px) {
-.tabs-v .tab-content > div > div {width:100%}
-.tabs-v .tab-content > .reverse-tab > .txt-tab {order:0}
-}
-
-@media only screen and (max-width:767px) {
-.tabs-v label {width:calc(100% / 2);padding:15px 0}
-.tabs-v label > img {display:none}
-.tabs-v label > p {padding:0}
-.tabs-v [class*="img-tab"] {min-height:25vh}
-}
-
-@media only screen and (max-width:480px) {
-.tabs-v label {width:100%}
-}
-
 
 .card-my-provider {
   height: 100px;
