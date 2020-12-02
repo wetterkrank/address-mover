@@ -3,6 +3,12 @@ class MyProvidersController < ApplicationController
     @my_providers = policy_scope(MyProvider).includes(:provider).order(created_at: :desc)
     @move = current_user.moves.last # Showing the last created move as current
     @updates = @move&.updates # Using the safe navigation operator here, useful in case @move is nil!
+    @markers = [
+      {
+        lat: @move.geocode.first,
+        lng: @move.geocode.second
+      }
+    ]
   end
 
   def show
