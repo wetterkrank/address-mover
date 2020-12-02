@@ -26,11 +26,14 @@
       <%= render "move-updates" %>
     <% end %>
   <% end %>
+
   <%# If we haven't sent the updates yet, we show the provider selections: %>
   <% unless @my_providers.empty? %>
     <hr>
     <h4> Previously added providers: </h4>
-      <%= render "cards" %>
+    <div class="my-providers-cards mb-3">
+      <%= render @my_providers %>
+    </div>  
   <% end %>
 
   <%# A message in case the move is created, but providers are not selected: %>
