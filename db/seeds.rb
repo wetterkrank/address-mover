@@ -71,11 +71,11 @@ puts "- Created #{User.count} users."
 # Provider:
 
 Provider.create(
-  name: "Some Company", 
+  name: "Travel Dream", 
   description: "Other services", 
   category: "Travel", 
-  provider_email: "accounts@companyx.com",
-  logo_url: "",
+  provider_email: "accounts@traveldream.com",
+  logo_url: "https://res.cloudinary.com/dzokjumuf/image/upload/v1606914426/Address-Mover-Logos/travel_dream_oxa3um.png",
   identifier_name: "Customer number",
   update_method: "api",
   api_endpoint: "http://some-company.herokuapp.com/update"
