@@ -1,6 +1,13 @@
+<%= @pdf.parent.move.user.full_name %>
+<%= "#{@pdf.parent.move.street_name} #{@pdf.parent.move.street_number}" %>
+<%= "#{@pdf.parent.move.zip} #{@pdf.parent.move.city}" %>
+
 <p>
   <strong>To:</strong>
   <%= @pdf.parent.provider.name %>
+  <%= "#{@pdf.parent.provider.street_name} #{@pdf.parent.provider.street_number}" %>
+  <%= "#{@pdf.parent.provider.zip} #{@pdf.parent.provider.city}" %>
+
 </p>
 
 <p>
