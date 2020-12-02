@@ -10,12 +10,6 @@
   <h2> Overview </h2>
   <hr>
 
-  <div id="map"
-     style="width: 50%; height: 300px;"
-     data-markers="<%= @markers.to_json %>"
-     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
-  </div>
-
 	<%# Completely new user will see this: %>
   <% if @my_providers.empty? && @move.nil? %>
     <p>
@@ -25,7 +19,6 @@
 
   <%# If we have the move information, we show the move block: %>
   <% unless @move.nil? %>
-    <h2> Your move information: </h2>
     <%= render "move-info" %>
     <%# If we already have some updates planned, we show the updates block: %>
     <% unless @updates.empty? || updates_new? %>
