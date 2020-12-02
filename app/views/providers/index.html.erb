@@ -1,9 +1,3 @@
-<div class="fixed d-flex justify-content-center">
-  <div class=" bar mt-3">
-  <p> Are you done?   
-  <%= link_to "Done", my_providers_path, class: "btn btn-success" %></p></div>
-</div>
-
 <div class="container my-5" data-controller="selection">
 
   <h4><strong> Choose your providers </strong></h4>
@@ -12,7 +6,7 @@
   <%= render "search_bar" %>
 
   <div class="result">
-    <%= pluralize @providers.count, "result" %> 
+    <%= pluralize @providers.count, "result" %>
   </div>
 
   <% Provider::CATEGORY.each do |cat_name| %>
@@ -21,4 +15,9 @@
     <%= render "category", name: cat_name, providers: contents, selected_ids: @selected_ids, icons: @icons %>
     <% end %>
   <% end %>
+</div>
+<div class="fixed d-flex justify-content-center">
+  <div class=" bar mt-3">
+  <p> Happy with your selection?
+<%= link_to "Go to Next Step", my_providers_path(checked:"1"), class: "btn btn-success" %></p></div>
 </div>

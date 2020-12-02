@@ -1,6 +1,9 @@
+<% checked = params["checked"] == "1" ? "checked" : ""  %>
+<% checked_not_present = params["checked"].present? ? "" : "checked"  %>
+
 <div class="tabs-v">
 
-	<input type="radio" name="tabs-v" id="tab1-v">
+	<input type="radio" name="tabs-v" id="tab1-v" checked="<%= checked_not_present %>">
 	<label for="tab1-v">
 		<p> 1 . Plan your move </p>
 	</label>
@@ -17,7 +20,7 @@
 		</div>
 	</div>
 
-		<input type="radio" name="tabs-v" id="tab2-v">
+	<input type="radio" name="tabs-v" id="tab2-v">
 	<label for="tab2-v">
 		<p> 2 . Add New Providers </p>
 	</label>
@@ -34,7 +37,11 @@
 		</div>
 	</div>
       
+<<<<<<< HEAD:app/views/my_providers/_new-layout.erb
 	<input type="radio" name="tabs-v" id="tab3-v" checked="checked">
+=======
+	<input type="radio" name="tabs-v" id="tab3-v" <%= checked %>>
+>>>>>>> master:app/views/my_providers/_new-layout.html.erb
 	<label for="tab3-v">
 		<p>3 . Confirm & Send</p>
 	</label>
@@ -50,8 +57,4 @@
 			<div class="img-tab3"></div>
 		</div>
 	</div>
-
-
-	</div>
-
 </div>
