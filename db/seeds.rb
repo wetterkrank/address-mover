@@ -42,10 +42,10 @@ admin.save!
 user_array = []
 
 user = User.new
-user.email = 'user@gmail.com'
+user.email = 'c.k@gmail.com'
 user.password = '123456'
-user.first_name = "Anne"
-user.last_name = "Perez"
+user.first_name = "Christoph"
+user.last_name = "Kuhlkid"
 user.phone_number = "078457838"
 user.birthday = DateTime.new(1994, 03, 02)
 user.save!
