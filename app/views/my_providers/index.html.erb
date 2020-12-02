@@ -1,19 +1,21 @@
 <div class="text-above text-center">
   <p> Your dashboard allows you to manage your address change easily. You can start a new change process, save your providers and keep track of the update of your requests.</p>
 </div>
-<div class="container my-3 block">
+
+<div class="container my-5 block">
   <%= render "new-layout" %>
 </div>
+
 <div class="container my-3 block">
   <h2> Overview </h2>
   <hr>
-  <%# Completely new user will see this: %>
+	<%# Completely new user will see this: %>
   <% if @my_providers.empty? && @move.nil? %>
     <p>
-      Nothing here yet. <br>
-      Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
+      Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
     </p>
   <% end %>
+
   <%# If we have the move information, we show the move block: %>
   <% unless @move.nil? %>
     <h2> Your move information: </h2>
@@ -28,10 +30,9 @@
   <% unless @my_providers.empty? %>
     <hr>
     <h4> Previously added providers: </h4>
-    <div class="my-providers-cards mb-3">
-      <%= render @my_providers %>
-    </div>
+      <%= render "cards" %>
   <% end %>
+
   <%# A message in case the move is created, but providers are not selected: %>
   <% if @move.present? && @my_providers.empty? && updates_new? %>
     <hr>
@@ -40,6 +41,5 @@
     </p>
   <% end %>
 </div>
-</div>
-</div>
-</div>
+
+

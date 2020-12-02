@@ -64,6 +64,10 @@
   background-color:#ccc;
   transition:all 500ms ease}
 
+input#tab1-v:checked {
+  background: red !important;
+}
+
 .tabs-v > input:checked + label {background-color:rgba(0,0,0,.03)}
 .tabs-v > input:checked + label::after {height:5px;background-color:var(--c1)}
 .tabs-v > input:checked + label > img {filter:saturate(1)}
@@ -105,7 +109,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .card-my-provider h3 {
