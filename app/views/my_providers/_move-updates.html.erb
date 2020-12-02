@@ -11,6 +11,9 @@
       <div class="card-my-status-info">
         <h3> <%= update.provider.name %></h3>
         <p> <%= update.provider.category %></p>
+        <% if update.pdf.present? %>
+          <p> <%= link_to "Download the letter template",  pdf_path("#{update.pdf.uuid}.pdf") %> </p>
+        <% end %>
       </div>
 
       <div class="card-my-status-right">

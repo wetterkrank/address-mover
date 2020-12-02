@@ -1,4 +1,10 @@
 <div class="container mt-5">
   <h2> <%= @my_provider.provider.name %> </h2>
-  <%= render "form" %>
+
+  <%= simple_form_for [@my_provider] do |f| %>
+    <%= f.input :identifier_value, label: "requires your #{@my_provider.provider.identifier_name}:" %>
+    <hr>
+    <%= f.submit "Save", class:"btn btn-success" %>
+  <% end %>
+  
 </div>
