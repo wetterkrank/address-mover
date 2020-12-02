@@ -17,12 +17,15 @@
       </div>
 
       <div class="card-my-status-right">
-        <h3> Status: </h3>
         <p>
           <%= update.update_status %>
           <% case update.update_status %>
           <% when "pending" %>
            <%= icon("fas", "paper-plane", class: "text-info") %>
+          <% when "changed" %>
+           <%= icon("fas", "thumbs-up", class: "text-info") %>
+          <% when "declined" %>
+           <%= icon("fas", "thumbs-down", class: "text-info") %>
           <% end %>
         </p>
       </div>
