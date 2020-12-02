@@ -13,29 +13,31 @@
 .card-my-status>img {
   place-self: center;
   height: 100%;
-  width: 80px;
+  width: 100px;
   object-fit: contain;
-  padding: 4px;
+  padding-left: 12px;
+}
+.card-my-status-info {
+  padding: 0 10px 0 30px;
+  overflow: hidden;
 }
 
-.card-my-status h3 {
-  font-size: 14px;
+.card-my-status h5 {
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .card-my-status p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
-  opacity: .7;
+  opacity: .8;
   margin-bottom: 0;
 }
 
 .card-my-status-right p {
+  padding-right: 28px;
+  text-align: right;
   font-size: 16px;
-}
-.card-my-status-info {
-  padding: 0 10px;
-  overflow: hidden;
 }
 

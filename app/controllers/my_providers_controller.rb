@@ -22,7 +22,6 @@ class MyProvidersController < ApplicationController
     @my_provider.user = current_user
 
     if @my_provider.save
-      # if we saved the new object successfully
       respond_to do |format|
         format.html { redirect_to my_providers_path }
         format.json { render json: {}, status: 200 }
@@ -45,7 +44,6 @@ class MyProvidersController < ApplicationController
   end
 
   def destroy
-    # NOTE: to select the correct object, front must send us my_provider.id, not provider.id
     @my_provider = MyProvider.find(params[:id])
     authorize @my_provider
     @my_provider.destroy
