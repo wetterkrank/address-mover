@@ -1,6 +1,9 @@
+<% checked = params["checked"] == "1" ? "checked" : ""  %>
+<% checked_not_present = params["checked"].present? ? "" : "checked"  %>
+
 <div class="tabs-v">
 
-	<input type="radio" name="tabs-v" id="tab1-v" checked="checked">
+	<input type="radio" name="tabs-v" id="tab1-v" checked="<%= checked_not_present %>">
 	<label for="tab1-v">
 		<p> 1 . Plan your move </p>
 	</label>
@@ -34,7 +37,7 @@
 		</div>
 	</div>
       
-	<input type="radio" name="tabs-v" id="tab3-v">
+	<input type="radio" name="tabs-v" id="tab3-v" <%= checked %>>
 	<label for="tab3-v">
 		<p>3 . Confirm & Send</p>
 	</label>
