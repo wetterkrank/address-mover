@@ -4,7 +4,7 @@
 
 .tabs-v label {position:relative;
   order:1;
-  width:calc(100% / 8);
+  width:200px;
   padding:15px 0 20px;
   background-color:transparent;
   margin-bottom:0;
@@ -63,7 +63,7 @@
   height:1px;
   background-color:#ccc;
   transition:all 500ms ease}
-  
+
 .tabs-v > input:checked + label {background-color:rgba(0,0,0,.03)}
 .tabs-v > input:checked + label::after {height:5px;background-color:var(--c1)}
 .tabs-v > input:checked + label > img {filter:saturate(1)}
@@ -75,7 +75,19 @@
 .tabs-v .img-tab2 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-karolina-grabowska-4506231_lv53on.jpg)}
 .tabs-v .img-tab3 {background-image:url(https://res.cloudinary.com/daf0zj13q/image/upload/v1606815509/pexels-ketut-subiyanto-4246202_n2ftvq.jpg)}
 
+.text-above{
+  width: 100%;
+  background-color:#0bc4a14a;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 20px 12%;
+  color:#070930d1;
+  font-weight: bold;
 
+  p{
+    margin-bottom: 0;
+  }
+}
 
 .card-my-provider {
   height: 100px;
