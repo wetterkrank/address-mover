@@ -3,46 +3,50 @@
 </div>
 
 <div class="container my-5 block">
-  <%= render "new-layout" %>
-</div>
 
-<div class="container my-3 block">
-  <h2> Overview </h2>
-  <hr>
+  <%= render "new-layout" %>
+
+  <div class="card bg-white rounded-0 border-light mt-3 block">
+
+    <div class="card-header bg-white">
+      <h2> Overview </h2>
+    </div>
+
+    <div class= "card-body">
 	<%# Completely new user will see this: %>
-  <% if @my_providers.empty? && @move.nil? %>
-    <p>
-      Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
-    </p>
-  <% end %>
+      <% if @my_providers.empty? && @move.nil? %>
+        <p>
+          Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
+        </p>
+      <% end %>
 
   <%# If we have the move information, we show the move block: %>
-  <% unless @move.nil? %>
-    <h2> Your move information: </h2>
-    <%= render "move-info" %>
-    <%# If we already have some updates planned, we show the updates block: %>
-    <% unless @updates.empty? || updates_new? %>
-      <h4> Requests sent to providers </h4>
-      <%= render "move-updates" %>
-    <% end %>
-  <% end %>
+      <% unless @move.nil? %>
+        <h2> Your move information: </h2>
+        <%= render "move-info" %>
+        <%# If we already have some updates planned, we show the updates block: %>
+        <% unless @updates.empty? || updates_new? %>
+          <h4> Requests sent to providers </h4>
+          <%= render "move-updates" %>
+        <% end %>
+      <% end %>
 
   <%# If we haven't sent the updates yet, we show the provider selections: %>
-  <% unless @my_providers.empty? %>
-    <hr>
-    <h4> Previously added providers: </h4>
-    <div class="my-providers-cards mb-3">
-      <%= render @my_providers %>
-    </div>  
-  <% end %>
+      <% unless @my_providers.empty? %>
+        <h4> Previously added providers: </h4>
+        <div class="my-providers-cards mb-3">
+          <%= render @my_providers %>
+        </div>
+      <% end %>
 
   <%# A message in case the move is created, but providers are not selected: %>
-  <% if @move.present? && @my_providers.empty? && updates_new? %>
-    <hr>
-    <p>
-      <%= link_to "Select the providers", providers_path %> which you'd like to inform about your new address.
-    </p>
-  <% end %>
+       <% if @move.present? && @my_providers.empty? && updates_new? %>
+         <p>
+           <%= link_to "Select the providers", providers_path %> which you'd like to inform about your new address.
+         </p>
+       <% end %>
+    </div>
+
+  </div>
+
 </div>
-
-
