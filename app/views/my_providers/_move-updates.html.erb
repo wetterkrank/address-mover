@@ -9,20 +9,23 @@
         <% end %>
 
       <div class="card-my-status-info">
-        <h3> <%= update.provider.name %></h3>
-        <p> <%= update.provider.category %></p>
+        <h5> <%= update.provider.name %></h5>
         <% if update.pdf.present? %>
-          <p> <%= link_to "Download the letter template",  pdf_path("#{update.pdf.uuid}.pdf") %> </p>
+          <p> 
+            <%= link_to pdf_path("#{update.pdf.uuid}.pdf") do %>
+              Get the paper <%= icon("far", "envelope", class: "text-info") %>
+            <% end %>
+          </p>
         <% end %>
       </div>
 
       <div class="card-my-status-right">
         <p>
-          <%= update.update_status %>
+          <%= "Update #{update.update_status}" %>
           <% case update.update_status %>
           <% when "pending" %>
            <%= icon("fas", "paper-plane", class: "text-info") %>
-          <% when "changed" %>
+          <% when "confirmed" %>
            <%= icon("fas", "thumbs-up", class: "text-info") %>
           <% when "declined" %>
            <%= icon("fas", "thumbs-down", class: "text-info") %>

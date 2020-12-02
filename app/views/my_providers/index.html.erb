@@ -12,36 +12,28 @@
 
 	<%# Completely new user will see this: %>
   <% if @my_providers.empty? && @move.nil? %>
-    <p>
-      Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>.
-    </p>
+    <p> Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>. </p>
   <% end %>
 
   <%# If we have the move information, we show the move block: %>
   <% unless @move.nil? %>
     <%= render "move-info" %>
-    <%# If we already have some updates planned, we show the updates block: %>
+    <%# If we already have some updates planned, we also show the updates block: %>
     <% unless @updates.empty? || updates_new? %>
-      <h4> Requests sent to providers </h4>
+      <h3> Requests sent to providers </h3>
       <%= render "move-updates" %>
     <% end %>
   <% end %>
 
-  <%# If we haven't sent the updates yet, we show the provider selections: %>
+  <%# If we have any providers selections, we show them: %>
   <% unless @my_providers.empty? %>
     <hr>
-    <h4> Previously added providers: </h4>
-    <div class="my-providers-cards mb-3">
-      <%= render @my_providers %>
-    </div>  
+    <%= render "my_pro-section" %>
   <% end %>
 
   <%# A message in case the move is created, but providers are not selected: %>
   <% if @move.present? && @my_providers.empty? && updates_new? %>
     <hr>
-    <p>
-      <%= link_to "Select the providers", providers_path %> which you'd like to inform about your new address.
-    </p>
+    <p> <%= link_to "Select the providers", providers_path %> which you'd like to inform about your new address. </p>
   <% end %>
 </div>
-

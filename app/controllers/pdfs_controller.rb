@@ -10,8 +10,8 @@ class PdfsController < ApplicationController
       format.html
       format.pdf do
         render pdf: "Address Change Notification",
-               margin: { top: 20, bottom: 25, left: 25, right: 20 } # in mm
-              #  disposition: 'attachment' # default 'inline'
+               #disposition: 'attachment', # default 'inline'
+               margin: { top: 20, bottom: 25, left: 25, right: 20 }
       end
     end
   end
