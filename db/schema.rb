@@ -58,6 +58,10 @@ ActiveRecord::Schema.define(version: 2020_12_02_152819) do
     t.string "logo_url"
     t.string "update_method"
     t.string "api_endpoint"
+    t.string "street_name"
+    t.string "street_number"
+    t.string "zip"
+    t.string "city"
   end
 
   create_table "updates", force: :cascade do |t|

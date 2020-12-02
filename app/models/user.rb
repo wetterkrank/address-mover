@@ -7,4 +7,7 @@ class User < ApplicationRecord
   has_many :my_providers, dependent: :destroy
   has_many :moves, dependent: :destroy
 
+  def full_name
+    "#{first_name} #{last_name}"
+  end
 end
