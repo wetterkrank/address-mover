@@ -1,0 +1,33 @@
+  <div class="card-my-provider" id='<%= "mp#{my_provider.id}" %>'>
+
+    <%# Must refactor with N+1 request technique %>
+    <% if my_provider.provider.logo_url.blank? %>
+      <%= image_tag "enterprise.svg" %>
+    <% else %>
+      <img src="<%= my_provider.provider.logo_url %>">
+    <% end %>
+
+    <%# Need to show some notification in case of missing info %>
+    <div class="card-my-provider-info">
+      <h3> <%= my_provider.provider.name %></h3>
+      <p> <%= my_provider.provider.category %></p>
+      <% unless my_provider.provider.identifier_name.blank? %>
+        <p> 
+          <% if my_provider.identifier_value.blank? %>
+            Add information:
+          <% else %>
+            Receives your
+          <% end %>
+          <%= link_to my_provider.provider.identifier_name, edit_my_provider_path(my_provider) %>
+          <%= icon("fas", "exclamation-triangle", class: "text-danger") if my_provider.identifier_value.blank? %>
+        </p>
+      <% end %>
+    </div>
+
+    <div class="card-my-provider-icon">
+      <%= link_to my_provider_path(my_provider), method: :delete, remote: true do %>
+        <%= image_tag "icons/unchecked.svg" %>
+      <% end %>
+    </div>
+
+  </div>

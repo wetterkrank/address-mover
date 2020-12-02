@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon <%= yield(:navbar_class) %>">
   <%= link_to root_path, class: "navbar-brand" do %>
-    <%= image_tag "address-logo.svg" %>
-    <% end %>
+    <%= image_tag "logos/option-white-text.png" %>
+  <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
           <%= link_to "My Dashboard", my_providers_path, class: "nav-wagon-link " %>
         </li>
         <li class="nav-item">
-          <%= link_to "Plan my move", new_move_path, class: "nav-wagon-link " %>
+          <%= link_to "Plan your move", new_move_path, class: "nav-wagon-link " %>
         </li>
         <li class="nav-item dropdown">
           <%= image_tag "avatar.svg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>

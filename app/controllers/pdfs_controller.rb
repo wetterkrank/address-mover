@@ -4,6 +4,7 @@ class PdfsController < ApplicationController
     skip_authorization
 
     @pdf = PDF.find_by(uuid: params[:uuid])
+    raise ActionController::RoutingError.new('Not Found') if @pdf.nil?
 
     respond_to do |format|
       format.html

@@ -26,7 +26,7 @@ class UpdatesController < ApplicationController
 
     my_providers = current_user.my_providers.includes(:provider)
     if some_id_missing?(my_providers)
-      flash[:alert] = "Some data required by your providers is missing, please fill in and try again."
+      flash[:alert] = "Some data required by your providers is missing, please fill it in and try again."
       redirect_to my_providers_path
       return
     end
