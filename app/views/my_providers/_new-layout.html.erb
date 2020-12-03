@@ -5,7 +5,12 @@
 
 	<input type="radio" name="tabs-v" id="tab1-v" checked="<%= checked_not_present %>">
 	<label for="tab1-v">
-		<p> 1 . Plan your move </p>
+		<p> 
+			1 . Plan your move 
+			<% if @move.present? %>
+				<%= icon("fas", "check", class: "text-success") %>
+			<% end %>
+		</p>
 	</label>
 	<div class="tab-content">
 		<div>
@@ -22,7 +27,12 @@
 
 	<input type="radio" name="tabs-v" id="tab2-v">
 	<label for="tab2-v">
-		<p> 2 . Add New Providers </p>
+		<p>
+			2 . Add New Providers
+			<% if @my_providers.present? %>
+				<%= icon("fas", "check", class: "text-success") %>
+			<% end %>
+		</p>
 	</label>
 	<div class="tab-content">
 		<div>
@@ -39,7 +49,12 @@
       
 	<input type="radio" name="tabs-v" id="tab3-v" <%= checked %>>
 	<label for="tab3-v">
-		<p>3 . Confirm & Send</p>
+		<p>
+			3 . Confirm & Send
+			<% unless updates_new? %>
+				<%= icon("fas", "check", class: "text-success") %>
+			<% end %>
+		</p>
 	</label>
 	<div class="tab-content">
 		<div>
