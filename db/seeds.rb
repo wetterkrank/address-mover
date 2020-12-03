@@ -47,7 +47,7 @@ user.email = 'c.k@gmail.com'
 user.password = '123456'
 user.first_name = "Christoph"
 user.last_name = "Kuhlkid"
-user.phone_number = "078457838"
+user.phone_number = "+4915906375709"
 user.birthday = DateTime.new(1994, 03, 02)
 user.save!
 user_array << user
