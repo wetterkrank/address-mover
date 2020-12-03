@@ -7,14 +7,8 @@ class Move < ApplicationRecord
   validates :zip, presence: true
   validates :city, presence: true
 
-  geocoded_by :street_name
-  geocoded_by :street_number
-  geocoded_by :zip
-  geocoded_by :city
+  geocoded_by :address_string
   
-  after_validation :geocode, if: :will_save_change_to_street_name?
-  after_validation :geocode, if: :will_save_change_to_street_number?
-  after_validation :geocode, if: :will_save_change_to_zip?
   after_validation :geocode, if: :will_save_change_to_city?
 
   def address_string
