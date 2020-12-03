@@ -99,7 +99,7 @@ identifier_name_array = ['Contract number', 'Passport number', 'Membership card 
 providers = Provider.all
 Provider::CATEGORY.each do |cat_name|
   provider = providers.filter { |prov| prov.category == cat_name }.first
-  p provider
+  p provider.name
   provider.identifier_name = identifier_name_array.sample
   provider.save!
 end
