@@ -14,9 +14,9 @@
       <hr>
       <p class= "input_information"> <span><%= update.provider.name %></span></p>
       <% if update.id_sent.blank? %>
-        <h6>No specific identificaton required </h6>
+        <h6>Your identificaton: None required </h6>
       <% else %>
-        <h6>Your identificaton -  <%= "#{update.provider.identifier_name}: #{update.id_sent}" %> </h6>
+        <h6>Your identificaton:  <%= "#{update.provider.identifier_name} - #{update.id_sent}" %> </h6>
       <% end %>
       
     <% end %>
