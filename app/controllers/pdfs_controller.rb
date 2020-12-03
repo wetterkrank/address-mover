@@ -22,6 +22,7 @@ class PdfsController < ApplicationController
     authorize @pdf
 
     LetterSendJob.set(wait: 5.seconds).perform_later(@pdf.parent)
+    SmsSendJob.set(wait: 5.seconds).perform_later(@pdf.parent)
 
     redirect_to my_providers_path, notice: "We're sending the letter to #{@pdf.parent.provider.name}, please check the status later."
   end
