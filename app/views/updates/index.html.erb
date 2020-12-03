@@ -6,7 +6,7 @@
     <h6 class= "input_information"> <%= @move.address_string %></h6>
     <br>
     <h4><i class="far fa-calendar-alt"></i><strong> Your moving date</strong></h4>
-    <h6 class= "input_information"> <%= @move.moving_date %></h6>
+    <h6 class= "input_information"> <%= @move.moving_date.strftime("%A, %d %B %Y") %></h6>
     <hr>
     <h4><i class="far fa-list-alt mt-3"></i><strong> Your selected services</strong></h4>
     
