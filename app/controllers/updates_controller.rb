@@ -49,7 +49,7 @@ class UpdatesController < ApplicationController
     updates.each do |update|
       update.update(update_status: Update::STATUS[1]) # Muahaha
       if update.provider.update_method == "api" && update.provider.api_endpoint.present?
-        ApiSendJob.perform_later(update)
+        ApiSendJob.set(wait: 30.seconds).perform_later(update)
         next
       end
       if update.provider.update_method.blank?

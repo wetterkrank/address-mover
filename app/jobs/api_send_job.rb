@@ -2,8 +2,7 @@ class ApiSendJob < ApplicationJob
   queue_as :default
 
   def perform(update)
-
-    sleep 10
+    # sleep 10
 
     uri = URI(update.provider.api_endpoint)
     header = { 'Content-Type': 'application/json', 'Accept': 'application/json' }
@@ -31,5 +30,4 @@ class ApiSendJob < ApplicationJob
     end
     update.save!
   end
-
 end

@@ -27,6 +27,7 @@ puts 'Database clean ✅'
 puts "" 
 puts 'Creating seeds - unfortunately takes a bit ... 😒'
 
+
 # User: 1x Admin, 1x LogIn User, 10x 'Real Users'
 
 admin = User.new	
@@ -51,7 +52,6 @@ user.birthday = DateTime.new(1994, 03, 02)
 user.save!
 user_array << user
 
-
 csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_users.csv'))
 csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
 csv.each do |row|
@@ -68,6 +68,7 @@ end
 
 puts "- Created #{User.count} users."
 
+
 # Provider:
 
 Provider.create(
@@ -82,12 +83,14 @@ Provider.create(
 )
 
 provider_array = []
-identifier_name_array = ['Contract number', 'Passport number', 'Phone number']
+identifier_name_array = ['Contract number', 'Passport number', 'Phone number', 'Account number', '', '', '', '', '', '']
+
+address_csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_addresses.csv'))
+address_csv = CSV.parse(address_csv_text, :headers => true, :header_converters => :symbol)
 
 csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_categories_providers.csv'))
 csv = CSV.parse(csv_text, :headers => true, :header_converters => :symbol)
 csv.each do |row|
-  # p row
   t = Provider.new
   t.name = row[:name]
   t.description = row[:description]
@@ -95,23 +98,32 @@ csv.each do |row|
   t.provider_email = row[:provider_email]
   t.logo_url = row[:image_url]
   t.identifier_name = identifier_name_array.sample
+
+  address = address_csv[rand(address_csv.length)]
+  t.street_name = address[:street_name]
+  t.street_number = address[:street_number]
+  t.zip = address[:zip]
+  t.city = address[:city]
+
   t.save!
   provider_array << t
 end
 
 puts "- Created #{Provider.count} providers."
 
+
 # My_Provider:
 
-users_set = user_array.sample(rand(7..9))
-users_set.each do |user|
-  providers_set = provider_array.sample(rand(3..7))
-  providers_set.each do |provider|
-    MyProvider.create!(user: user, provider: provider)
-  end
-end
+# users_set = user_array.sample(rand(7..9))
+# users_set.each do |user|
+#   providers_set = provider_array.sample(rand(3..7))
+#   providers_set.each do |provider|
+#     MyProvider.create!(user: user, provider: provider)
+#   end
+# end
 
-puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
+# puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')."
+
 
 # Move:
 
@@ -134,6 +146,7 @@ puts "- Created #{MyProvider.count} selections of providers (aka 'my providers')
 # end
 
 puts "- Created #{Move.count} moves."
+
 
 # Update:
 

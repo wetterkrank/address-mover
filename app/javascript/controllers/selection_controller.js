@@ -10,6 +10,7 @@ export default class extends Controller {
         return "/providers/search.json?q=" + phrase;
       },
       getValue: "name",
+      adjustWidth: false,
     };
   
     $('#autocomplete').easyAutocomplete(options);

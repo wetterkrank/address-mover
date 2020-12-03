@@ -3,6 +3,12 @@ class MyProvidersController < ApplicationController
     @my_providers = policy_scope(MyProvider).includes(:provider).order(created_at: :desc)
     @move = current_user.moves.last # Showing the last created move as current
     @updates = @move&.updates # Using the safe navigation operator here, useful in case @move is nil!
+    @markers = [
+      {
+        lat: @move.geocode.first,
+        lng: @move.geocode.second
+      }
+    ]
   end
 
   def show
@@ -16,7 +22,6 @@ class MyProvidersController < ApplicationController
     @my_provider.user = current_user
 
     if @my_provider.save
-      # if we saved the new object successfully
       respond_to do |format|
         format.html { redirect_to my_providers_path }
         format.json { render json: {}, status: 200 }
@@ -39,7 +44,6 @@ class MyProvidersController < ApplicationController
   end
 
   def destroy
-    # NOTE: to select the correct object, front must send us my_provider.id, not provider.id
     @my_provider = MyProvider.find(params[:id])
     authorize @my_provider
     @my_provider.destroy
