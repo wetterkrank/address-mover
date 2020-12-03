@@ -3,4 +3,4 @@
 meta_product_name: "AddressMover"
 meta_title: "AddressMover - Changes your address with only a few clicks"
 meta_description: "With AddressMover you change your address for all your service providers with only a few clicks."
-meta_image: "og-picture.png" # should exist in `app/assets/images/`
+meta_image: "og-picture.jpg" # should exist in `app/assets/images/`
