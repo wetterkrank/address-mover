@@ -1,0 +1,32 @@
+.move {
+  h2, h5 {
+    color: $background-purple;
+  }
+  h6 {
+    color: white;
+    background : $background-purple;
+    padding: 7px 5px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 20px;
+  }
+}
+
+.container-overview{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+
+#map {
+  width: 50%;
+  height: 300px;
+   @media (max-width: 1024px) {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
