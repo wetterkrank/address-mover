@@ -9,8 +9,13 @@ class Move < ApplicationRecord
 
   geocoded_by :street_name
   geocoded_by :street_number
+  geocoded_by :zip
+  geocoded_by :city
+  
   after_validation :geocode, if: :will_save_change_to_street_name?
   after_validation :geocode, if: :will_save_change_to_street_number?
+  after_validation :geocode, if: :will_save_change_to_zip?
+  after_validation :geocode, if: :will_save_change_to_city?
 
   def address_string
     "#{street_name}, #{street_number}, #{zip}, #{city}"
