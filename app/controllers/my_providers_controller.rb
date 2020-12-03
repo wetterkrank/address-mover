@@ -8,8 +8,8 @@ class MyProvidersController < ApplicationController
     else
       @markers = [
         {
-          lat: @move.geocode.first,
-          lng: @move.geocode.second
+          lat: @move.latitude,
+          lng: @move.longitude
         }
       ]
     end
