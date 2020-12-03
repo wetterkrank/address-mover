@@ -71,20 +71,6 @@ puts "- Created #{User.count} users."
 
 # Provider:
 
-Provider.create(
-  name: "Travel Dream", 
-  description: "Other services", 
-  category: "Travel", 
-  provider_email: "accounts@traveldream.com",
-  logo_url: "https://res.cloudinary.com/dzokjumuf/image/upload/v1606914426/Address-Mover-Logos/travel_dream_oxa3um.png",
-  identifier_name: "Customer number",
-  update_method: "api",
-  api_endpoint: "http://some-company.herokuapp.com/update"
-)
-
-provider_array = []
-identifier_name_array = ['Contract number', 'Passport number', 'Phone number', 'Account number', '', '', '', '', '', '']
-
 address_csv_text = File.read(Rails.root.join('lib', 'seeds_db', '20201124_addresses.csv'))
 address_csv = CSV.parse(address_csv_text, :headers => true, :header_converters => :symbol)
 
@@ -97,23 +83,46 @@ csv.each do |row|
   t.category = row[:category]
   t.provider_email = row[:provider_email]
   t.logo_url = row[:image_url]
-  t.identifier_name = identifier_name_array.sample
 
   address = address_csv[rand(address_csv.length)]
   t.street_name = address[:street_name]
   t.street_number = address[:street_number]
   t.zip = address[:zip]
   t.city = address[:city]
-
   t.save!
-  provider_array << t
 end
+
+# Adding some required data for 1st provider in each category %-)
+
+identifier_name_array = ['Contract number', 'Passport number', 'Membership card ID', 'Account number']
+
+providers = Provider.all
+Provider::CATEGORY.each do |cat_name|
+  provider = providers.filter { |prov| prov.category == cat_name }.first
+  p provider
+  provider.identifier_name = identifier_name_array.sample
+  provider.save!
+end
+
+# This is our special provider, adding it here so the random doesn't mess it up
+
+Provider.create(
+  name: "Travel Dream", 
+  description: "Other services", 
+  category: "Travel", 
+  provider_email: "accounts@traveldream.com",
+  logo_url: "https://res.cloudinary.com/dzokjumuf/image/upload/v1606914426/Address-Mover-Logos/travel_dream_oxa3um.png",
+  identifier_name: "Customer number",
+  update_method: "api",
+  api_endpoint: "http://some-company.herokuapp.com/update"
+)
 
 puts "- Created #{Provider.count} providers."
 
 
 # My_Provider:
 
+# provider_array = Provider.all
 # users_set = user_array.sample(rand(7..9))
 # users_set.each do |user|
 #   providers_set = provider_array.sample(rand(3..7))
