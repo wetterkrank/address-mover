@@ -1,4 +1,7 @@
 Rails.application.configure do
+  config.hosts << "4e55a9d5b60d.ngrok.io"
+  Rails.application.routes.default_url_options[:host] = 'http://4e55a9d5b60d.ngrok.io'
+
   config.action_mailer.default_url_options = { host: "http://localhost:3000" }
   # Settings specified here will take precedence over those in config/application.rb.
 
