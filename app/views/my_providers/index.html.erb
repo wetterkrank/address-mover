@@ -11,7 +11,7 @@
 
     <%# Completely new user will see this: %>
     <% if @my_providers.empty? && @move.nil? %>
-      <p> Nothing here yet. <br>Start by <%= link_to "setting your move date and address", new_move_path(@my_provider) %>. </p>
+      <p> Nothing here yet. <br>Start by <%= link_to "planning your move", new_move_path(@my_provider) %>. </p>
     <% end %>
 
     <%# If we have the move information, we show the move block: %>
