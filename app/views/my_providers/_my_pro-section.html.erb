@@ -2,14 +2,16 @@
   <%# If we haven't sent the updates (they don't exist or all new), we show all: %>
   <% if updates_new? %>
     <% collapse = "" %>
-    <h3> 
-      Your providers 
-    </h3>
+    <h2>
+      Your providers
+      <br>
+    </h2>
+    <hr>
   <% else %>
   <%# If we have any sent updates, we collapse the list and show the button: %>
     <% collapse = "collapse" %>
-    <h4> 
-      Previously added providers 
+    <h4>
+      Previously added providers
       <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#providersList" aria-expanded="false" aria-controls="providersList">
       <%= icon("fas", "chevron-circle-right", class: "text-info") %>
       </button>
@@ -18,5 +20,5 @@
 
   <div class="my-providers-cards mb-3 <%= collapse %>" id="providersList">
     <%= render @my_providers %>
-  </div>  
+  </div>
 </div>
