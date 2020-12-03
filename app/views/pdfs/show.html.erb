@@ -1,10 +1,48 @@
-<div class="container mt-3">
-  <h2>Send the paper letter</h2>
-  <p>
-      You can download the PDF to print and send by regular mail. 
-      Here is the link: <%= link_to "Download PDF", @pdf.url, class: "btn btn-primary" %>
-  </p>
-  <p>Or we can send the letter for you! Isn't it awesome?</p>
+<div class="container mt-5">
+  <h2>Last resort: the paper letter</h2>
 
-  <%= link_to "Send letter", mail_path(@pdf.uuid), class: "btn btn-primary" %>
+  <div class="card-group">
+
+    <div class="card col-5 p-3 m-3">
+      <div class="card-body">
+        <p>
+            Looks like <strong><%= @pdf.parent.provider.name %></strong> is not digitalized enough, we couldn't send them an update.
+            <%= icon("fas", "heart-broken", class: "text-info") %>
+        </p>
+        <p>
+            Well, you can always send a good old paper letter!
+        </p>
+        <p>
+            Just download this PDF we made for you, print it, and send it by post.
+        </p>
+      </div>
+      <div class="card-footer bg-transparent border-success">
+            <%= link_to "Download PDF", @pdf.url, class: "btn btn-primary" %>
+      </div>
+    </div>
+
+    <div class="card col-5 p-3 m-3">
+      <div class="card-body">
+        <p>
+          Or we can send this letter for you! Isn't it awesome? 
+          The first letter is on us
+          <%= icon("fas", "grin-stars", class: "text-success") %>
+        </p>
+        <p>
+          It will be sent to:<br>
+          <p> <strong> <%= @pdf.parent.provider.name %> </strong> <br>
+            <%= "#{@pdf.parent.provider.street_name} #{@pdf.parent.provider.street_number}" %>
+            <br>
+            <%= "#{@pdf.parent.provider.zip} #{@pdf.parent.provider.city}" %>
+          </p>
+        </p>
+      </div>
+      <div class="card-footer bg-transparent border-success">
+        <%= link_to "Send letter", mail_path(@pdf.uuid), class: "btn btn-primary" %>
+      </div>
+    </div>
+
+
+  </div>
+  <%= link_to "Back to Dashboard", my_providers_path %>
 </div>
