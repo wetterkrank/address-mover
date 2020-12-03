@@ -1,15 +1,27 @@
-<div class="move-info pl-2">
-  <div class="calendar-info">
-    <p>
-      <h2> Your move information: </h2>
-      <strong>Address</strong>: <%= @move.address_string %><br>
-      <strong>Date</strong>: <%= @move.moving_date %>
-    </p>
+<div class="container d-flex justify-content-center align-items-center">
+
+        <div class="text-left move-info-card align-items-center">
+
+          <h2><i class="fas fa-info-circle"></i></h2>
+          <h5>Your new address</h5>
+          <h4><%= @move.address_string %></h4><br>
+
+          <h2><i class="far fa-calendar-alt"></i></h2>
+          <h5>Your moving date</h5>
+          <h4><%= (@move.moving_date).strftime("%d/%m/%Y") %></h4>
+
+          <h5>  <%= (@move.moving_date - Date.today).to_i %> Day(s) remaining until then! </h5>
+
+
+
     </div>
 
-  <div id="map"
-    style="width: 50%; height: 300px;"
-    data-markers="<%= @markers.to_json %>"
-    data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
-  </div>
+
+       <div id="map"
+      style="width: 50%; height: 300px;"
+      data-markers="<%= @markers.to_json %>"
+      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+       </div>
+
+
 </div>
