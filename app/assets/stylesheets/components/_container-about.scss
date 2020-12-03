@@ -1,0 +1,20 @@
+.container-about{
+    display: flex;
+}
+
+.about-picture{
+    float: left;
+    width: 50%;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("about-us.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text{
+    float: right;
+    width: 50%;
+    padding: 30px;
+    width: 50%;
+    font-weight: bold;
+    background: white;
+}
