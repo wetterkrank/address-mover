@@ -44,7 +44,7 @@ class MyProvidersController < ApplicationController
     @my_provider = MyProvider.find(params[:id])
     authorize @my_provider
     @my_provider.update(strong_params)
-    redirect_to my_providers_path
+    redirect_to my_providers_path(checked:"1")
   end
 
   def destroy
