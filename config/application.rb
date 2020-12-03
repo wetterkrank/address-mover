@@ -23,5 +23,9 @@ module AddressMover
     
     # config.active_job.queue_adapter = :sidekiq
     config.active_job.queue_adapter = :sucker_punch
+
+    # Dotenv -- I suspect it's loaded automatically:
+    # Dotenv::Railtie.load
+    # HOSTNAME = ENV['HOSTNAME']
   end
 end

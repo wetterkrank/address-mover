@@ -1,0 +1,10 @@
+<div class="container mt-3">
+  <h2>Send the paper letter</h2>
+  <p>
+      You can download the PDF to print and send by regular mail. 
+      Here is the link: <%= link_to "Download PDF", @pdf.url, class: "btn btn-primary" %>
+  </p>
+  <p>Or we can send the letter for you! Isn't it awesome?</p>
+
+  <%= link_to "Send letter", mail_path(@pdf.uuid), class: "btn btn-primary" %>
+</div>

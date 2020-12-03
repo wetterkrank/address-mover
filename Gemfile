@@ -74,5 +74,5 @@ gem 'wkhtmltopdf-binary'
 # Background jobs
 gem 'sucker_punch', '~> 2.0'
 
-#Geocoder
+# Geocoder
 gem 'geocoder'
