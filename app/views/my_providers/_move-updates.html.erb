@@ -12,7 +12,7 @@
         <h5> <%= update.provider.name %></h5>
         <% if update.pdf.present? %>
           <p> 
-            <%= link_to pdf_path("#{update.pdf.uuid}.pdf") do %>
+            <%= link_to pdf_path("#{update.pdf.uuid}") do %>
               Get the paper <%= icon("far", "envelope", class: "text-success") %>
             <% end %>
           </p>
