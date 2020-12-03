@@ -5,7 +5,7 @@ class PDF < ApplicationRecord
   belongs_to :parent, foreign_key: "update_id", class_name: "Update"
 
   def url
-    Rails.application.routes.default_url_options[:host] = 'localhost:3000'
+    # host must be set in the development/production.rb
     Rails.application.routes.url_helpers.pdf_url("#{uuid}.pdf")
   end
 end
