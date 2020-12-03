@@ -1,5 +1,5 @@
 class Update < ApplicationRecord
-  STATUS = ['request not sent', 'pending', 'confirmed', 'declined']
+  STATUS = ['request not sent', 'pending', 'confirmed', 'declined', 'sent via post']
 
   belongs_to :provider
   belongs_to :move
