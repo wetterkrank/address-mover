@@ -2,18 +2,23 @@
   <div class="update-card">
     <h2>Confirmation</h2>
     <p>Here you find the summary of all your selected providers and the required identification. As soon as you confirm, the providers will receive the change request.</p>
-    <h4><i class="fas fa-info-circle mt-3"></i><strong> Your new address:</strong></h4>
+    <h4><i class="fas fa-info-circle mt-3"></i><strong> Your new address</strong></h4>
     <h6 class= "input_information"> <%= @move.address_string %></h6>
     <br>
-    <h4><i class="far fa-calendar-alt"></i><strong> Your moving date:</strong></h4>
-    <h6 class= "input_information"> <%= @move.moving_date %></h6>
+    <h4><i class="far fa-calendar-alt"></i><strong> Your moving date</strong></h4>
+    <h6 class= "input_information"> <%= @move.moving_date.strftime("%A, %d %B %Y") %></h6>
     <hr>
-    <h4><i class="far fa-list-alt mt-3"></i><strong> Your selected services:</strong></h4>
+    <h4><i class="far fa-list-alt mt-3"></i><strong> Your selected providers</strong></h4>
     
     <% @updates.each do |update| %>
       <hr>
-      <p class= "input_information"> <span><%= update.provider.name %></span></p>
-      <h6>Your provided identificaton:  <%= "#{update.provider.identifier_name}, #{update.id_sent}" %> </h6>
+      <p class= "input_information mb-2"> <span><%= update.provider.name %></span></p>
+      <% if update.id_sent.blank? %>
+        <h6>Your identificaton: None required </h6>
+      <% else %>
+        <h6>Your identificaton:  <%= "#{update.provider.identifier_name} - #{update.id_sent}" %> </h6>
+      <% end %>
+      
     <% end %>
     
     <div class ="button-position mt-5">

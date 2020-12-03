@@ -8,8 +8,8 @@ class MyProvidersController < ApplicationController
     else
       @markers = [
         {
-          lat: @move.geocode.first,
-          lng: @move.geocode.second
+          lat: @move.latitude,
+          lng: @move.longitude
         }
       ]
     end
@@ -71,7 +71,7 @@ class MyProvidersController < ApplicationController
   # Maybe we should move it to updates controller, just need to figure out how
   # Checks if all updates are in the new (index 0) status
   def updates_new?
-    @updates.all? { |update| update.update_status == Update::STATUS[0] }
+    @updates.nil? || @updates.all? { |update| update.update_status == Update::STATUS[0] }
   end
   helper_method :updates_new?
 

@@ -12,8 +12,8 @@
         <h5> <%= update.provider.name %></h5>
         <% if update.pdf.present? %>
           <p> 
-            <%= link_to pdf_path("#{update.pdf.uuid}.pdf") do %>
-              Get the paper <%= icon("far", "envelope", class: "text-info") %>
+            <%= link_to pdf_path("#{update.pdf.uuid}") do %>
+              Get the paper <%= icon("far", "envelope", class: "text-success") %>
             <% end %>
           </p>
         <% end %>
@@ -26,7 +26,7 @@
           <% when "pending" %>
            <%= icon("fas", "paper-plane", class: "text-info") %>
           <% when "confirmed" %>
-           <%= icon("fas", "thumbs-up", class: "text-info") %>
+           <%= icon("fas", "thumbs-up", class: "text-success") %>
           <% when "declined" %>
            <%= icon("fas", "thumbs-down", class: "text-info") %>
           <% end %>

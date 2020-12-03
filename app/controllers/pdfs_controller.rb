@@ -15,4 +15,11 @@ class PdfsController < ApplicationController
       end
     end
   end
+
+  def mail
+    @pdf = PDF.find_by(uuid: params[:uuid])
+    raise ActionController::RoutingError.new('Not Found') if @pdf.nil?
+    authorize @pdf
+    redirect_to my_providers_path, notice: "We're sending the letter to #{@pdf.parent.provider.name}, please check the status later."
+  end
 end
