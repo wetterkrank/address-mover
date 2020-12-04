@@ -1,0 +1,26 @@
+.pdf-cont{
+    display: flex;
+    padding:20px;
+}
+
+.picture{
+    float: left;
+    width: 30%;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("pdf-pic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pdf-body{
+    float: right;
+    width: 70%;
+    padding: 30px;
+    font-weight: bold;
+    background: white;
+}
+
+.card-pdf{
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
