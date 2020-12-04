@@ -1,7 +1,7 @@
 Rails app created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
 Concepts/components/technologies practiced:
-- Rails 6.2.0
+- Rails 6
 - SCSS
 - Bootstrap
 - Devise
@@ -16,3 +16,5 @@ Concepts/components/technologies practiced:
 - AJAX
 - Font Awesome
 - ActionController::API
+- Dotenv
+- Stimulus
