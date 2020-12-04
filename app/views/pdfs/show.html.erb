@@ -1,7 +1,7 @@
 <div class= "pdf-cont">
   <div class="picture"></div>
   <div class="pdf-body">
-    <h2><strong>Post Notification</strong><i class="fas fa-envelope-open-text"></i></h2>
+    <h2 class="pl-3"><strong>Post Notification</strong> <i class="fas fa-envelope-open-text"></i></h2>
 
     <div class="card-group">
       <div class="card-pdf col-5 p-3 m-3">
@@ -9,7 +9,7 @@
         <div class="card-body">
           <p>
               Looks like <strong><%= @pdf.parent.provider.name %></strong> did not accept the request.
-              <%= icon("fas", "heart-broken", class: "text-info") %>
+              <%= icon("fas", "heart-broken", class:"heart") %>
           </p>
           <p>
               This time they need a paper letter with your change request.
@@ -44,7 +44,7 @@
         </div>
         </div>
       </div>
-      <%= link_to "Back to Dashboard", my_providers_path %>
+      <%= link_to "Back to Dashboard", my_providers_path , class:"pl-3" %>
     </div>
   </div>
 </div>
