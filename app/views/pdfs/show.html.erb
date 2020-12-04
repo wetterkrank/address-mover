@@ -1,9 +1,11 @@
-<div class="container mt-5">
-  <h2>Last resort: the paper letter</h2>
+<div class= "pdf-cont">
+  <div class="picture"></div>
+  <div class="pdf-body">
+    <h2><strong>Post Notification</strong><i class="fas fa-envelope-open-text"></i></h2>
 
-  <div class="card-group">
-
-    <div class="card col-5 p-3 m-3">
+    <div class="card-group">
+    <div class="card-pdf col-5 p-3 m-3">
+      <h3><strong>Send it yourself</strong></h3>
       <div class="card-body">
         <p>
             Looks like <strong><%= @pdf.parent.provider.name %></strong> did not accept the request.
@@ -19,30 +21,29 @@
       <div class="card-footer bg-transparent border-success">
             <%= link_to "Download letter", pdf_path("#{@pdf.uuid}.pdf"), class: "btn btn-primary" %>
       </div>
-    </div>
 
-    <div class="card col-5 p-3 m-3">
-      <div class="card-body">
-        <p>
-          Or even better - <strong>we can send it for you</strong>! Isn't it awesome? 
-          The first letter is on us
-          <%= icon("fas", "grin-stars", class: "text-success") %>
-        </p>
-        <p>
-          It will be sent to:<br>
-          <p> <strong> <%= @pdf.parent.provider.name %> </strong> <br>
-            <%= "#{@pdf.parent.provider.street_name} #{@pdf.parent.provider.street_number}" %>
-            <br>
-            <%= "#{@pdf.parent.provider.zip} #{@pdf.parent.provider.city}" %>
+      <div class="card-pdf col-5 p-3 m-3">
+        <h3><strong>Let us send it for you</strong></h3>
+        <div class="card-body">
+          <p>
+            Or even better - <strong>we can send it for you</strong>! Isn't it awesome? 
+            The first letter is on us
+            <%= icon("fas", "grin-stars", class: "text-success") %>
           </p>
-        </p>
-      </div>
-      <div class="card-footer bg-transparent border-success">
-        <%= link_to "Send the letter", mail_path(@pdf.uuid), class: "btn btn-primary" %>
+          <p>
+            It will be sent to:<br>
+            <p> <strong> <%= @pdf.parent.provider.name %> </strong> <br>
+              <%= "#{@pdf.parent.provider.street_name} #{@pdf.parent.provider.street_number}" %>
+              <br>
+              <%= "#{@pdf.parent.provider.zip} #{@pdf.parent.provider.city}" %>
+            </p>
+          </p>
+        </div>
+        <div class="card-footer bg-transparent border-success">
+          <%= link_to "Send the letter", mail_path(@pdf.uuid), class: "btn btn-primary" %>
+        </div>
       </div>
     </div>
-
-
+    <%= link_to "Back to Dashboard", my_providers_path %>
   </div>
-  <%= link_to "Back to Dashboard", my_providers_path %>
 </div>
