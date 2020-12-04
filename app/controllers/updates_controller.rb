@@ -53,10 +53,7 @@ class UpdatesController < ApplicationController
       when "autoconfirm"
         AutoconfirmJob.set(wait: rand(5..10).seconds).perform_later(update) # will set status 2 (confirmed)
       when "pdf"
-        update.update(update_status: Update::STATUS[3]) # 3 for declined
-        PDF.create(parent: update, uuid: SecureRandom.uuid)
-      else
-        # nothing for now
+        AutodeclineJob.set(wait: rand(5..10).seconds).perform_later(update) # will set status 3 and generate a PDF
       end
     end
 
