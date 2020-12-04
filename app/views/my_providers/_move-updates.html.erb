@@ -23,12 +23,14 @@
         <p>
           <%= "Update #{update.update_status}" %>
           <% case update.update_status %>
-          <% when "pending" %>
+          <% when Update::STATUS[1] %>
            <%= icon("fas", "paper-plane", class: "text-info") %>
-          <% when "confirmed" %>
+          <% when Update::STATUS[2] %>
            <%= icon("fas", "thumbs-up", class: "text-success") %>
-          <% when "declined" %>
+          <% when Update::STATUS[3] %>
            <%= icon("fas", "thumbs-down", class: "text-info") %>
+          <% when Update::STATUS[4] %>
+           <%= icon("fas", "thumbs-up", class: "text-success") %>
           <% end %>
         </p>
       </div>
