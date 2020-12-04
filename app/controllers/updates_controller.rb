@@ -46,9 +46,9 @@ class UpdatesController < ApplicationController
     updates = @move.updates.includes(:provider)
 
     updates.each do |update|
+      update.update(update_status: Update::STATUS[1]) # 1 for pending (ie sent but no reply yet)
       case update.provider.update_method
       when "api"
-        update.update(update_status: Update::STATUS[1]) # 1 for pending (ie sent but no reply yet)
         ApiSendJob.set(wait: 30.seconds).perform_later(update) if update.provider.api_endpoint.present?
       when "autoconfirm"
         AutoconfirmJob.set(wait: rand(5..10).seconds).perform_later(update) # will set status 2 (confirmed)
@@ -56,7 +56,7 @@ class UpdatesController < ApplicationController
         update.update(update_status: Update::STATUS[3]) # 3 for declined
         PDF.create(parent: update, uuid: SecureRandom.uuid)
       else
-        update.update(update_status: Update::STATUS[1]) # 1 for pending
+        # nothing for now
       end
     end
 

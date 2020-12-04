@@ -1,5 +1,5 @@
 class Update < ApplicationRecord
-  STATUS = ['not sent', 'sent, but not yet confirmed', 'confirmed', 'declined, please refer to the letter', 'sent by post']
+  STATUS = ['not sent', 'sent, but not yet confirmed', 'confirmed', 'declined', 'sent by post']
 
   belongs_to :provider
   belongs_to :move
