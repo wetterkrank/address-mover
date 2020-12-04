@@ -83,6 +83,7 @@ csv.each do |row|
   t.category = row[:category]
   t.provider_email = row[:provider_email]
   t.logo_url = row[:image_url]
+  t.update_method = row[:update_method]
 
   address = address_csv[rand(address_csv.length)]
   t.street_name = address[:street_name]
@@ -96,6 +97,7 @@ end
 
 identifier_name_array = ['Contract number', 'Passport number', 'Membership card ID', 'Account number']
 
+puts "Providers with identification requirements:"
 providers = Provider.all
 Provider::CATEGORY.each do |cat_name|
   provider = providers.filter { |prov| prov.category == cat_name }.first
@@ -111,12 +113,13 @@ Provider.create(
   description: "Other services", 
   category: "Travel", 
   provider_email: "accounts@traveldream.com",
-  logo_url: "https://res.cloudinary.com/dzokjumuf/image/upload/v1606914426/Address-Mover-Logos/travel_dream_oxa3um.png",
+  logo_url: "https://res.cloudinary.com/dzokjumuf/image/upload/v1607072990/Address-Mover-Logos/traveldream_logo_1_wuc3i0.png",
   identifier_name: "Customer number",
   update_method: "api",
   api_endpoint: "http://some-company.herokuapp.com/update"
 )
 
+puts "Travel Dream"
 puts "- Created #{Provider.count} providers."
 
 
