@@ -57,7 +57,7 @@ class UpdatesController < ApplicationController
       end
     end
 
-    flash[:notice] = "Hooray! We're informing your providers, please come back later to check the updates."
+    flash[:notice] = "Hooorray! 🎉 We're informing your providers. Please check the updates below."
     redirect_to my_providers_path
   end
 
