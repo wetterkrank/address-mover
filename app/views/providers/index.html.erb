@@ -7,8 +7,12 @@
 
   <div class="result">
     <%= pluralize @providers.count, "result" %>
+    <% if @search_performed %>
+      (<%= link_to "show all", providers_path, class: "" %>)
+    <% end %>
   </div>
 
+  
   <div class="card-drawers">
     <% Provider::CATEGORY.each do |cat_name| %>
       <% contents = @providers.where(category: cat_name).order(created_at: :asc) %>
