@@ -1,11 +1,14 @@
 .move {
+  .subtitle {
+  color : $text-gray;
+}
   h2, h5 {
     color: $background-purple;
   }
   h6 {
     color: white;
     background : $background-purple;
-    padding: 7px 5px;
+    padding: 10px 5px;
     margin-top: 15px;
     text-align: center;
     border-radius: 20px;
