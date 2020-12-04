@@ -49,7 +49,7 @@ class UpdatesController < ApplicationController
       update.update(update_status: Update::STATUS[1]) # 1 for pending (ie sent but no reply yet)
       case update.provider.update_method
       when "api"
-        ApiSendJob.set(wait: 30.seconds).perform_later(update) if update.provider.api_endpoint.present?
+        ApiSendJob.set(wait: 45.seconds).perform_later(update) if update.provider.api_endpoint.present?
       when "autoconfirm"
         AutoconfirmJob.set(wait: rand(5..10).seconds).perform_later(update) # will set status 2 (confirmed)
       when "pdf"
