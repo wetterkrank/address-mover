@@ -10,7 +10,7 @@ class PdfsController < ApplicationController
       format.html
       format.pdf do
         render pdf: "Address Change Notification",
-               #disposition: 'attachment', # default 'inline'
+               # disposition: 'attachment', # default 'inline'
                margin: { top: 20, bottom: 25, left: 25, right: 20 }
       end
     end
@@ -22,7 +22,7 @@ class PdfsController < ApplicationController
     authorize @pdf
 
     LetterSendJob.set(wait: 5.seconds).perform_later(@pdf.parent)
-    SmsSendJob.set(wait: 5.seconds).perform_later(@pdf.parent)
+    SmsSendJob.perform_later(@pdf.parent)
 
     redirect_to my_providers_path, notice: "We're sending the letter to #{@pdf.parent.provider.name} 📧. You will receive a confirmation via SMS."
   end

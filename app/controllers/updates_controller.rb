@@ -39,21 +39,24 @@ class UpdatesController < ApplicationController
     redirect_to move_updates_path(@move)
   end
 
-  # This method sends out updates
+  # This method sends out the updates; at this point they all have status 0 (not sent)
   def send_updates
     @move = current_user.moves.last
     authorize @move
     updates = @move.updates.includes(:provider)
 
-    # Here we should actually do some sending; for now just changing the status
     updates.each do |update|
-      update.update(update_status: Update::STATUS[1]) # Muahaha
-      if update.provider.update_method == "api" && update.provider.api_endpoint.present?
-        ApiSendJob.set(wait: 30.seconds).perform_later(update)
-        next
-      end
-      if update.provider.update_method.blank?
+      update.update(update_status: Update::STATUS[1]) # 1 for pending (ie sent but no reply yet)
+      case update.provider.update_method
+      when "api"
+        ApiSendJob.set(wait: 30.seconds).perform_later(update) if update.provider.api_endpoint.present?
+      when "autoconfirm"
+        AutoconfirmJob.set(wait: rand(5..10).seconds).perform_later(update) # will set status 2 (confirmed)
+      when "pdf"
+        update.update(update_status: Update::STATUS[3]) # 3 for declined
         PDF.create(parent: update, uuid: SecureRandom.uuid)
+      else
+        # nothing for now
       end
     end
 

@@ -93,6 +93,7 @@ input#tab1-v:checked {
   }
 }
 
+
 .card-my-provider {
   height: 100px;
   display: grid;
@@ -127,20 +128,20 @@ input#tab1-v:checked {
 }
 
 .card-my-provider-info {
-  padding: 10px 10px;
+  padding: 0 10px 0 30px;
   overflow: hidden;
 }
 
 .card-my-provider-icon {
   place-self: center;
   img {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
   }
   transition-property: transform;
   transition-duration: 150ms;
   &:hover {
-    transform: scale(1.08, 1.08);
+    transform: scale(1.12, 1.12);
   }
   &:active {
     transform: translate(0px, 2px);
