@@ -1,7 +1,8 @@
-Rails app created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Address Mover
 
-Check it out here: http://www.address-mover.com/
-(runs on a free Heroku plan, might take a few seconds to wake up)
+A Rails app created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+
+Check it out here: http://www.address-mover.com/ (runs on a free Heroku plan, might take a few seconds to wake up).
 
 Concepts/components/technologies practiced:
 - Rails 6
