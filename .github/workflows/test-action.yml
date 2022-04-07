@@ -1,0 +1,12 @@
+name: Empty Action
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  do_something:
+    runs-on: ubuntu-latest
+  steps:
+    run: echo DONE
