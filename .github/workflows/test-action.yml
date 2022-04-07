@@ -9,4 +9,5 @@ jobs:
   do_something:
     runs-on: ubuntu-latest
   steps:
-    run: echo DONE
+    - name: empty step
+      run: echo DONE
