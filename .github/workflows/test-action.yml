@@ -6,8 +6,8 @@ on:
     branches: [ master ]
 
 jobs:
-  do_something:
+  do_nothing:
     runs-on: ubuntu-latest
-  steps:
-    - name: empty step
-      run: echo DONE
+    steps:
+      - name: Empty step
+        run: echo DONE
